@@ -1,0 +1,14 @@
+
+Report Summary
+
+┌─────────────────────────────────────────────────┬─────────────┬─────────────────┐
+│                     Target                      │    Type     │ Vulnerabilities │
+├─────────────────────────────────────────────────┼─────────────┼─────────────────┤
+│ bin/Debug/net8.0/DotNetMongoCRUDApp.deps.json   │ dotnet-core │        0        │
+├─────────────────────────────────────────────────┼─────────────┼─────────────────┤
+│ bin/Release/net8.0/DotNetMongoCRUDApp.deps.json │ dotnet-core │        0        │
+└─────────────────────────────────────────────────┴─────────────┴─────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+

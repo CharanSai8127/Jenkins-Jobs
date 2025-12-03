@@ -1,0 +1,53 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬─────────────┬─────────────────┬─────────┐
+│                                      Target                                      │    Type     │ Vulnerabilities │ Secrets │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┤
+│ charansait372/dotnet-proj:v3 (debian 12.12)                                      │   debian    │        5        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┤
+│ app/DotNetMongoCRUDApp.deps.json                                                 │ dotnet-core │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┤
+│ usr/share/dotnet/shared/Microsoft.AspNetCore.App/8.0.22/Microsoft.AspNetCore.Ap- │ dotnet-core │        0        │    -    │
+│ p.deps.json                                                                      │             │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┤
+│ usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.22/Microsoft.NETCore.App.deps- │ dotnet-core │        0        │    -    │
+│ .json                                                                            │             │                 │         │
+└──────────────────────────────────────────────────────────────────────────────────┴─────────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/v0.67/docs/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+charansait372/dotnet-proj:v3 (debian 12.12)
+===========================================
+Total: 5 (HIGH: 4, CRITICAL: 1)
+
+┌────────────────────┬────────────────┬──────────┬──────────────┬───────────────────┬───────────────┬────────────────────────────────────────────────────────┐
+│      Library       │ Vulnerability  │ Severity │    Status    │ Installed Version │ Fixed Version │                         Title                          │
+├────────────────────┼────────────────┼──────────┼──────────────┼───────────────────┼───────────────┼────────────────────────────────────────────────────────┤
+│ libpam-modules     │ CVE-2025-6020  │ HIGH     │ affected     │ 1.5.2-6+deb12u1   │               │ linux-pam: Linux-pam directory Traversal               │
+│                    │                │          │              │                   │               │ https://avd.aquasec.com/nvd/cve-2025-6020              │
+├────────────────────┤                │          │              │                   ├───────────────┤                                                        │
+│ libpam-modules-bin │                │          │              │                   │               │                                                        │
+│                    │                │          │              │                   │               │                                                        │
+├────────────────────┤                │          │              │                   ├───────────────┤                                                        │
+│ libpam-runtime     │                │          │              │                   │               │                                                        │
+│                    │                │          │              │                   │               │                                                        │
+├────────────────────┤                │          │              │                   ├───────────────┤                                                        │
+│ libpam0g           │                │          │              │                   │               │                                                        │
+│                    │                │          │              │                   │               │                                                        │
+├────────────────────┼────────────────┼──────────┼──────────────┼───────────────────┼───────────────┼────────────────────────────────────────────────────────┤
+│ zlib1g             │ CVE-2023-45853 │ CRITICAL │ will_not_fix │ 1:1.2.13.dfsg-1   │               │ zlib: integer overflow and resultant heap-based buffer │
+│                    │                │          │              │                   │               │ overflow in zipOpenNewFileInZip4_6                     │
+│                    │                │          │              │                   │               │ https://avd.aquasec.com/nvd/cve-2023-45853             │
+└────────────────────┴────────────────┴──────────┴──────────────┴───────────────────┴───────────────┴────────────────────────────────────────────────────────┘
