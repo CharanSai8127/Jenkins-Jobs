@@ -14,8 +14,8 @@
   <properties>
     <jenkins.model.BuildDiscarderProperty>
       <strategy class="hudson.tasks.LogRotator">
-        <daysToKeep>3</daysToKeep>
-        <numToKeep>1</numToKeep>
+        <daysToKeep>2</daysToKeep>
+        <numToKeep>2</numToKeep>
         <artifactDaysToKeep>-1</artifactDaysToKeep>
         <artifactNumToKeep>-1</artifactNumToKeep>
         <removeLastBuild>false</removeLastBuild>
@@ -62,17 +62,25 @@
         stage(&apos;SonarQube Analysis&apos;) {
             steps {
                 withSonarQubeEnv(&quot;${SONAR_ENV}&quot;) {
+
+                    // *** FIX ADDED HERE ONLY ***
                     sh &apos;&apos;&apos;
-                    dotnet-sonarscanner begin \
+                    export PATH=&quot;/var/lib/jenkins/.dotnet/tools:$PATH&quot;
+                    echo &quot;PATH = $PATH&quot;
+                    which dotnet
+                    dotnet tool list -g
+                    
+                    dotnet sonarscanner begin \
                         /k:&quot;DotNetMongoCRUDApp&quot; \
                         /d:sonar.host.url=&quot;${SONAR_HOST_URL}&quot; \
                         /d:sonar.login=&quot;${SONAR_TOKEN}&quot; \
                         /d:sonar.cs.vscoveragexml.reportsPaths=&quot;**/coverage.cobertura.xml&quot;
 
                     dotnet build
+
                     dotnet test --collect:&quot;XPlat Code Coverage&quot;
 
-                    dotnet-sonarscanner end /d:sonar.login=&quot;${SONAR_TOKEN}&quot;
+                    dotnet sonarscanner end /d:sonar.login=&quot;${SONAR_TOKEN}&quot;
                     &apos;&apos;&apos;
                 }
             }
@@ -100,7 +108,7 @@
                 withCredentials([usernamePassword(credentialsId: &quot;${DOCKERHUB_CRED}&quot;, usernameVariable: &apos;DOCKER_USER&apos;, passwordVariable: &apos;DOCKER_PASS&apos;)]) {
                     sh &apos;&apos;&apos;
                     docker login -u &quot;$DOCKER_USER&quot; -p &quot;$DOCKER_PASS&quot;
-                    docker build -t ${DOCKER_USER}/dotnet-proj:v3 .
+                    docker build -t ${DOCKER_USER}/dotnet-proj:v4 .
                     &apos;&apos;&apos;
                 }
             }
@@ -109,7 +117,7 @@
         stage(&apos;Trivy Scan Image&apos;) {
             steps {
                 sh &apos;&apos;&apos;
-                trivy image ${DOCKER_USER}/dotnet-proj:v3 --exit-code 0 --severity HIGH,CRITICAL --format table &gt; trivy-image-report.txt
+                trivy image ${DOCKER_USER}/dotnet-proj:v4 --exit-code 0 --severity HIGH,CRITICAL --format table &gt; trivy-image-report.txt
                 &apos;&apos;&apos;
             }
         }
@@ -119,12 +127,12 @@
                 withCredentials([usernamePassword(credentialsId: &quot;${DOCKERHUB_CRED}&quot;, usernameVariable: &apos;DOCKER_USER&apos;, passwordVariable: &apos;DOCKER_PASS&apos;)]) {
                     sh &apos;&apos;&apos;
                     docker login -u &quot;$DOCKER_USER&quot; -p &quot;$DOCKER_PASS&quot;
-                    docker push ${DOCKER_USER}/dotnet-proj:v3
+                    docker push ${DOCKER_USER}/dotnet-proj:v4
                     &apos;&apos;&apos;
                 }
             }
         }
-    }   
+    }
 
     post {
         always {

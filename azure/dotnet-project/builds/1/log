@@ -1,22 +1,22 @@
-Started by user [8mha:////4BCQEbEH/AMhJC/T0rhVTEPmR2H9JfMQpYAJITkP/+dFAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL94sRMAKMY3I6+AAAA[0msai
-[8mha:////4Bk3lXY1FOAyJDFbsoMfrxad0iv29Dd+NKastFuwCCrFAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
-[8mha:////4DMCHo19E0ct32enFWgDEzOe+kaQLYXw4Q1giFDBYsJxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
-Running on [8mha:////4DmUe/jS9HIV5ROkr2B86SAYZ2qfWEOvlmgJTVp/Cs9BAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/dotnet-app
-[8mha:////4EMcX0Ynq6LKze9wy/08+wW98OvKQHARvUnyuhkufJHbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
-[8mha:////4N+08I+aBh8mgBjl2RynnE+L2CHNFYdMo+nnQ5yhrtuwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withCredentials
+Started by user [8mha:////4NngttC7/nLj5WLmFdq2phvrCGwsiPDsbZIWOKKCKKidAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL94sRMAKMY3I6+AAAA[0msai
+[8mha:////4E7HUdW6J0QdTeEM7f/oqUaD5lrKyrCpSrryWU2r5RFHAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Fouurm8kuaZ+0dktSC4psaxNCTXndldwa9b+vkd5HyNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Fb1QOzf7NzKj8Cj56ZLSiqt+lqgqXJLF10Jh50+mMuKAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/dotnet-app1
+[8mha:////4KnceCshQ+EgBAsWgbRXpSO2dbiSrauSZyOElKgQNR+yAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MRA94O0WdgBTE7HUVSIr/bpp7Y1C9ZGRpJhFCBiZ5BQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withCredentials
 Masking supported pattern matches of $SONAR_TOKEN
-[8mha:////4MOzhcOk2FBsWkq3D3uwy0B/WnTF3dNVlW6ipv1CYptxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
-[8mha:////4Hy5AoG79P08vMmrmVTRImWdXVUVPtxFMQCHd/ZdY0vEAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
-[8mha:////4CCgrdBtVviSqWPBMJiQUGYlbG/BK9tklBSg2rUQIDdgAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SHSnQjiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/XNDXAwAAAAA==[0m[Pipeline] withEnv
-[8mha:////4LHtOuHNif+RzV4d29oC1DGbav41HDAl2A5/158488CCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
-[8mha:////4LmtbTCo1EALWBoZHWve6oYHHmlTYDtuFpgXkHZak48eAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] stage
-[8mha:////4FKxno6o4h1StNouU2VLsUizPht8cLwooXAtE3X4wVxaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Git Checkout)
-[8mha:////4Lbnjp5avde9q2Wiy3aMtyOfm0miYOUAvu4mL0Llr9NyAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] git
+[8mha:////4HTteePJvps2v+5Tu+4J5iz+ljhnf+rkb9IqvPGNoSBQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4NJIHwgs1eYjdamWxiNI+MwadtLZ5kKhuTb6XvhLOSBbAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] tool
+[8mha:////4JpxT51gKpAvg9SxlGbSc2tBMmvJ4r/8RkKZ2r7R5wqpAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SHSnQjiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/XNDXAwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4BUR2sM0VQqzREMhZQE3fkWwaG+CBn7gKkMLXdX4Gu2QAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4F/jrcHvm5tsvs3V+jyGWwMinIU/eJCQVT4fRRTgPJaYAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] stage
+[8mha:////4AvInlny1rM9XmlTbaPaTnBbC+LCX2O1cZXh4B3lvy3YAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Git Checkout)
+[8mha:////4HB6G5CS9U6Wj4xYMzi/pNZhC79Rq06CtLiH45EH+mRSAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] git
 The recommended git tool is: NONE
 No credentials specified
 Cloning the remote Git repository
 Cloning repository https://github.com/CharanSai8127/dotnet-3tier-app.git
- > git init /var/lib/jenkins/workspace/dotnet-app # timeout=10
+ > git init /var/lib/jenkins/workspace/dotnet-app1 # timeout=10
 Fetching upstream changes from https://github.com/CharanSai8127/dotnet-3tier-app.git
  > git --version # timeout=10
  > git --version # 'git version 2.43.0'
@@ -25,99 +25,110 @@ Fetching upstream changes from https://github.com/CharanSai8127/dotnet-3tier-app
  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
 Avoid second fetch
  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
-Checking out Revision 19ef2d2cef9628f60de5d114132bf46c16d59716 (refs/remotes/origin/main)
+Checking out Revision b1ea2aa57473198ee5998bcff0675fd2f97d0850 (refs/remotes/origin/main)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f 19ef2d2cef9628f60de5d114132bf46c16d59716 # timeout=10
+ > git checkout -f b1ea2aa57473198ee5998bcff0675fd2f97d0850 # timeout=10
  > git branch -a -v --no-abbrev # timeout=10
- > git checkout -b main 19ef2d2cef9628f60de5d114132bf46c16d59716 # timeout=10
-Commit message: "Update Program.cs"
+ > git checkout -b main b1ea2aa57473198ee5998bcff0675fd2f97d0850 # timeout=10
+Commit message: "construct: program.cs update"
 First time build. Skipping changelog.
-[8mha:////4J4zO4Fp0M4zItLEO3ImQyzCaPks+1955XNizj63S5dnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
-[8mha:////4JBD/1dsZ+C/O/kQRgidH6VHfq95LGHtfOUal4yMedQZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
-[8mha:////4MbSQZ/V4zCzh+/onQCPwHaSrtlDxKsqLvjEgDx/FehkAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCgqEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8AwI4c8rBAAAA[0m[Pipeline] stage
-[8mha:////4PAiDFmRBOI4PR7jw/JYvLeZVKKNSscP9l8Nx5LCXnh6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Restore Dependencies)
-[8mha:////4OR/smtQrRnSDprKiRI0z3QuB/Zj3vAQInOzMifkeevJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
+[8mha:////4AT/UUx1ZmxMH5qq+FhpF/jYZHTKhmrezPdvviGy/q4FAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4Hs/deplxNRl2FrFOyEBGPrEr/NMyDVQQxEU/E+XCCNxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4O/1sIE15gPtSrDNsaDzn4HmAOFekLmHVY1gXOa4zi7qAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCgqEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8AwI4c8rBAAAA[0m[Pipeline] stage
+[8mha:////4Ih2hO36xAwAO688XvPGCOs7ao9KPfmRvGfmL9OOEbdTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Restore Dependencies)
+[8mha:////4NM1cddwVl5IhIBNq9KclaQetHVFaMQXjqut2Dl4LujWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
 + dotnet restore
   Determining projects to restore...
-  Restored /var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj (in 1.44 sec).
-[8mha:////4MPPRvosihz/69u2zQ1u70feoSqW+P6AiE82EM52y3U1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
-[8mha:////4BphcGspl06g1FA3mqi6kLERZloSQYy/kpVXR5CkSUwPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
-[8mha:////4IhLp4/Cya2fTyZ2jhrq80GWwxZ4AyAVfCfwKszoIVMPAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSD6BCiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INLLNWq8EAAAA=[0m[Pipeline] stage
-[8mha:////4EZPszTLsnYgouhKsXW8hrViDo0Ftj976HejJPk0N219AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Build)
-[8mha:////4DcfFsBRbKr6leJhiV39hWE9UvPnFM6iiaGAYxfL4VvUAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] sh
+  Restored /var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj (in 2.1 sec).
+[8mha:////4Bg1L7FG2K+SyWOIFeVuX3EK0la3Ti9tOPPIzMMLBD2SAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4J4EMYCqvDCHX32HfKz11pEtrKZgbbgM4rivtO1Qy5aCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OIOSwZGmH2GfDTJ6/0563h1E8pOYy0Bxt2xFkNevZWcAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSD6BCiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INLLNWq8EAAAA=[0m[Pipeline] stage
+[8mha:////4CskpGM9mS3JSETa5VRstjY4v/9V0k+zdrByYKYeMvteAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4DKUIPUUHwa1fghkw67EA70GLK7NvPGhW3WEddMa1ckYAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] sh
 + dotnet build --no-restore -c Release
-  DotNetMongoCRUDApp -> /var/lib/jenkins/workspace/dotnet-app/bin/Release/net8.0/DotNetMongoCRUDApp.dll
+MSBuild version 17.8.43+f0cbb1397 for .NET
+  DotNetMongoCRUDApp -> /var/lib/jenkins/workspace/dotnet-app1/bin/Release/net8.0/DotNetMongoCRUDApp.dll
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:09.52
-[8mha:////4HJajmBJBzB+JEEIGV0mTrM/Z/RfLw2B9vghKmlo3nRyAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23f36y8/b4AAAA=[0m[Pipeline] }
-[8mha:////4Pdnj2UETdB59SIETMgG9egSNrmz3UBYLm6WkJfXEONEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] // stage
-[8mha:////4JXTTuGvoaoT8epIW+6heWFcubzh0LaJg6PiN50mwkMsAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIVEgREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG58im/vBAAAA[0m[Pipeline] stage
-[8mha:////4KGw6srEFqNkIK3FuRkKhxLmFXxPvFwW4cY4xLHwBTx1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Run Unit Tests with Coverage)
-[8mha:////4BmrGMV3g/+/5XyFbc+6jBRDyGqQdd91e2+8MZXvMxdaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
+Time Elapsed 00:00:10.29
+[8mha:////4CVGGwjqt93uxwBOs8rbpC4um3e9ecHs8JXFNw8BuJDdAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23f36y8/b4AAAA=[0m[Pipeline] }
+[8mha:////4B9cgviTAnQSzG600V59ZTCqAATH4vTtgOOGZQcNOZOGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] // stage
+[8mha:////4PteeyQhkd7Bn4WjkM36zMwXErJRcvVJDwipD6aoq+F/AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIVEgREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG58im/vBAAAA[0m[Pipeline] stage
+[8mha:////4CiSIpeMrIJsXwhiF5WXPw4MyCRd5cHirFSJMCITApcBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Run Unit Tests with Coverage)
+[8mha:////4LffovHLBh+gSd/IL5WsskQpo3SqHfeJTmS54NDlnKR3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
 + dotnet test --collect:XPlat Code Coverage
   Determining projects to restore...
   All projects are up-to-date for restore.
-[8mha:////4LNSFcGy1VNrRrwobAUdF2LOGzQb3It5vmlQYh8ByS49AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
-[8mha:////4FqIz5Msu73NaWBzkfeDkflJgNrn2fvzfQzM59SqOMDnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // stage
-[8mha:////4PfhR65TUR5Zzj/fan6MKNhKV0exE+/bD01Qg8D92s2yAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDRIUQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvmLghDcEAAAA=[0m[Pipeline] stage
-[8mha:////4IcIgNEjmy9ZxDbL/ac/2oGYDjSvDoICrI6vrkXVLXWZAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (SonarQube Analysis)
-[8mha:////4GmTV5TqNoYKlmuHHpWgzua7PN+KaHkilcPiadS+1rGDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] withSonarQubeEnv
+[8mha:////4F6Gru1xBo6cLRO118/+3egbZcrrAiNeWDBW/wRLMiYsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4INWMDSCmwgw2Zgx6woBS7eam249HhXeYpDR/SDsA1OyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Cy6AT1BaK4VB1vqHlIQnJsDxLQnMaeQ8zEx+RmT5S+gAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDRIUQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvmLghDcEAAAA=[0m[Pipeline] stage
+[8mha:////4FaCF/4A/ltiksW5AuCWv41uoAKwCo6PTguwvWKCv0jRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (SonarQube Analysis)
+[8mha:////4ODZZa3xOXHRyYhVjtrTj6ZNIl7lNaPsEgAq8kXDtTb3AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] withSonarQubeEnv
 Injecting SonarQube environment variables using the configuration: sonar
-[8mha:////4JEfS5BcAIXiD1uQFNsj8dFyPP3R5WBFYBcBUErE4gzGAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
-[8mha:////4H22tc5yAgxMj5POq2zHI3571wsmJ+BJMj0xl4yBiKsCAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
-+ dotnet-sonarscanner begin /k:DotNetMongoCRUDApp /d:sonar.host.url=http://74.225.6.26:9000/ /d:sonar.login=****** /d:sonar.cs.vscoveragexml.reportsPaths=**/coverage.cobertura.xml
+[8mha:////4HDNyjsm88QcRC8RSo9DyauTDw6FBID28/CfzSMJLnZKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4IZzeXGJr2AOlbq+aCVDGPsyL3rhqSBbkgnGv6xkvWOsAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
++ export PATH=/var/lib/jenkins/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
++ echo PATH = /var/lib/jenkins/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+PATH = /var/lib/jenkins/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
++ which dotnet
+/usr/bin/dotnet
++ dotnet tool list -g
+Package Id               Version      Commands           
+---------------------------------------------------------
+dotnet-sonarscanner      11.0.0       dotnet-sonarscanner
++ dotnet sonarscanner begin /k:DotNetMongoCRUDApp /d:sonar.host.url=http://52.172.38.193:9000/ /d:sonar.login=****** /d:sonar.cs.vscoveragexml.reportsPaths=**/coverage.cobertura.xml
 SonarScanner for .NET 11.0
 Using the .NET Core version of the Scanner for .NET
 Pre-processing started.
 Preparing working directories...
-06:37:11.092  Updating build integration targets...
-06:37:11.265  Using SonarQube v9.9.8.100196.
-06:37:11.266  WARNING: You're using an unsupported version of SonarQube. The next major version release of SonarScanner for .NET will not work with this version. Please upgrade to a newer SonarQube version.
-06:37:11.285  Fetching analysis configuration settings...
-06:37:12.049  Provisioning analyzer assemblies for cs...
-06:37:12.05  Installing required Roslyn analyzers...
-06:37:12.05  Processing plugin: csharp version 8.51.0.59060
-06:37:12.604  Provisioning analyzer assemblies for vbnet...
-06:37:12.604  Installing required Roslyn analyzers...
-06:37:12.604  Processing plugin: vbnet version 8.51.0.59060
-06:37:12.615  Incremental PR analysis: Base branch parameter was not provided.
-06:37:12.615  Cache data is empty. A full analysis will be performed.
-06:37:12.718  Pre-processing succeeded.
+05:27:55.626  Updating build integration targets...
+05:27:55.77  Using SonarQube v9.9.8.100196.
+05:27:55.772  WARNING: You're using an unsupported version of SonarQube. The next major version release of SonarScanner for .NET will not work with this version. Please upgrade to a newer SonarQube version.
+05:27:55.798  Fetching analysis configuration settings...
+05:27:56.427  Provisioning analyzer assemblies for cs...
+05:27:56.428  Installing required Roslyn analyzers...
+05:27:56.429  Processing plugin: csharp version 8.51.0.59060
+05:27:56.828  Provisioning analyzer assemblies for vbnet...
+05:27:56.828  Installing required Roslyn analyzers...
+05:27:56.828  Processing plugin: vbnet version 8.51.0.59060
+05:27:56.843  Incremental PR analysis: Base branch parameter was not provided.
+05:27:56.843  Cache data is empty. A full analysis will be performed.
+05:27:56.968  Pre-processing succeeded.
 + dotnet build
+MSBuild version 17.8.43+f0cbb1397 for .NET
   Determining projects to restore...
   All projects are up-to-date for restore.
-/var/lib/jenkins/workspace/dotnet-app/Controllers/ProductController.cs(65,30): warning S4144: Update this method so that its implementation is not identical to 'Edit'. (https://rules.sonarsource.com/csharp/RSPEC-4144) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
-/var/lib/jenkins/workspace/dotnet-app/Controllers/ProductController.cs(82,30): warning S4144: Update this method so that its implementation is not identical to 'Edit'. (https://rules.sonarsource.com/csharp/RSPEC-4144) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
-/var/lib/jenkins/workspace/dotnet-app/Controllers/HomeController.cs(9,46): warning S4487: Remove this unread private field '_logger' or refactor the code to use its value. (https://rules.sonarsource.com/csharp/RSPEC-4487) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
-/var/lib/jenkins/workspace/dotnet-app/Program.cs(38,14): warning S5332: Using http protocol is insecure. Use https instead. (https://rules.sonarsource.com/csharp/RSPEC-5332) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
-  DotNetMongoCRUDApp -> /var/lib/jenkins/workspace/dotnet-app/bin/Debug/net8.0/DotNetMongoCRUDApp.dll
+/var/lib/jenkins/workspace/dotnet-app1/appsettings.json(3,16): warning S2068: "password" detected here, make sure this is not a hard-coded credential. (https://rules.sonarsource.com/csharp/RSPEC-2068) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
+/var/lib/jenkins/workspace/dotnet-app1/Controllers/HomeController.cs(9,46): warning S4487: Remove this unread private field '_logger' or refactor the code to use its value. (https://rules.sonarsource.com/csharp/RSPEC-4487) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
+/var/lib/jenkins/workspace/dotnet-app1/Controllers/ProductController.cs(36,42): warning S4144: Update this method so that its implementation is not identical to 'Edit'. (https://rules.sonarsource.com/csharp/RSPEC-4144) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
+/var/lib/jenkins/workspace/dotnet-app1/Program.cs(20,14): warning S5332: Using http protocol is insecure. Use https instead. (https://rules.sonarsource.com/csharp/RSPEC-5332) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
+  DotNetMongoCRUDApp -> /var/lib/jenkins/workspace/dotnet-app1/bin/Debug/net8.0/DotNetMongoCRUDApp.dll
   Sonar: (DotNetMongoCRUDApp.csproj) Project processed successfully
 
 Build succeeded.
 
-/var/lib/jenkins/workspace/dotnet-app/Controllers/ProductController.cs(65,30): warning S4144: Update this method so that its implementation is not identical to 'Edit'. (https://rules.sonarsource.com/csharp/RSPEC-4144) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
-/var/lib/jenkins/workspace/dotnet-app/Controllers/ProductController.cs(82,30): warning S4144: Update this method so that its implementation is not identical to 'Edit'. (https://rules.sonarsource.com/csharp/RSPEC-4144) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
-/var/lib/jenkins/workspace/dotnet-app/Controllers/HomeController.cs(9,46): warning S4487: Remove this unread private field '_logger' or refactor the code to use its value. (https://rules.sonarsource.com/csharp/RSPEC-4487) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
-/var/lib/jenkins/workspace/dotnet-app/Program.cs(38,14): warning S5332: Using http protocol is insecure. Use https instead. (https://rules.sonarsource.com/csharp/RSPEC-5332) [/var/lib/jenkins/workspace/dotnet-app/DotNetMongoCRUDApp.csproj]
+/var/lib/jenkins/workspace/dotnet-app1/appsettings.json(3,16): warning S2068: "password" detected here, make sure this is not a hard-coded credential. (https://rules.sonarsource.com/csharp/RSPEC-2068) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
+/var/lib/jenkins/workspace/dotnet-app1/Controllers/HomeController.cs(9,46): warning S4487: Remove this unread private field '_logger' or refactor the code to use its value. (https://rules.sonarsource.com/csharp/RSPEC-4487) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
+/var/lib/jenkins/workspace/dotnet-app1/Controllers/ProductController.cs(36,42): warning S4144: Update this method so that its implementation is not identical to 'Edit'. (https://rules.sonarsource.com/csharp/RSPEC-4144) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
+/var/lib/jenkins/workspace/dotnet-app1/Program.cs(20,14): warning S5332: Using http protocol is insecure. Use https instead. (https://rules.sonarsource.com/csharp/RSPEC-5332) [/var/lib/jenkins/workspace/dotnet-app1/DotNetMongoCRUDApp.csproj]
     4 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:13.67
+Time Elapsed 00:00:12.27
 + dotnet test --collect:XPlat Code Coverage
   Determining projects to restore...
   All projects are up-to-date for restore.
-+ dotnet-sonarscanner end /d:sonar.login=******
++ dotnet sonarscanner end /d:sonar.login=******
 SonarScanner for .NET 11.0
 Using the .NET Core version of the Scanner for .NET
 Post-processing started.
-06:37:31.212  Starting with Scanner for .NET v8 the way the `sonar.projectBaseDir` property is automatically detected has changed and this has an impact on the files that are analyzed and other properties that are resolved relative to it like `sonar.exclusions` and `sonar.test.exclusions`. If you would like to customize the behavior, please set the `sonar.projectBaseDir` property to point to a directory that contains all the source code you want to analyze. The path may be relative (to the directory from which the analysis was started) or absolute.
+05:28:15.033  Starting with Scanner for .NET v8 the way the `sonar.projectBaseDir` property is automatically detected has changed and this has an impact on the files that are analyzed and other properties that are resolved relative to it like `sonar.exclusions` and `sonar.test.exclusions`. If you would like to customize the behavior, please set the `sonar.projectBaseDir` property to point to a directory that contains all the source code you want to analyze. The path may be relative (to the directory from which the analysis was started) or absolute.
 Calling the SonarScanner CLI...
 INFO: Scanner configuration file: /var/lib/jenkins/.sonar/cache/2f10fe6ac36213958201a67383c712a587e3843e32ae1edf06f01062d6fd1407/sonar-scanner-cli-5.0.2.4997.zip_extracted/sonar-scanner-5.0.2.4997/conf/sonar-scanner.properties
-INFO: Project root configuration file: /var/lib/jenkins/workspace/dotnet-app/.sonarqube/out/sonar-project.properties
+INFO: Project root configuration file: /var/lib/jenkins/workspace/dotnet-app1/.sonarqube/out/sonar-project.properties
 INFO: SonarScanner 5.0.2.4997
 INFO: Java 17.0.17 Ubuntu (64-bit)
 INFO: Linux 6.14.0-1014-azure amd64
@@ -126,44 +137,44 @@ INFO: User cache: /var/lib/jenkins/.sonar/cache
 INFO: Analyzing on SonarQube server 9.9.8.100196
 INFO: Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
 INFO: Load global settings
-INFO: Load global settings (done) | time=148ms
-INFO: Server id: 147B411E-AZriwWYjvCr385_yqCcc
+INFO: Load global settings (done) | time=146ms
+INFO: Server id: 147B411E-AZrnlpoJCvkJ6Y6JQxX6
 INFO: User cache: /var/lib/jenkins/.sonar/cache
 INFO: Load/download plugins
 INFO: Load plugins index
-INFO: Load plugins index (done) | time=132ms
-INFO: Load/download plugins (done) | time=339ms
+INFO: Load plugins index (done) | time=125ms
+INFO: Load/download plugins (done) | time=426ms
 INFO: Process project properties
-INFO: Process project properties (done) | time=47ms
+INFO: Process project properties (done) | time=41ms
 INFO: Execute project builders
-INFO: Execute project builders (done) | time=113ms
+INFO: Execute project builders (done) | time=107ms
 INFO: Project key: DotNetMongoCRUDApp
-INFO: Base dir: /var/lib/jenkins/workspace/dotnet-app
-INFO: Working dir: /var/lib/jenkins/workspace/dotnet-app/.sonarqube/out/.sonar
+INFO: Base dir: /var/lib/jenkins/workspace/dotnet-app1
+INFO: Working dir: /var/lib/jenkins/workspace/dotnet-app1/.sonarqube/out/.sonar
 INFO: Load project settings for component key: 'DotNetMongoCRUDApp'
-INFO: Load project settings for component key: 'DotNetMongoCRUDApp' (done) | time=37ms
+INFO: Load project settings for component key: 'DotNetMongoCRUDApp' (done) | time=36ms
 INFO: Auto-configuring with CI 'Jenkins'
 INFO: Load quality profiles
-INFO: Load quality profiles (done) | time=81ms
+INFO: Load quality profiles (done) | time=123ms
 INFO: Load active rules
-INFO: Load active rules (done) | time=3457ms
+INFO: Load active rules (done) | time=3427ms
 INFO: Load analysis cache
-INFO: Load analysis cache (462 bytes) | time=40ms
+INFO: Load analysis cache (335 bytes) | time=40ms
 INFO: Load project repositories
-INFO: Load project repositories (done) | time=41ms
+INFO: Load project repositories (done) | time=42ms
 INFO: Indexing files...
 INFO: Project configuration:
 INFO:   Excluded sources: **/coverage.cobertura.xml
 INFO: Indexing files of module 'DotNetMongoCRUDApp'
-INFO:   Base dir: /var/lib/jenkins/workspace/dotnet-app
+INFO:   Base dir: /var/lib/jenkins/workspace/dotnet-app1
 INFO:   Source paths: Controllers/HomeController.cs, Controllers/ProductController....
 INFO:   Excluded sources: **/coverage.cobertura.xml
 INFO: Indexing files of module 'DotNetMongoCRUDApp'
-INFO:   Base dir: /var/lib/jenkins/workspace/dotnet-app
+INFO:   Base dir: /var/lib/jenkins/workspace/dotnet-app1
 INFO:   Excluded sources: **/coverage.cobertura.xml
-INFO: 43 files indexed
+INFO: 40 files indexed
 INFO: 0 files ignored because of inclusion/exclusion patterns
-INFO: 31 files ignored because of scm ignore settings
+INFO: 32 files ignored because of scm ignore settings
 INFO: Quality profile for cs: Sonar way
 INFO: Quality profile for css: Sonar way
 INFO: Quality profile for js: Sonar way
@@ -172,19 +183,19 @@ INFO: Quality profile for web: Sonar way
 INFO: Quality profile for yaml: Sonar way
 INFO: ------------- Run sensors on module DotNetMongoCRUDApp
 INFO: Load metrics repository
-INFO: Load metrics repository (done) | time=56ms
+INFO: Load metrics repository (done) | time=58ms
 INFO: Sensor JaCoCo XML Report Importer [jacoco]
 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
-INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=5ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=6ms
 INFO: Sensor IaC CloudFormation Sensor [iac]
 INFO: 0 source files to be analyzed
 INFO: 0/0 source files have been analyzed
-INFO: Sensor IaC CloudFormation Sensor [iac] (done) | time=68ms
+INFO: Sensor IaC CloudFormation Sensor [iac] (done) | time=91ms
 INFO: Sensor IaC Kubernetes Sensor [iac]
 INFO: 9 source files to be analyzed
 INFO: 9/9 source files have been analyzed
-INFO: Sensor IaC Kubernetes Sensor [iac] (done) | time=269ms
+INFO: Sensor IaC Kubernetes Sensor [iac] (done) | time=270ms
 INFO: Sensor JavaScript analysis [javascript]
 ERROR: Error when running: 'node -v'. Is Node.js available during analysis?
 org.sonarsource.nodejs.NodeCommandException: Error when running: 'node -v'. Is Node.js available during analysis?
@@ -226,7 +237,6 @@ org.sonarsource.nodejs.NodeCommandException: Error when running: 'node -v'. Is N
 	at org.sonarsource.scanner.api.EmbeddedScanner.execute(EmbeddedScanner.java:138)
 	at org.sonarsource.scanner.cli.Main.execute(Main.java:123)
 	at org.sonarsource.scanner.cli.Main.execute(Main.java:78)
-INFO: Hit the cache for 0 out of 0
 	at org.sonarsource.scanner.cli.Main.main(Main.java:59)
 Caused by: java.io.IOException: Cannot run program "node": error=2, No such file or directory
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
@@ -241,8 +251,9 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
 	... 41 common frames omitted
 
+INFO: Hit the cache for 0 out of 0
 INFO: Miss the cache for 0 out of 0
-INFO: Sensor JavaScript analysis [javascript] (done) | time=2910ms
+INFO: Sensor JavaScript analysis [javascript] (done) | time=2925ms
 INFO: Sensor TypeScript analysis [javascript]
 INFO: No input files found for analysis
 INFO: Hit the cache for 0 out of 0
@@ -252,30 +263,30 @@ INFO: Sensor JavaScript inside YAML analysis [javascript]
 INFO: No input files found for analysis
 INFO: Hit the cache for 0 out of 0
 INFO: Miss the cache for 0 out of 0
-INFO: Sensor JavaScript inside YAML analysis [javascript] (done) | time=12ms
+INFO: Sensor JavaScript inside YAML analysis [javascript] (done) | time=13ms
 INFO: Sensor CSS Rules [javascript]
 INFO: Hit the cache for 0 out of 0
 INFO: Miss the cache for 0 out of 0
-INFO: Sensor CSS Rules [javascript] (done) | time=2ms
+INFO: Sensor CSS Rules [javascript] (done) | time=6ms
 INFO: Sensor CSS Metrics [javascript]
-INFO: Sensor CSS Metrics [javascript] (done) | time=45ms
+INFO: Sensor CSS Metrics [javascript] (done) | time=65ms
 INFO: Sensor C# Project Type Information [csharp]
-INFO: Sensor C# Project Type Information [csharp] (done) | time=1ms
+INFO: Sensor C# Project Type Information [csharp] (done) | time=3ms
 INFO: Sensor C# Analysis Log [csharp]
-INFO: Roslyn version: 4.11.0.0
+INFO: Roslyn version: 4.8.0.0
 INFO: Language version: CSharp12
 INFO: Concurrent execution: enabled
-INFO: Sensor C# Analysis Log [csharp] (done) | time=17ms
+INFO: Sensor C# Analysis Log [csharp] (done) | time=14ms
 INFO: Sensor C# Properties [csharp]
-INFO: Sensor C# Properties [csharp] (done) | time=2ms
+INFO: Sensor C# Properties [csharp] (done) | time=3ms
 INFO: Sensor HTML [web]
-INFO: Sensor HTML [web] (done) | time=351ms
+INFO: Sensor HTML [web] (done) | time=400ms
 INFO: Sensor TextAndSecretsSensor [text]
-INFO: 38 source files to be analyzed
-INFO: 38/38 source files have been analyzed
-INFO: Sensor TextAndSecretsSensor [text] (done) | time=172ms
+INFO: 35 source files to be analyzed
+INFO: 35/35 source files have been analyzed
+INFO: Sensor TextAndSecretsSensor [text] (done) | time=149ms
 INFO: Sensor VB.NET Project Type Information [vbnet]
-INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=2ms
 INFO: Sensor VB.NET Analysis Log [vbnet]
 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=23ms
 INFO: Sensor VB.NET Properties [vbnet]
@@ -283,21 +294,21 @@ INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
 INFO: Sensor IaC Docker Sensor [iac]
 INFO: 1 source file to be analyzed
 INFO: 1/1 source file has been analyzed
-INFO: Sensor IaC Docker Sensor [iac] (done) | time=178ms
+INFO: Sensor IaC Docker Sensor [iac] (done) | time=167ms
 INFO: ------------- Run sensors on module DotNetMongoCRUDApp
 INFO: Sensor JaCoCo XML Report Importer [jacoco]
 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
-INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=0ms
 INFO: Sensor CSS Rules [javascript]
 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
-INFO: Sensor CSS Rules [javascript] (done) | time=0ms
+INFO: Sensor CSS Rules [javascript] (done) | time=1ms
 INFO: Sensor C# Project Type Information [csharp]
 INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
 INFO: Sensor C# Analysis Log [csharp]
-INFO: Sensor C# Analysis Log [csharp] (done) | time=1ms
+INFO: Sensor C# Analysis Log [csharp] (done) | time=0ms
 INFO: Sensor C# Properties [csharp]
-INFO: Sensor C# Properties [csharp] (done) | time=1ms
+INFO: Sensor C# Properties [csharp] (done) | time=0ms
 INFO: Sensor TextAndSecretsSensor [text]
 INFO: Sensor TextAndSecretsSensor [text] (done) | time=1ms
 INFO: Sensor VB.NET Project Type Information [vbnet]
@@ -309,54 +320,54 @@ INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
 INFO: Sensor IaC Docker Sensor [iac]
 INFO: 0 source files to be analyzed
 INFO: 0/0 source files have been analyzed
-INFO: Sensor IaC Docker Sensor [iac] (done) | time=25ms
+INFO: Sensor IaC Docker Sensor [iac] (done) | time=24ms
 INFO: ------------- Run sensors on project
 INFO: Sensor C# [csharp]
-INFO: Importing results from 6 proto files in '/var/lib/jenkins/workspace/dotnet-app/.sonarqube/out/0/output-cs'
+INFO: Importing results from 6 proto files in '/var/lib/jenkins/workspace/dotnet-app1/.sonarqube/out/0/output-cs'
 INFO: Importing 1 Roslyn report
 INFO: Found 1 MSBuild C# project: 1 MAIN project.
-INFO: Sensor C# [csharp] (done) | time=270ms
+INFO: Sensor C# [csharp] (done) | time=267ms
 INFO: Sensor Analysis Warnings import [csharp]
-INFO: Sensor Analysis Warnings import [csharp] (done) | time=25ms
+INFO: Sensor Analysis Warnings import [csharp] (done) | time=13ms
 INFO: Sensor C# File Caching Sensor [csharp]
-INFO: Sensor C# File Caching Sensor [csharp] (done) | time=11ms
+INFO: Sensor C# File Caching Sensor [csharp] (done) | time=8ms
 INFO: Sensor C# Tests Coverage Report Import [csharp]
 WARN: Could not find any coverage report file matching the pattern '**/coverage.cobertura.xml'. Troubleshooting guide: https://community.sonarsource.com/t/37151
-INFO: Sensor C# Tests Coverage Report Import [csharp] (done) | time=301ms
+INFO: Sensor C# Tests Coverage Report Import [csharp] (done) | time=283ms
 INFO: Sensor Zero Coverage Sensor
-INFO: Sensor Zero Coverage Sensor (done) | time=17ms
-INFO: CPD Executor 7 files had no CPD blocks
-INFO: CPD Executor Calculating CPD for 15 files
-INFO: CPD Executor CPD calculation finished (done) | time=29ms
-INFO: Analysis report generated in 184ms, dir size=181.0 kB
-INFO: Analysis report compressed in 109ms, zip size=68.8 kB
-INFO: Analysis report uploaded in 75ms
-INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://74.225.6.26:9000/dashboard?id=DotNetMongoCRUDApp
+INFO: Sensor Zero Coverage Sensor (done) | time=13ms
+INFO: CPD Executor 6 files had no CPD blocks
+INFO: CPD Executor Calculating CPD for 13 files
+INFO: CPD Executor CPD calculation finished (done) | time=18ms
+INFO: Analysis report generated in 165ms, dir size=173.0 kB
+INFO: Analysis report compressed in 108ms, zip size=63.4 kB
+INFO: Analysis report uploaded in 32ms
+INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://52.172.38.193:9000/dashboard?id=DotNetMongoCRUDApp
 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
-INFO: More about the report processing at http://74.225.6.26:9000/api/ce/task?id=AZri7nYmvCr385_yqMV4
-INFO: Analysis total time: 15.853 s
+INFO: More about the report processing at http://52.172.38.193:9000/api/ce/task?id=AZrn1WjICvkJ6Y6JQ7RW
+INFO: Analysis total time: 15.790 s
 INFO: ------------------------------------------------------------------------
 INFO: EXECUTION SUCCESS
 INFO: ------------------------------------------------------------------------
-INFO: Total time: 19.241s
-INFO: Final Memory: 17M/67M
+INFO: Total time: 19.540s
+INFO: Final Memory: 17M/64M
 INFO: ------------------------------------------------------------------------
 The SonarScanner CLI has finished
-06:37:50.937  Post-processing succeeded.
-[8mha:////4PlkAgWohe1BWnpGsjRjzSO/Hmz8krfnJaht6tAtlMmFAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
-[8mha:////4HVl0tILTucDksfSColX9KXtjaUz9OnJ5HnUPi2EAmerAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // withSonarQubeEnv
-[8mha:////4Fq+qyctwWdbQOcTB+bMf2D6RNg9ITCTKyLeQHBM/YpOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE81EHZvgAAAA==[0m[Pipeline] }
-[8mha:////4MZzI3PKjHIJN7NjXL/6xeWDInVTi0UgiWo8FfFf3UX+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgF/VhBfvgAAAA==[0m[Pipeline] // stage
-[8mha:////4HXY1tKIFxwosl1LQIlstFdsbxppxPJSP6UcS3BLMnb8AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTUEWIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INUOkuKsEAAAA=[0m[Pipeline] stage
-[8mha:////4GocCu/v30Hzc7UiBHMR80tENx86q4QfWOTGJ54WgSrDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] { (OWASP Dependency Check)
-[8mha:////4ENX1BKRTPA0w1YOSu7PmYXmDOOA3LaLS5HN2bXSfB4CAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] withCredentials
+05:28:35.231  Post-processing succeeded.
+[8mha:////4MgPkihEwM5/6jCbUOYK6ZhBg4sBiRv4yVND1BDA8tQhAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4MoQGr1/g/6M+MsA5gw6pJRV46e3BumR7g6RgvtQtYQ2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4HB/CNG1BjvKfBHySaEAFExF7qswg7yVCBy31CDK1CyAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE81EHZvgAAAA==[0m[Pipeline] }
+[8mha:////4HrZy/kWj+BSnQIg9JeIMrKQbQ+F4TU3IraTwOzmNJD+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgF/VhBfvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Lmum2hh88y4wtt3sVFBlKt5yRI1CBv6phyHAnHfH8+FAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTUEWIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INUOkuKsEAAAA=[0m[Pipeline] stage
+[8mha:////4OHhVikvqucmR59gFIxkA18AOOq2IKxzo7oelnzLO92xAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] { (OWASP Dependency Check)
+[8mha:////4OUxBRc7ZcSC+Edp4nhjdHad0fAh3lueBSdJhJfnFe4KAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] withCredentials
 Masking supported pattern matches of $OSSINDEX_TOKEN
-[8mha:////4A7muFF6RA8HDoyUmvf/q+GGbR4PHlm1odTpwS2YJtNbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
-[8mha:////4NUGbJ2fopgskh7X7L9itlxEkuQkyIU5wlqdazsSQCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] dependencyCheck
+[8mha:////4OEGf7L33QvgQBF0r7k2+8eUFwCmriIEamCUYC3n13cKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4G0CYHgJpX8PIr8oj73iz2hPjEyU6AmHh4kvMN2xDSCXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] dependencyCheck
 [INFO] Checking for updates
 [INFO] Skipping the NVD API Update as it was completed within the last 240 minutes
 [INFO] Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
-[INFO] Check for updates complete (959 ms)
+[INFO] Check for updates complete (893 ms)
 [INFO] 
 
 Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
@@ -369,12 +380,12 @@ Dependency-Check is an open source tool performing a best effort analysis of 3rd
 [INFO] Analysis Started
 [INFO] Finished File Name Analyzer (0 seconds)
 [INFO] Finished MSBuild Project Analyzer (0 seconds)
-[INFO] Finished Assembly Analyzer (3 seconds)
+[INFO] Finished Assembly Analyzer (11 seconds)
 [INFO] Finished Dependency Merging Analyzer (0 seconds)
 [INFO] Finished Hint Analyzer (0 seconds)
 [INFO] Finished Version Filter Analyzer (0 seconds)
 [INFO] Created CPE Index (6 seconds)
-[INFO] Finished CPE Analyzer (8 seconds)
+[INFO] Finished CPE Analyzer (9 seconds)
 [INFO] Finished False Positive Analyzer (0 seconds)
 [INFO] Finished NVD CVE Analyzer (0 seconds)
 [INFO] Finished RetireJS Analyzer (0 seconds)
@@ -383,30 +394,30 @@ Dependency-Check is an open source tool performing a best effort analysis of 3rd
 [INFO] Finished Known Exploited Vulnerability Analyzer (0 seconds)
 [INFO] Finished Dependency Bundling Analyzer (0 seconds)
 [INFO] Finished Unused Suppression Rule Analyzer (0 seconds)
-[INFO] Analysis Complete (12 seconds)
-[INFO] Writing XML report to: /var/lib/jenkins/workspace/dotnet-app/./dependency-check-report.xml
-[8mha:////4JCR61MrqRy8dIQ5CAwRdP0crIpmoSQvpvdx34NiHNgXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BjFz8hy+AAAA[0m[Pipeline] dependencyCheckPublisher
+[INFO] Analysis Complete (21 seconds)
+[INFO] Writing XML report to: /var/lib/jenkins/workspace/dotnet-app1/./dependency-check-report.xml
+[8mha:////4EWJ16nw/OVNpRgXUlsXpcw2igH6s1/TYDWCHxtPdP+OAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BjFz8hy+AAAA[0m[Pipeline] dependencyCheckPublisher
 Collecting Dependency-Check artifact
-Parsing file /var/lib/jenkins/workspace/dotnet-app/dependency-check-report.xml
-[8mha:////4M55sZUnsgOP/+BPIZdJDJl0glSr/6cmcrZm5YiBwavuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8SMZoe+AAAA[0m[Pipeline] }
-[8mha:////4MFolG5/QmrhysNcAfdbVLv9PbaLAX0ymfbLV5n+wgHXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHQr/uYvgAAAA==[0m[Pipeline] // withCredentials
-[8mha:////4L+NOm34lVbCQkCNnI5927AEZ9saW/4rs5AcxUX0IRbpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgUSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHjTKAkvgAAAA==[0m[Pipeline] }
-[8mha:////4EtVDSR89YxLxkysNTT7WvPkbUNzYvLnn5WUYGZgdD6EAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQAFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9V0GvjvgAAAA==[0m[Pipeline] // stage
-[8mha:////4Hc9cAerOxbrHKcai0Ms2ibrsKTxWAydTK6e+Gkpf9vtAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTT0ESIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/IN3teJ78EAAAA=[0m[Pipeline] stage
-[8mha:////4NE0eAPqwxiYsV8INbW5mXni5E1aZVkA+f9Nf1d9fVRiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (Trivy Scan Source)
-[8mha:////4Eyfo8ueoVg4plYpGTVysBB2j6WvBGC4+pkpMqD59s2QAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] sh
+Parsing file /var/lib/jenkins/workspace/dotnet-app1/dependency-check-report.xml
+[8mha:////4N4Hlm+jUWbhwX/lS1Yp6KQqsJ74MuhlqI4sO/G/PzbIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8SMZoe+AAAA[0m[Pipeline] }
+[8mha:////4AXjuEir+3wF5YsFpsBBh4pTl+18fGq/Yfm86kx+zVExAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHQr/uYvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4GP+5kdvZpNeH+twYb1IE0nvIU7HlFDfoUqTPMfdYeo1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgUSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHjTKAkvgAAAA==[0m[Pipeline] }
+[8mha:////4Dravhljoj/JOmCU5LYeHMMQdkS7Jg29I85hydsuUow/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQAFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9V0GvjvgAAAA==[0m[Pipeline] // stage
+[8mha:////4GuYAT9DhMFKOvZgo/NjY5myMkPAhoEmI/zmSSQF6vDrAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTT0ESIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/IN3teJ78EAAAA=[0m[Pipeline] stage
+[8mha:////4Irvrds1Y390qgsKqQAGhk4el1cnoDgP5ORaEqiFWOoTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (Trivy Scan Source)
+[8mha:////4Cqbdhp78rRjugtyZPTYUfBR92LXxeBhUjwdwHi/9N2fAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] sh
 + trivy fs . --exit-code 0 --severity HIGH,CRITICAL --format table --scanners vuln
-2025-12-03T06:38:10Z	INFO	[vuln] Vulnerability scanning is enabled
-2025-12-03T06:38:10Z	INFO	Number of language-specific files	num=2
-2025-12-03T06:38:10Z	INFO	[dotnet-core] Detecting vulnerabilities...
-[8mha:////4FOiB/8WvpEXXYQnpMjV9zYJQekOoo0PfSKgMZs9KlVXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
-[8mha:////4JYLSHqnd40iI85VLMZrHeeFB/RAZ6n4U++rrAEYiCK4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // stage
-[8mha:////4JMcP3cK3IPkFwKViBElcKh5agpakV3nvy7DAIe4DN9PAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTQIEQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvtM9g9cEAAAA=[0m[Pipeline] stage
-[8mha:////4HSQDzvKbA97ZW597ublqED2zhk8GAFTr6qH4T3oUhH5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Docker Build and Tag)
-[8mha:////4CaNbAobyCBG/aj4w3rQbpToW6iimcTUhRKlQ7l4dXd/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] withCredentials
+2025-12-04T05:29:04Z	INFO	[vuln] Vulnerability scanning is enabled
+2025-12-04T05:29:04Z	INFO	Number of language-specific files	num=2
+2025-12-04T05:29:04Z	INFO	[dotnet-core] Detecting vulnerabilities...
+[8mha:////4O7xKlHxiqkKWi92FiWl/uKcnid2VE6DJJYkxCV0WrzXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+[8mha:////4CwS+ie8g2dZv/mrYwrEloZJbYDEt9l2EbNwuHagUnt5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AAl1b+wvozp3li5mrLxFSV+ND3Kd8Ahi1UBdG/1p7BTAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTQIEQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvtM9g9cEAAAA=[0m[Pipeline] stage
+[8mha:////4NeQOO3JNlgQBwyNvBoJ4rt6Ln/iKJSrcdcWZnMbvLm1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Docker Build and Tag)
+[8mha:////4OvSBc8VGEFH/90WAwzAFwD+8fbRU6I/PsBLYEBPg9AqAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] withCredentials
 Masking supported pattern matches of $DOCKER_PASS
-[8mha:////4FXck5DJ4iynuJ832TimWR1A6in7OUn9z2xc2TdVOzKTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
-[8mha:////4H73IgSZroOC2OlUciErwRHq/oCv0QwWZSwGdW7imJOzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] sh
+[8mha:////4C6GG8pS2HUStA/4FjYgf2XfFtwlltw9g/fduIAqfqDoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4EcmD5slbjqrf7LVewdNmt27uDtAGLraBSGrjn6KF3/dAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] sh
 + docker login -u charansait372 -p ****
 WARNING! Using --password via the CLI is insecure. Use --password-stdin.
 
@@ -415,20 +426,20 @@ Configure a credential helper to remove this warning. See
 https://docs.docker.com/go/credential-store/
 
 Login Succeeded
-+ docker build -t charansait372/dotnet-proj:v3 .
++ docker build -t charansait372/dotnet-proj:v4 .
 #0 building with "default" instance using docker driver
 
 #1 [internal] load build definition from Dockerfile
 #1 transferring dockerfile: 925B done
 #1 DONE 0.1s
 
-#2 [internal] load metadata for mcr.microsoft.com/dotnet/sdk:8.0
+#2 [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:8.0
 #2 ...
 
-#3 [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:8.0
+#3 [internal] load metadata for mcr.microsoft.com/dotnet/sdk:8.0
 #3 DONE 0.2s
 
-#2 [internal] load metadata for mcr.microsoft.com/dotnet/sdk:8.0
+#2 [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:8.0
 #2 DONE 0.2s
 
 #4 [internal] load .dockerignore
@@ -438,37 +449,36 @@ Login Succeeded
 #5 [internal] load build context
 #5 DONE 0.0s
 
-#6 [runtime 1/4] FROM mcr.microsoft.com/dotnet/aspnet:8.0@sha256:47091f7cee02e448630df85542579e09b7bbe3b10bd4e1991ff59d3adbddd720
-#6 resolve mcr.microsoft.com/dotnet/aspnet:8.0@sha256:47091f7cee02e448630df85542579e09b7bbe3b10bd4e1991ff59d3adbddd720 0.1s done
+#6 [build 1/6] FROM mcr.microsoft.com/dotnet/sdk:8.0@sha256:874c4613d5ebf8b328ad920a90640c8dea9758bdbe61dc191dbcbed03721fc79
+#6 resolve mcr.microsoft.com/dotnet/sdk:8.0@sha256:874c4613d5ebf8b328ad920a90640c8dea9758bdbe61dc191dbcbed03721fc79 0.1s done
 #6 DONE 0.1s
 
-#7 [build 1/6] FROM mcr.microsoft.com/dotnet/sdk:8.0@sha256:874c4613d5ebf8b328ad920a90640c8dea9758bdbe61dc191dbcbed03721fc79
-#7 resolve mcr.microsoft.com/dotnet/sdk:8.0@sha256:874c4613d5ebf8b328ad920a90640c8dea9758bdbe61dc191dbcbed03721fc79
-#7 resolve mcr.microsoft.com/dotnet/sdk:8.0@sha256:874c4613d5ebf8b328ad920a90640c8dea9758bdbe61dc191dbcbed03721fc79 0.1s done
+#7 [runtime 1/4] FROM mcr.microsoft.com/dotnet/aspnet:8.0@sha256:47091f7cee02e448630df85542579e09b7bbe3b10bd4e1991ff59d3adbddd720
+#7 resolve mcr.microsoft.com/dotnet/aspnet:8.0@sha256:47091f7cee02e448630df85542579e09b7bbe3b10bd4e1991ff59d3adbddd720 0.1s done
 #7 DONE 0.1s
 
 #5 [internal] load build context
-#5 transferring context: 108.03MB 1.5s done
-#5 DONE 1.6s
+#5 transferring context: 117.68MB 1.8s done
+#5 DONE 2.0s
 
-#8 [build 2/6] WORKDIR /src
+#8 [build 3/6] COPY [DotNetMongoCRUDApp.csproj, ./]
 #8 CACHED
 
-#9 [build 3/6] COPY [DotNetMongoCRUDApp.csproj, ./]
+#9 [build 2/6] WORKDIR /src
 #9 CACHED
 
 #10 [build 4/6] RUN dotnet restore "DotNetMongoCRUDApp.csproj"
 #10 CACHED
 
 #11 [build 5/6] COPY . .
-#11 DONE 1.7s
+#11 DONE 1.8s
 
 #12 [build 6/6] RUN dotnet publish "DotNetMongoCRUDApp.csproj" -c Release -o /app/publish /p:UseAppHost=false
-#12 1.830   Determining projects to restore...
-#12 3.671   Restored /src/DotNetMongoCRUDApp.csproj (in 837 ms).
-#12 14.66   DotNetMongoCRUDApp -> /src/bin/Release/net8.0/DotNetMongoCRUDApp.dll
-#12 15.12   DotNetMongoCRUDApp -> /app/publish/
-#12 DONE 15.3s
+#12 1.827   Determining projects to restore...
+#12 4.885   Restored /src/DotNetMongoCRUDApp.csproj (in 1.67 sec).
+#12 15.99   DotNetMongoCRUDApp -> /src/bin/Release/net8.0/DotNetMongoCRUDApp.dll
+#12 16.46   DotNetMongoCRUDApp -> /app/publish/
+#12 DONE 16.7s
 
 #13 [runtime 2/4] WORKDIR /app
 #13 CACHED
@@ -481,267 +491,247 @@ Login Succeeded
 
 #16 exporting to image
 #16 exporting layers done
-#16 exporting manifest sha256:f44ac577c6653506154be9e509804cca1cfe8ecb8ebc017cfea4de8b37ac2d53 done
-#16 exporting config sha256:fe009b360125bad6821e87284f38719cec0c8469a20bf175ede7aad3e83285e7 done
-#16 exporting attestation manifest sha256:65de6ebe614498a5f483699e82f02a10e9e0153d0893d33f24ec58e6396ec8f1 0.1s done
-#16 exporting manifest list sha256:5dbfb828f2b49207ea275a7a80ce8f50a4d05faf6a187dade3e5c1d447a58096
-#16 exporting manifest list sha256:5dbfb828f2b49207ea275a7a80ce8f50a4d05faf6a187dade3e5c1d447a58096 0.0s done
-#16 naming to docker.io/charansait372/dotnet-proj:v3 done
-#16 unpacking to docker.io/charansait372/dotnet-proj:v3 0.0s done
+#16 exporting manifest sha256:2c4d304b2f64d56810edbd9d2ef63efc5f1b6ed30e810872f5ee02f2727aa497 done
+#16 exporting config sha256:97fa9b1e34f5ebb56ea507e0e366662481045bfeeb322002e683d4837d0b03f6 done
+#16 exporting attestation manifest sha256:8ad58c6a83457308cc8b42c803d40d461ff6821b9e8da2fab1572d24a5f1bbd5 0.1s done
+#16 exporting manifest list sha256:3eb2a45618f9c77c9a13dc72f483cf5577e13150b1605f6aee09b78bf61d3457 0.0s done
+#16 naming to docker.io/charansait372/dotnet-proj:v4 done
+#16 unpacking to docker.io/charansait372/dotnet-proj:v4 0.0s done
 #16 DONE 0.3s
-[8mha:////4KxjL5Cyu1m4vW8GhwjMl7qps9uASW3G67P0y65/9TvZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8WCoj++AAAA[0m[Pipeline] }
-[8mha:////4Afupn1pGQCGCUmmnICeXVdbX6ottwS8uq5GewY/xR9pAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwb5Ql6+AAAA[0m[Pipeline] // withCredentials
-[8mha:////4MjoBkLxMU7y6V2A8+JJ+6+sc27fryt1wVhHA8Bm6H04AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QEZexcMvgAAAA==[0m[Pipeline] }
-[8mha:////4Ohx+Gsh+Q/bXiYxQujf5Wq0QlGDP9cOSDre+5KJitspAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8hOYT9vgAAAA==[0m[Pipeline] // stage
-[8mha:////4NoIO2CQvZ7aqghNhBULQi68ZcSgZA5ImxtZnOc8b1ajAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTICEhREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HdfI7lG5HljdnBAAAA[0m[Pipeline] stage
-[8mha:////4F3P7NVDvyp4k45ioVlFaEIKI2Y0Wx+twXoaA7jCaYN7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] { (Trivy Scan Image)
-[8mha:////4Hq7WNvzDA1uVaqUW6ItHvAIi88v8NcGedPnpIeHl50eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBlmkmCe+AAAA[0m[Pipeline] sh
-+ trivy image charansait372/dotnet-proj:v3 --exit-code 0 --severity HIGH,CRITICAL --format table
-2025-12-03T06:38:33Z	INFO	[vuln] Vulnerability scanning is enabled
-2025-12-03T06:38:33Z	INFO	[secret] Secret scanning is enabled
-2025-12-03T06:38:33Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
-2025-12-03T06:38:33Z	INFO	[secret] Please see https://trivy.dev/v0.67/docs/scanner/secret#recommendation for faster secret detection
-2025-12-03T06:38:34Z	INFO	Detected OS	family="debian" version="12.12"
-2025-12-03T06:38:34Z	INFO	[debian] Detecting vulnerabilities...	os_version="12" pkg_num=92
-2025-12-03T06:38:34Z	INFO	Number of language-specific files	num=3
-2025-12-03T06:38:34Z	INFO	[dotnet-core] Detecting vulnerabilities...
-2025-12-03T06:38:34Z	WARN	Using severities from other vendors for some vulnerabilities. Read https://trivy.dev/v0.67/docs/scanner/vulnerability#severity-selection for details.
-[8mha:////4C5yHU4BPLZwyO/0KK4WqG3grCLApXC+HpEC1aKYnJLLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BvQoOE2+AAAA[0m[Pipeline] }
-[8mha:////4Fvm8nogf4RMVPksJUkGxb8RdMAHKIsOwcKunoMMXkrvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHybgAYvgAAAA==[0m[Pipeline] // stage
-[8mha:////4JYzeLv/1wAp9+O8FxAunqspKtfQDY1UYUaPEMXKfaCEAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTIRCiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INUhVKs8EAAAA=[0m[Pipeline] stage
-[8mha:////4JCdI8UaFirwcfG/4twQYx5czkG83pxbFbIOfDo3jtuTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] { (Docker Push)
-[8mha:////4JULqXtqoVG2qcIIi9tv8U+1VJvHXNqqIkFiGQh22FB5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] withCredentials
+[8mha:////4ERzBkjwRGPXcNP0X99ZSzeqzR8gGD0RvEJdey3VOnOzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8WCoj++AAAA[0m[Pipeline] }
+[8mha:////4Ag3e5cqBIi1JGpeE7TdzRUW4133cp11gKV1byheLSL3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwb5Ql6+AAAA[0m[Pipeline] // withCredentials
+[8mha:////4Nu23YuQsMB9r/LE1zrHvimCqHCBSCziWnqtkCFLeqjHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QEZexcMvgAAAA==[0m[Pipeline] }
+[8mha:////4IUuK3PLHB0g79jiFEzKB5zYm8oRZy2vrXYTuSvtxFe7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8hOYT9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4DUc9KewZx4G9kEm6qTDS/sqE38XejIgFYKww4o1NmPLAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTICEhREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HdfI7lG5HljdnBAAAA[0m[Pipeline] stage
+[8mha:////4C5P7nk6M6J2MQPZ6C5b932m/l9W9n0fpLrqQCg5Zua8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] { (Trivy Scan Image)
+[8mha:////4GU8T+PkmAOySBwCSIYptmEF5dqOidKER6a8cQQi8y54AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBlmkmCe+AAAA[0m[Pipeline] sh
++ trivy image charansait372/dotnet-proj:v4 --exit-code 0 --severity HIGH,CRITICAL --format table
+2025-12-04T05:29:30Z	INFO	[vuln] Vulnerability scanning is enabled
+2025-12-04T05:29:30Z	INFO	[secret] Secret scanning is enabled
+2025-12-04T05:29:30Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2025-12-04T05:29:30Z	INFO	[secret] Please see https://trivy.dev/docs/v0.68/guide/scanner/secret#recommendation for faster secret detection
+2025-12-04T05:29:30Z	INFO	Detected OS	family="debian" version="12.12"
+2025-12-04T05:29:30Z	INFO	[debian] Detecting vulnerabilities...	os_version="12" pkg_num=92
+2025-12-04T05:29:30Z	INFO	Number of language-specific files	num=3
+2025-12-04T05:29:30Z	INFO	[dotnet-core] Detecting vulnerabilities...
+2025-12-04T05:29:30Z	WARN	Using severities from other vendors for some vulnerabilities. Read https://trivy.dev/docs/v0.68/guide/scanner/vulnerability#severity-selection for details.
+[8mha:////4M+PZ3HyN5aR2TYUPlP02NycnK26aRGIbF4UCkhwq2aIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BvQoOE2+AAAA[0m[Pipeline] }
+[8mha:////4CduWAOZQ7761jAyo9Dg4z6H1eKPB500yL5KNwQtKdCuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHybgAYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4M7+wgDMMSfu9rDdDadHsODQHBtVnncTi8GxKq11EEi4AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTIRCiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INUhVKs8EAAAA=[0m[Pipeline] stage
+[8mha:////4GzvH0mYVSkVQvzC+/WrKcBxUm8217wl04q69q3eBQVpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] { (Docker Push)
+[8mha:////4GGHfgCewP26XWhbGvLWn1rJclcEyXn1gouu+pwHFt9mAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] withCredentials
 Masking supported pattern matches of $DOCKER_PASS
-[8mha:////4LuPdu1NUVjbkdwcSZl/PnGP++2+Pk4MOhBUWZgZ47l5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] {
-[8mha:////4BsslP6xfvkr6QuG5dpHQblPdki0rcx1P+IBz8u0zrogAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5B3ife+AAAA[0m[Pipeline] sh
+[8mha:////4IMOh625PoEPgbZ17X34/KvV+A0eLF2b0+Y/qasj4+WkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] {
+[8mha:////4NGofBWp8dFmVsZP7rELPu+rIX5Ut7+ueycZ/X+9I5JtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5B3ife+AAAA[0m[Pipeline] sh
 + docker login -u charansait372 -p ****
 WARNING! Using --password via the CLI is insecure. Use --password-stdin.
 Login Succeeded
-+ docker push charansait372/dotnet-proj:v3
++ docker push charansait372/dotnet-proj:v4
 The push refers to repository [docker.io/charansait372/dotnet-proj]
-de2be4655324: Waiting
-b11a82bfda56: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
 8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+b821f260bfe7: Waiting
+9e5758336962: Waiting
+dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
 991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
 8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
+dd667f04bde5: Waiting
+8e44f01296e3: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
 991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
 8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
+9e5758336962: Waiting
+dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
+8e44f01296e3: Waiting
+b821f260bfe7: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
-991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
 991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
 8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
-991781e7a361: Waiting
-862b0463469b: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
 991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
 8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-b821f260bfe7: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
 991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
 8c3f383f7bab: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
 991781e7a361: Waiting
-de2be4655324: Waiting
-862b0463469b: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
+dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
+8e44f01296e3: Waiting
+b821f260bfe7: Waiting
+9e5758336962: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
-991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
 9e5758336962: Waiting
 dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
 991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
 8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
+9e5758336962: Waiting
+dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
 8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
+dd667f04bde5: Waiting
 8e44f01296e3: Waiting
 b821f260bfe7: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
 b821f260bfe7: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-b821f260bfe7: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-b821f260bfe7: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-d6ef0729a7ee: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-d6ef0729a7ee: Layer already exists
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-b821f260bfe7: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-b821f260bfe7: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-b821f260bfe7: Layer already exists
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Waiting
-991781e7a361: Waiting
-862b0463469b: Waiting
-8e44f01296e3: Waiting
-9e5758336962: Waiting
-dbe68e0be9db: Layer already exists
-991781e7a361: Layer already exists
-de2be4655324: Waiting
-b11a82bfda56: Waiting
-8c3f383f7bab: Waiting
-de2be4655324: Waiting
-b11a82bfda56: Layer already exists
-8c3f383f7bab: Layer already exists
-862b0463469b: Layer already exists
-8e44f01296e3: Layer already exists
 9e5758336962: Layer already exists
-de2be4655324: Waiting
-de2be4655324: Waiting
-de2be4655324: Waiting
-de2be4655324: Pushed
-v3: digest: sha256:5dbfb828f2b49207ea275a7a80ce8f50a4d05faf6a187dade3e5c1d447a58096 size: 856
-[8mha:////4KlMGH2MKvC/CR7GTnqRLnpKx4d1d8QZtGDK69q7LuzxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE9d/PSvgAAAA==[0m[Pipeline] }
-[8mha:////4P3ushRAFpZXxJr3Ef7JuJcLEZb4LBagSv7Y3mFhAQc0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgUSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgETd/G4vgAAAA==[0m[Pipeline] // withCredentials
-[8mha:////4CdGNaQfQrOHbPS14ICU/A1VIlQBSi4jfXZJzjAXqlO6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFTLWoTvgAAAA==[0m[Pipeline] }
-[8mha:////4JbV0fg1yWTaMXmMEX0dvhIn38uJv3wtnw4WHryWWGWqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBSREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPmtv+eK+AAAA[0m[Pipeline] // stage
-[8mha:////4KKZXTtgpfkBHS7+soLWN53GPviE7iK2/+D1+HVDSGqmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYRTRghR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGYsdQNs3nWL0BM6xr5MEAAAA=[0m[Pipeline] stage
-[8mha:////4Abx+r7SEdcrBTHo7wxhPRF2MVFo6c2lxJotHH3SW+GsAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
-[8mha:////4OoCKHasxGnfAI9WI6gFfF5IKi93AJYgqLqsW8Ks3uazAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eiOvlgb4AAAA=[0m[Pipeline] archiveArtifacts
+dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
+8e44f01296e3: Waiting
+dd667f04bde5: Waiting
+8e44f01296e3: Waiting
+b821f260bfe7: Waiting
+dbe68e0be9db: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
+8e44f01296e3: Waiting
+b821f260bfe7: Waiting
+dbe68e0be9db: Layer already exists
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+3d6639785251: Layer already exists
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+8e44f01296e3: Waiting
+b821f260bfe7: Waiting
+236eb88c5285: Waiting
+c203a8e6a3b1: Waiting
+991781e7a361: Waiting
+8c3f383f7bab: Waiting
+dd667f04bde5: Waiting
+dd667f04bde5: Waiting
+8e44f01296e3: Layer already exists
+b821f260bfe7: Layer already exists
+236eb88c5285: Layer already exists
+c203a8e6a3b1: Layer already exists
+991781e7a361: Layer already exists
+8c3f383f7bab: Layer already exists
+dd667f04bde5: Waiting
+dd667f04bde5: Waiting
+dd667f04bde5: Pushed
+v4: digest: sha256:3eb2a45618f9c77c9a13dc72f483cf5577e13150b1605f6aee09b78bf61d3457 size: 856
+[8mha:////4AqMY03jmhE2A8vYx/VTzo5f8WLCxdFyU5caHT7L8rLUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE9d/PSvgAAAA==[0m[Pipeline] }
+[8mha:////4KaMskYIu4Pk9+tTVF3wXNhBiwFqdfszFardpIRuDaJpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgUSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgETd/G4vgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4MXpgnAPlZOBt5HK4ExXoT0Skq+YITCrCAye7IDpmwXnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFTLWoTvgAAAA==[0m[Pipeline] }
+[8mha:////4Nz9mWR3ow5el8GghAVi3HEby6qITn7IfTFFQXU7gGolAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBSREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPmtv+eK+AAAA[0m[Pipeline] // stage
+[8mha:////4N820JhQJefQ5LTAomvG3oewa+6f4LEIX410pUXNS8RiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYRTRghR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGYsdQNs3nWL0BM6xr5MEAAAA=[0m[Pipeline] stage
+[8mha:////4NAGSkifpx+NQW5gOpMJ565jtCG/BN1dfAqqPMpJEcNzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4Lo20SlBaNJiL3eQqsQ9TUrglKjuCQoja47i1C5zJMnPAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eiOvlgb4AAAA=[0m[Pipeline] archiveArtifacts
 Archiving artifacts
-[8mha:////4FgFGWVdKc0KPdPBIlpv9q/+bYoVhTQepYS+Bg/EgqFaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRyREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA91rnrvP/wXe1u+AAAA[0m[Pipeline] sh
+[8mha:////4F1cmDz5BETYNfMBz08JC8fx82vqKvvcZG/xdpuhsnHxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRyREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA91rnrvP/wXe1u+AAAA[0m[Pipeline] sh
 + docker logout
 Removing login credentials for https://index.docker.io/v1/
-[8mha:////4Oy1klevdhvhAyEgGPkGxbCuD8PZz9Yj2Of5ERHLHTy1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKiIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QF7Hq8QvgAAAA==[0m[Pipeline] }
-[8mha:////4F7XroTsYbLFDFxbWNsPVRaj4bPRD9x4AoI8afkstZzRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRaIKEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w9EcYQGvgAAAA==[0m[Pipeline] // stage
-[8mha:////4NG5qoPm3hNCamI+/t1ll9lHTCqJEzxZizP9g4Y/KW7fAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpaECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPIHxbzL0AAAA=[0m[Pipeline] }
-[8mha:////4MG3kNoOirCukZDDLpAH9OJ8SogazgClFwIIgi4qUBJoAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHppB8Cb0AAAA=[0m[Pipeline] // withEnv
-[8mha:////4Mi6V3GwRmSVTuikDwPSAdDjR7TKMVATqwBf2XSG26P4AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPEZSk070AAAA=[0m[Pipeline] }
-[8mha:////4OPx24dwZ1HMQZ4irYaaZskPivVVBAsnneLMWmODBIo+AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPe78NDb0AAAA=[0m[Pipeline] // withCredentials
-[8mha:////4MUJ3L85+wInBvdgxg7O025NuYSXajeLHmgv7rv9PKtIAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AF2make9AAAA[0m[Pipeline] }
-[8mha:////4ESBQ97eDUTtAqjo17Li/gXMmLsXumLH2reYlaKKyQzWAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HL6ReW70AAAA=[0m[Pipeline] // node
-[8mha:////4FnpIA+TGPEBVZ9mEZUo9sIkH4H3XCk9EMPAOiV84OpbAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPCb05Eb0AAAA=[0m[Pipeline] End of Pipeline
+[8mha:////4NMZ+jS4nG1VUd3zmTGDWbDbk0q5X64exJgb+xT7DPaKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKiIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QF7Hq8QvgAAAA==[0m[Pipeline] }
+[8mha:////4JElQNM9YBjThXaSfdKUIUKQylEDx1hm36roOyfBUJm6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRaIKEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w9EcYQGvgAAAA==[0m[Pipeline] // stage
+[8mha:////4ESIoS5eNCZzyt0jlPyoklTk3s+mB3t1qjYsm+k1GU6ZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpaECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPIHxbzL0AAAA=[0m[Pipeline] }
+[8mha:////4CPctScnVV03DAYhV721LsIXz0O9YcKAVFs8XFW50FOdAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHppB8Cb0AAAA=[0m[Pipeline] // withEnv
+[8mha:////4LE133NgndkAuHFPImS5qbq5tA23khzvrV4fPYjibJgKAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPEZSk070AAAA=[0m[Pipeline] }
+[8mha:////4OigK17JPUqaC5ZEOYkSk2iHI2yCXBiTk6SUYiMUJv6mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPe78NDb0AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4HpQf1s0lmeYEtmnjUr4WVpz1aLdNYqCPvl/hGyBGjztAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AF2make9AAAA[0m[Pipeline] }
+[8mha:////4Fjdww9wmIZm9OKvEWtpJvCqAq2smJhQYjpdbDqgkV2UAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HL6ReW70AAAA=[0m[Pipeline] // node
+[8mha:////4Kma9dmFc7H7PtqCVp4S885MC7n8YZdepj0+CDKjSP63AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPCb05Eb0AAAA=[0m[Pipeline] End of Pipeline
 Finished: SUCCESS
