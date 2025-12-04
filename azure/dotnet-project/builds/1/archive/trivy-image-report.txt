@@ -4,9 +4,9 @@ Report Summary
 ┌──────────────────────────────────────────────────────────────────────────────────┬─────────────┬─────────────────┬─────────┐
 │                                      Target                                      │    Type     │ Vulnerabilities │ Secrets │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┤
-│ charansait372/dotnet-proj:v4 (debian 12.12)                                      │   debian    │        5        │    -    │
+│ charansait372/dotnet-proj:v5 (debian 12.12)                                      │   debian    │        5        │    -    │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┤
-│ app/DotNetMongoCRUDApp.deps.json                                                 │ dotnet-core │        2        │    -    │
+│ app/DotNetSqlCRUDApp.deps.json                                                   │ dotnet-core │        2        │    -    │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┤
 │ usr/share/dotnet/shared/Microsoft.AspNetCore.App/8.0.22/Microsoft.AspNetCore.Ap- │ dotnet-core │        0        │    -    │
 │ p.deps.json                                                                      │             │                 │         │
@@ -28,7 +28,7 @@ Learn more and start using VEX: https://trivy.dev/docs/v0.68/guide/supply-chain/
 To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
 
 
-charansait372/dotnet-proj:v4 (debian 12.12)
+charansait372/dotnet-proj:v5 (debian 12.12)
 ===========================================
 Total: 5 (HIGH: 4, CRITICAL: 1)
 
@@ -52,8 +52,8 @@ Total: 5 (HIGH: 4, CRITICAL: 1)
 │                    │                │          │              │                   │               │ https://avd.aquasec.com/nvd/cve-2023-45853             │
 └────────────────────┴────────────────┴──────────┴──────────────┴───────────────────┴───────────────┴────────────────────────────────────────────────────────┘
 
-app/DotNetMongoCRUDApp.deps.json (dotnet-core)
-==============================================
+app/DotNetSqlCRUDApp.deps.json (dotnet-core)
+============================================
 Total: 2 (HIGH: 2, CRITICAL: 0)
 
 ┌──────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬────────────────────────────┬────────────────────────────────────────────────────────┐
