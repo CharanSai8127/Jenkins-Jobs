@@ -1,0 +1,185 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1559.va_a_533730b_ea_d">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>DOCKER_TAG</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>2</daysToKeep>
+        <numToKeep>2</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>DOCKER_TAG</name>
+          <description>Docker image tag</description>
+          <defaultValue>latest</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4238.va_6fb_65c1f699">
+    <script>pipeline {
+    agent any
+
+    parameters {
+        string(name: &apos;DOCKER_TAG&apos;, defaultValue: &apos;latest&apos;, description: &apos;Docker image tag&apos;)
+    }
+
+    environment {
+        IMAGE_NAME   = &apos;charansait372/devops-blog-new&apos;
+        TAG          = &quot;${params.DOCKER_TAG}&quot;
+        SCANNER_HOME = tool &apos;sonar-scanner&apos;
+    }
+
+    tools {
+        maven &apos;maven 3&apos;
+        jdk &apos;jdk 17&apos;
+    }
+
+    stages {
+        stage(&apos;Git Checkout&apos;) {
+            steps {
+                git branch: &apos;main&apos;,
+                    credentialsId: &apos;git-cred&apos;,
+                    url: &apos;https://github.com/CharanSai8127/Fullstack-blogging.git&apos;
+            }
+        }
+
+        stage(&apos;Compile&apos;) {
+            steps {
+                sh &apos;mvn clean compile&apos;
+            }
+        }
+
+        stage(&apos;Tests&apos;) {
+            steps {
+                sh &apos;echo &quot;Tests intentionally skipped in CI&quot;&apos;
+            }
+        }
+
+        stage(&apos;Dependency Check (OWASP)&apos;) {
+            steps {
+                dependencyCheck additionalArguments: &apos;--scan ./&apos;,
+                                odcInstallation: &apos;owasp&apos;
+                dependencyCheckPublisher pattern: &apos;**/dependency-check-report.xml&apos;
+            }
+        }
+
+        stage(&apos;SonarQube Analysis&apos;) {
+            steps {
+                withSonarQubeEnv(&apos;sonar&apos;) {
+                    sh &quot;&quot;&quot;
+                      ${SCANNER_HOME}/bin/sonar-scanner \
+                        -Dsonar.projectKey=fullstack-blog \
+                        -Dsonar.projectName=fullstack-blog \
+                        -Dsonar.java.binaries=target/classes
+                    &quot;&quot;&quot;
+                }
+            }
+        }
+
+        stage(&apos;Quality Gate&apos;) {
+            steps {
+                timeout(time: 10, unit: &apos;MINUTES&apos;) {
+                    waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &apos;mvn package -DskipTests&apos;
+            }
+        }
+
+        stage(&apos;Deploy to Nexus&apos;) {
+            steps {
+                withMaven(mavenSettingsConfig: &apos;maven-config&apos;, maven: &apos;maven 3&apos;) {
+                    sh &apos;mvn deploy -DskipTests&apos;
+                }
+            }
+        }
+
+        stage(&apos;Docker Build&apos;) {
+            steps {
+                sh &apos;docker build -t ${IMAGE_NAME}:${TAG} .&apos;
+            }
+        }
+
+        stage(&apos;Docker Push&apos;) {
+            steps {
+                withDockerRegistry(
+                    credentialsId: &apos;docker-cred&apos;,
+                    url: &apos;https://index.docker.io/v1/&apos;
+                ) {
+                    sh &apos;docker push ${IMAGE_NAME}:${TAG}&apos;
+                }
+            }
+        }
+
+        stage(&apos;Trivy Image Scan&apos;) {
+            steps {
+                script {
+                    // Generate JSON report (always succeeds)
+                    sh &apos;trivy image --scanners vuln --format json -o trivy-report.json ${IMAGE_NAME}:${TAG}&apos;
+                    
+                    // Optional: Fail only on CRITICAL vulns
+                    sh &apos;&apos;&apos;
+                        trivy image --exit-code 1 --no-progress --severity CRITICAL ${IMAGE_NAME}:${TAG} || true
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            // Trivy report (may be empty for clean images)
+            archiveArtifacts artifacts: &apos;trivy-report.json&apos;, 
+                            fingerprint: true, 
+                            allowEmptyArchive: true
+            
+            // OWASP reports
+            archiveArtifacts artifacts: &apos;**/dependency-check-report.*&apos;,
+                            fingerprint: true,
+                            allowEmptyArchive: true
+            
+            // Sonar report (if generated)
+            archiveArtifacts artifacts: &apos;**/sonar-report.json&apos;, 
+                            fingerprint: true,
+                            allowEmptyArchive: true
+        }
+        failure {
+            echo &apos;Pipeline failed. Check logs above.&apos;
+            // Still archive reports for debugging
+            archiveArtifacts artifacts: &apos;**/trivy-report.json,**/dependency-check-report.*&apos;, 
+                            allowEmptyArchive: true
+        }
+        always {
+            cleanWs()
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

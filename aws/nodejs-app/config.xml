@@ -1,0 +1,189 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1559.va_a_533730b_ea_d">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>DOCKER_TAG</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>2</daysToKeep>
+        <numToKeep>2</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>DOCKER_TAG</name>
+          <description>Docker image tag</description>
+          <defaultValue>v1.0</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4238.va_6fb_65c1f699">
+    <script>pipeline {
+    agent any
+
+    parameters {
+        string(name: &apos;DOCKER_TAG&apos;, defaultValue: &apos;v1.0&apos;, description: &apos;Docker image tag&apos;)
+    }
+
+    environment {
+        IMAGE_NAME = &apos;charansait372/node-js&apos;
+        TAG        = &quot;${params.DOCKER_TAG}&quot;
+    }
+
+    tools {
+        nodejs &apos;node-20&apos;
+    }
+
+    stages {
+        stage(&apos;Git Checkout&apos;) {
+            steps {
+                git branch: &apos;master&apos;,
+                    url: &apos;https://github.com/CharanSai8127/Node.js-app.git&apos;
+            }
+        }
+
+        stage(&apos;Setup NodeJS 20&apos;) {
+            steps {
+                sh &apos;node -v&apos;
+                sh &apos;npm -v&apos;
+            }
+        }
+
+        stage(&apos;Install Dependencies (Backend)&apos;) {
+            steps {
+                dir(&apos;server&apos;) {
+                    sh &apos;npm install&apos;
+                }
+            }
+        }
+
+        stage(&apos;Build Backend&apos;) {
+            steps {
+                dir(&apos;server&apos;) {
+                    sh &apos;npm run build || echo &quot;No build script, skipping&quot;&apos;
+                }
+            }
+        }
+
+        stage(&apos;OWASP Dependency Check&apos;) {
+            steps {
+                dir(&apos;server&apos;) {
+                    dependencyCheck additionalArguments: &apos;--scan . --format HTML --format XML --out .&apos;,
+                                   odcInstallation: &apos;owasp&apos;
+                    dependencyCheckPublisher pattern: &apos;**/dependency-check-report.html&apos;
+                }
+            }
+        }
+
+        stage(&apos;SonarQube Analysis&apos;) {
+            steps {
+                // Install SonarScanner globally first
+                sh &apos;npm install -g sonarqube-scanner&apos;
+                
+                withSonarQubeEnv(&apos;sonar&apos;) {
+                    sh &apos;&apos;&apos;
+                        sonar-scanner \
+                          -Dsonar.projectKey=node-js-app \
+                          -Dsonar.projectName=&quot;Node.js App&quot; \
+                          -Dsonar.sources=server \
+                          -Dsonar.exclusions=node_modules/**,dist/**,build/**,coverage/**
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+
+        stage(&apos;Quality Gate&apos;) {
+            steps {
+                timeout(time: 10, unit: &apos;MINUTES&apos;) {
+                    waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+
+        stage(&apos;Docker Build&apos;) {
+            steps {
+                sh &apos;docker build -t ${IMAGE_NAME}:${TAG} .&apos;
+            }
+        }
+
+        stage(&apos;Docker Push&apos;) {
+            steps {
+                withDockerRegistry(
+                    credentialsId: &apos;docker-cred&apos;,
+                    url: &apos;https://index.docker.io/v1/&apos;
+                ) {
+                    sh &apos;docker push ${IMAGE_NAME}:${TAG}&apos;
+                }
+            }
+        }
+
+        stage(&apos;Trivy Image Scan&apos;) {
+            steps {
+                script {
+                    sh &apos;&apos;&apos;
+                        trivy image \
+                          --scanners vuln \
+                          --format json \
+                          -o trivy-report.json \
+                          ${IMAGE_NAME}:${TAG}
+                    &apos;&apos;&apos;
+                    sh &apos;ls -la trivy-report.json || echo &quot;File not created&quot;&apos;
+                    sh &apos;&apos;&apos;
+                        trivy image \
+                          --exit-code 1 \
+                          --no-progress \
+                          --severity CRITICAL,HIGH \
+                          ${IMAGE_NAME}:${TAG} || true
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            archiveArtifacts artifacts: &apos;trivy-report.json&apos;, 
+                            fingerprint: true, 
+                            allowEmptyArchive: true
+            
+            archiveArtifacts artifacts: &apos;**/dependency-check-report.*&apos;, 
+                            fingerprint: true, 
+                            allowEmptyArchive: true
+            
+            archiveArtifacts artifacts: &apos;server/package-lock.json&apos;, 
+                            fingerprint: true, 
+                            allowEmptyArchive: true
+        }
+        failure {
+            echo &apos;Pipeline failed. Archiving reports for debugging.&apos;
+            archiveArtifacts artifacts: &apos;trivy-report.json,**/dependency-check-report.*&apos;, 
+                            allowEmptyArchive: true
+        }
+        always {
+            cleanWs notFailBuild: true
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
