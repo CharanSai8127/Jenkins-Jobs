@@ -1,0 +1,5174 @@
+{
+  "SchemaVersion": 2,
+  "ReportID": "019b4ecf-82e1-7b25-954d-8d1a5e9d5c65",
+  "CreatedAt": "2025-12-24T05:23:00.961732996Z",
+  "ArtifactID": "sha256:a456a5425cbc1b84257fa383224d8ae932298ca72dcd13217c320bfe23d514b5",
+  "ArtifactName": ".",
+  "ArtifactType": "repository",
+  "Metadata": {
+    "RepoURL": "https://github.com/CharanSai8127/full-stack-fastapi-template.git",
+    "Branch": "master",
+    "Commit": "96905c2bc22b3532cd2576c7316615ca25d61286",
+    "CommitMsg": "Create docker-compose.jenkins.yml",
+    "Author": "Sai Charan Thota \u003c163974930+CharanSai8127@users.noreply.github.com\u003e",
+    "Committer": "GitHub \u003cnoreply@github.com\u003e"
+  },
+  "Results": [
+    {
+      "Target": "backend/uv.lock",
+      "Class": "lang-pkgs",
+      "Type": "uv",
+      "Packages": [
+        {
+          "ID": "app@0.1.0",
+          "Name": "app",
+          "Identifier": {
+            "PURL": "pkg:pypi/app@0.1.0",
+            "UID": "eb93aaefc28ddbfc"
+          },
+          "Version": "0.1.0",
+          "Relationship": "root",
+          "DependsOn": [
+            "alembic@1.15.2",
+            "bcrypt@4.3.0",
+            "email-validator@2.2.0",
+            "emails@0.6",
+            "fastapi@0.115.0",
+            "httpx@0.28.1",
+            "jinja2@3.1.6",
+            "passlib@1.7.4",
+            "psycopg@3.2.2",
+            "pydantic-settings@2.9.1",
+            "pydantic@2.9.2",
+            "pyjwt@2.10.1",
+            "python-multipart@0.0.20",
+            "sentry-sdk@1.45.1",
+            "sqlmodel@0.0.24",
+            "tenacity@8.5.0"
+          ]
+        },
+        {
+          "ID": "alembic@1.15.2",
+          "Name": "alembic",
+          "Identifier": {
+            "PURL": "pkg:pypi/alembic@1.15.2",
+            "UID": "5836d455164bb0f7"
+          },
+          "Version": "1.15.2",
+          "Relationship": "direct",
+          "DependsOn": [
+            "mako@1.3.5",
+            "sqlalchemy@2.0.35",
+            "typing-extensions@4.12.2"
+          ]
+        },
+        {
+          "ID": "bcrypt@4.3.0",
+          "Name": "bcrypt",
+          "Identifier": {
+            "PURL": "pkg:pypi/bcrypt@4.3.0",
+            "UID": "1ad2ab974320cc23"
+          },
+          "Version": "4.3.0",
+          "Relationship": "direct"
+        },
+        {
+          "ID": "email-validator@2.2.0",
+          "Name": "email-validator",
+          "Identifier": {
+            "PURL": "pkg:pypi/email-validator@2.2.0",
+            "UID": "95600b375aafe76c"
+          },
+          "Version": "2.2.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "dnspython@2.6.1",
+            "idna@3.10"
+          ]
+        },
+        {
+          "ID": "emails@0.6",
+          "Name": "emails",
+          "Identifier": {
+            "PURL": "pkg:pypi/emails@0.6",
+            "UID": "f38445a2ecbc4fa8"
+          },
+          "Version": "0.6",
+          "Relationship": "direct",
+          "DependsOn": [
+            "chardet@5.2.0",
+            "cssutils@2.11.1",
+            "lxml@5.3.0",
+            "premailer@3.10.0",
+            "python-dateutil@2.9.0.post0",
+            "requests@2.32.3"
+          ]
+        },
+        {
+          "ID": "fastapi@0.115.0",
+          "Name": "fastapi",
+          "Identifier": {
+            "PURL": "pkg:pypi/fastapi@0.115.0",
+            "UID": "a2e35d3afe8e1872"
+          },
+          "Version": "0.115.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "email-validator@2.2.0",
+            "fastapi-cli@0.0.5",
+            "httpx@0.28.1",
+            "jinja2@3.1.6",
+            "pydantic@2.9.2",
+            "python-multipart@0.0.20",
+            "starlette@0.38.6",
+            "typing-extensions@4.12.2",
+            "uvicorn@0.30.6"
+          ]
+        },
+        {
+          "ID": "httpx@0.28.1",
+          "Name": "httpx",
+          "Identifier": {
+            "PURL": "pkg:pypi/httpx@0.28.1",
+            "UID": "ae3166a9d45c07cb"
+          },
+          "Version": "0.28.1",
+          "Relationship": "direct",
+          "DependsOn": [
+            "anyio@4.6.0",
+            "certifi@2024.8.30",
+            "httpcore@1.0.5",
+            "idna@3.10"
+          ]
+        },
+        {
+          "ID": "jinja2@3.1.6",
+          "Name": "jinja2",
+          "Identifier": {
+            "PURL": "pkg:pypi/jinja2@3.1.6",
+            "UID": "a9dd5379cce400bd"
+          },
+          "Version": "3.1.6",
+          "Relationship": "direct",
+          "DependsOn": [
+            "markupsafe@2.1.5"
+          ]
+        },
+        {
+          "ID": "passlib@1.7.4",
+          "Name": "passlib",
+          "Identifier": {
+            "PURL": "pkg:pypi/passlib@1.7.4",
+            "UID": "f29db9fc771c57c9"
+          },
+          "Version": "1.7.4",
+          "Relationship": "direct",
+          "DependsOn": [
+            "bcrypt@4.3.0"
+          ]
+        },
+        {
+          "ID": "psycopg@3.2.2",
+          "Name": "psycopg",
+          "Identifier": {
+            "PURL": "pkg:pypi/psycopg@3.2.2",
+            "UID": "950988f3118e2438"
+          },
+          "Version": "3.2.2",
+          "Relationship": "direct",
+          "DependsOn": [
+            "psycopg-binary@3.2.2",
+            "typing-extensions@4.12.2",
+            "tzdata@2024.1"
+          ]
+        },
+        {
+          "ID": "pydantic@2.9.2",
+          "Name": "pydantic",
+          "Identifier": {
+            "PURL": "pkg:pypi/pydantic@2.9.2",
+            "UID": "3be47286913b2bb"
+          },
+          "Version": "2.9.2",
+          "Relationship": "direct",
+          "DependsOn": [
+            "annotated-types@0.7.0",
+            "pydantic-core@2.23.4",
+            "typing-extensions@4.12.2"
+          ]
+        },
+        {
+          "ID": "pydantic-settings@2.9.1",
+          "Name": "pydantic-settings",
+          "Identifier": {
+            "PURL": "pkg:pypi/pydantic-settings@2.9.1",
+            "UID": "201f50a701ebe92d"
+          },
+          "Version": "2.9.1",
+          "Relationship": "direct",
+          "DependsOn": [
+            "pydantic@2.9.2",
+            "python-dotenv@1.0.1",
+            "typing-inspection@0.4.0"
+          ]
+        },
+        {
+          "ID": "pyjwt@2.10.1",
+          "Name": "pyjwt",
+          "Identifier": {
+            "PURL": "pkg:pypi/pyjwt@2.10.1",
+            "UID": "ffb862f9f91b63e3"
+          },
+          "Version": "2.10.1",
+          "Relationship": "direct"
+        },
+        {
+          "ID": "python-multipart@0.0.20",
+          "Name": "python-multipart",
+          "Identifier": {
+            "PURL": "pkg:pypi/python-multipart@0.0.20",
+            "UID": "197ae9181714a183"
+          },
+          "Version": "0.0.20",
+          "Relationship": "direct"
+        },
+        {
+          "ID": "sentry-sdk@1.45.1",
+          "Name": "sentry-sdk",
+          "Identifier": {
+            "PURL": "pkg:pypi/sentry-sdk@1.45.1",
+            "UID": "507843a00fd87090"
+          },
+          "Version": "1.45.1",
+          "Relationship": "direct",
+          "DependsOn": [
+            "certifi@2024.8.30",
+            "fastapi@0.115.0",
+            "urllib3@2.2.3"
+          ]
+        },
+        {
+          "ID": "sqlmodel@0.0.24",
+          "Name": "sqlmodel",
+          "Identifier": {
+            "PURL": "pkg:pypi/sqlmodel@0.0.24",
+            "UID": "acde148a4c78ccf6"
+          },
+          "Version": "0.0.24",
+          "Relationship": "direct",
+          "DependsOn": [
+            "pydantic@2.9.2",
+            "sqlalchemy@2.0.35"
+          ]
+        },
+        {
+          "ID": "tenacity@8.5.0",
+          "Name": "tenacity",
+          "Identifier": {
+            "PURL": "pkg:pypi/tenacity@8.5.0",
+            "UID": "e925ca3781872ff3"
+          },
+          "Version": "8.5.0",
+          "Relationship": "direct"
+        },
+        {
+          "ID": "annotated-types@0.7.0",
+          "Name": "annotated-types",
+          "Identifier": {
+            "PURL": "pkg:pypi/annotated-types@0.7.0",
+            "UID": "b9e733a20468cfd3"
+          },
+          "Version": "0.7.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "anyio@4.6.0",
+          "Name": "anyio",
+          "Identifier": {
+            "PURL": "pkg:pypi/anyio@4.6.0",
+            "UID": "a181f30dd6a0af0d"
+          },
+          "Version": "4.6.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "exceptiongroup@1.2.2",
+            "idna@3.10",
+            "sniffio@1.3.1",
+            "typing-extensions@4.12.2"
+          ]
+        },
+        {
+          "ID": "cachetools@5.5.0",
+          "Name": "cachetools",
+          "Identifier": {
+            "PURL": "pkg:pypi/cachetools@5.5.0",
+            "UID": "1048be4cb616d867"
+          },
+          "Version": "5.5.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "certifi@2024.8.30",
+          "Name": "certifi",
+          "Identifier": {
+            "PURL": "pkg:pypi/certifi@2024.8.30",
+            "UID": "8254caef386b7061"
+          },
+          "Version": "2024.8.30",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "chardet@5.2.0",
+          "Name": "chardet",
+          "Identifier": {
+            "PURL": "pkg:pypi/chardet@5.2.0",
+            "UID": "181637daffe2036"
+          },
+          "Version": "5.2.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "charset-normalizer@3.3.2",
+          "Name": "charset-normalizer",
+          "Identifier": {
+            "PURL": "pkg:pypi/charset-normalizer@3.3.2",
+            "UID": "3893ca1bfcc05e63"
+          },
+          "Version": "3.3.2",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "click@8.1.7",
+          "Name": "click",
+          "Identifier": {
+            "PURL": "pkg:pypi/click@8.1.7",
+            "UID": "80df7defe832722f"
+          },
+          "Version": "8.1.7",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "colorama@0.4.6"
+          ]
+        },
+        {
+          "ID": "colorama@0.4.6",
+          "Name": "colorama",
+          "Identifier": {
+            "PURL": "pkg:pypi/colorama@0.4.6",
+            "UID": "f8dbaf2b075ee388"
+          },
+          "Version": "0.4.6",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "cssselect@1.2.0",
+          "Name": "cssselect",
+          "Identifier": {
+            "PURL": "pkg:pypi/cssselect@1.2.0",
+            "UID": "e99c165b0933da15"
+          },
+          "Version": "1.2.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "cssutils@2.11.1",
+          "Name": "cssutils",
+          "Identifier": {
+            "PURL": "pkg:pypi/cssutils@2.11.1",
+            "UID": "538897854e2c6045"
+          },
+          "Version": "2.11.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "more-itertools@10.5.0"
+          ]
+        },
+        {
+          "ID": "dnspython@2.6.1",
+          "Name": "dnspython",
+          "Identifier": {
+            "PURL": "pkg:pypi/dnspython@2.6.1",
+            "UID": "6e3d1ecfd85d336a"
+          },
+          "Version": "2.6.1",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "exceptiongroup@1.2.2",
+          "Name": "exceptiongroup",
+          "Identifier": {
+            "PURL": "pkg:pypi/exceptiongroup@1.2.2",
+            "UID": "983e1423678d368b"
+          },
+          "Version": "1.2.2",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "fastapi-cli@0.0.5",
+          "Name": "fastapi-cli",
+          "Identifier": {
+            "PURL": "pkg:pypi/fastapi-cli@0.0.5",
+            "UID": "5e860e177b8df5d0"
+          },
+          "Version": "0.0.5",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "typer@0.12.5",
+            "uvicorn@0.30.6"
+          ]
+        },
+        {
+          "ID": "greenlet@3.1.1",
+          "Name": "greenlet",
+          "Identifier": {
+            "PURL": "pkg:pypi/greenlet@3.1.1",
+            "UID": "bef36dcd94f88633"
+          },
+          "Version": "3.1.1",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "h11@0.14.0",
+          "Name": "h11",
+          "Identifier": {
+            "PURL": "pkg:pypi/h11@0.14.0",
+            "UID": "e142b0a5fadf1517"
+          },
+          "Version": "0.14.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "httpcore@1.0.5",
+          "Name": "httpcore",
+          "Identifier": {
+            "PURL": "pkg:pypi/httpcore@1.0.5",
+            "UID": "88df217d75d5e2cf"
+          },
+          "Version": "1.0.5",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "certifi@2024.8.30",
+            "h11@0.14.0"
+          ]
+        },
+        {
+          "ID": "httptools@0.6.1",
+          "Name": "httptools",
+          "Identifier": {
+            "PURL": "pkg:pypi/httptools@0.6.1",
+            "UID": "ada48083454f8801"
+          },
+          "Version": "0.6.1",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "idna@3.10",
+          "Name": "idna",
+          "Identifier": {
+            "PURL": "pkg:pypi/idna@3.10",
+            "UID": "960a0621e1bcb7be"
+          },
+          "Version": "3.10",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "lxml@5.3.0",
+          "Name": "lxml",
+          "Identifier": {
+            "PURL": "pkg:pypi/lxml@5.3.0",
+            "UID": "9b4a0e698bf65053"
+          },
+          "Version": "5.3.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "mako@1.3.5",
+          "Name": "mako",
+          "Identifier": {
+            "PURL": "pkg:pypi/mako@1.3.5",
+            "UID": "461bbef42db02f11"
+          },
+          "Version": "1.3.5",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "markupsafe@2.1.5"
+          ]
+        },
+        {
+          "ID": "markdown-it-py@3.0.0",
+          "Name": "markdown-it-py",
+          "Identifier": {
+            "PURL": "pkg:pypi/markdown-it-py@3.0.0",
+            "UID": "43f9de30e1ec6df2"
+          },
+          "Version": "3.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "mdurl@0.1.2"
+          ]
+        },
+        {
+          "ID": "markupsafe@2.1.5",
+          "Name": "markupsafe",
+          "Identifier": {
+            "PURL": "pkg:pypi/markupsafe@2.1.5",
+            "UID": "6b794666189a802e"
+          },
+          "Version": "2.1.5",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "mdurl@0.1.2",
+          "Name": "mdurl",
+          "Identifier": {
+            "PURL": "pkg:pypi/mdurl@0.1.2",
+            "UID": "d27ba436dcff06e"
+          },
+          "Version": "0.1.2",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "more-itertools@10.5.0",
+          "Name": "more-itertools",
+          "Identifier": {
+            "PURL": "pkg:pypi/more-itertools@10.5.0",
+            "UID": "26c4acf5725f6613"
+          },
+          "Version": "10.5.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "premailer@3.10.0",
+          "Name": "premailer",
+          "Identifier": {
+            "PURL": "pkg:pypi/premailer@3.10.0",
+            "UID": "c662aabb14f56b43"
+          },
+          "Version": "3.10.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "cachetools@5.5.0",
+            "cssselect@1.2.0",
+            "cssutils@2.11.1",
+            "lxml@5.3.0",
+            "requests@2.32.3"
+          ]
+        },
+        {
+          "ID": "psycopg-binary@3.2.2",
+          "Name": "psycopg-binary",
+          "Identifier": {
+            "PURL": "pkg:pypi/psycopg-binary@3.2.2",
+            "UID": "d1dc4fe00dad32ef"
+          },
+          "Version": "3.2.2",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "pydantic-core@2.23.4",
+          "Name": "pydantic-core",
+          "Identifier": {
+            "PURL": "pkg:pypi/pydantic-core@2.23.4",
+            "UID": "bae828600b270dd2"
+          },
+          "Version": "2.23.4",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "typing-extensions@4.12.2"
+          ]
+        },
+        {
+          "ID": "pygments@2.18.0",
+          "Name": "pygments",
+          "Identifier": {
+            "PURL": "pkg:pypi/pygments@2.18.0",
+            "UID": "5c978412aec098c"
+          },
+          "Version": "2.18.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "python-dateutil@2.9.0.post0",
+          "Name": "python-dateutil",
+          "Identifier": {
+            "PURL": "pkg:pypi/python-dateutil@2.9.0.post0",
+            "UID": "5700803a5950dc6"
+          },
+          "Version": "2.9.0.post0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "six@1.16.0"
+          ]
+        },
+        {
+          "ID": "python-dotenv@1.0.1",
+          "Name": "python-dotenv",
+          "Identifier": {
+            "PURL": "pkg:pypi/python-dotenv@1.0.1",
+            "UID": "803ed5c2e709721"
+          },
+          "Version": "1.0.1",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "pyyaml@6.0.2",
+          "Name": "pyyaml",
+          "Identifier": {
+            "PURL": "pkg:pypi/pyyaml@6.0.2",
+            "UID": "6900bdc841c66391"
+          },
+          "Version": "6.0.2",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "requests@2.32.3",
+          "Name": "requests",
+          "Identifier": {
+            "PURL": "pkg:pypi/requests@2.32.3",
+            "UID": "3feb2bb9787c6e26"
+          },
+          "Version": "2.32.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "certifi@2024.8.30",
+            "charset-normalizer@3.3.2",
+            "idna@3.10",
+            "urllib3@2.2.3"
+          ]
+        },
+        {
+          "ID": "rich@13.8.1",
+          "Name": "rich",
+          "Identifier": {
+            "PURL": "pkg:pypi/rich@13.8.1",
+            "UID": "d2c49a0ee326755d"
+          },
+          "Version": "13.8.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "markdown-it-py@3.0.0",
+            "pygments@2.18.0"
+          ]
+        },
+        {
+          "ID": "shellingham@1.5.4",
+          "Name": "shellingham",
+          "Identifier": {
+            "PURL": "pkg:pypi/shellingham@1.5.4",
+            "UID": "c15ab85488197c3f"
+          },
+          "Version": "1.5.4",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "six@1.16.0",
+          "Name": "six",
+          "Identifier": {
+            "PURL": "pkg:pypi/six@1.16.0",
+            "UID": "f510c4349550fec3"
+          },
+          "Version": "1.16.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "sniffio@1.3.1",
+          "Name": "sniffio",
+          "Identifier": {
+            "PURL": "pkg:pypi/sniffio@1.3.1",
+            "UID": "b063fd3b350ab4c1"
+          },
+          "Version": "1.3.1",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "sqlalchemy@2.0.35",
+          "Name": "sqlalchemy",
+          "Identifier": {
+            "PURL": "pkg:pypi/sqlalchemy@2.0.35",
+            "UID": "f6bfacfe9265e36b"
+          },
+          "Version": "2.0.35",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "greenlet@3.1.1",
+            "typing-extensions@4.12.2"
+          ]
+        },
+        {
+          "ID": "starlette@0.38.6",
+          "Name": "starlette",
+          "Identifier": {
+            "PURL": "pkg:pypi/starlette@0.38.6",
+            "UID": "ea8b5c03200344ad"
+          },
+          "Version": "0.38.6",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "anyio@4.6.0"
+          ]
+        },
+        {
+          "ID": "typer@0.12.5",
+          "Name": "typer",
+          "Identifier": {
+            "PURL": "pkg:pypi/typer@0.12.5",
+            "UID": "bd49d7ef6587664"
+          },
+          "Version": "0.12.5",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "click@8.1.7",
+            "rich@13.8.1",
+            "shellingham@1.5.4",
+            "typing-extensions@4.12.2"
+          ]
+        },
+        {
+          "ID": "typing-extensions@4.12.2",
+          "Name": "typing-extensions",
+          "Identifier": {
+            "PURL": "pkg:pypi/typing-extensions@4.12.2",
+            "UID": "6aeecf851c129ea2"
+          },
+          "Version": "4.12.2",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "typing-inspection@0.4.0",
+          "Name": "typing-inspection",
+          "Identifier": {
+            "PURL": "pkg:pypi/typing-inspection@0.4.0",
+            "UID": "70e190e2df2ffa70"
+          },
+          "Version": "0.4.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "typing-extensions@4.12.2"
+          ]
+        },
+        {
+          "ID": "tzdata@2024.1",
+          "Name": "tzdata",
+          "Identifier": {
+            "PURL": "pkg:pypi/tzdata@2024.1",
+            "UID": "bc981dfc0f3b654b"
+          },
+          "Version": "2024.1",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "urllib3@2.2.3",
+          "Name": "urllib3",
+          "Identifier": {
+            "PURL": "pkg:pypi/urllib3@2.2.3",
+            "UID": "455b7969d8ed65ab"
+          },
+          "Version": "2.2.3",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "uvicorn@0.30.6",
+          "Name": "uvicorn",
+          "Identifier": {
+            "PURL": "pkg:pypi/uvicorn@0.30.6",
+            "UID": "5b6cbff28dd7770a"
+          },
+          "Version": "0.30.6",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "click@8.1.7",
+            "colorama@0.4.6",
+            "h11@0.14.0",
+            "httptools@0.6.1",
+            "python-dotenv@1.0.1",
+            "pyyaml@6.0.2",
+            "typing-extensions@4.12.2",
+            "uvloop@0.20.0",
+            "watchfiles@0.24.0",
+            "websockets@13.1"
+          ]
+        },
+        {
+          "ID": "uvloop@0.20.0",
+          "Name": "uvloop",
+          "Identifier": {
+            "PURL": "pkg:pypi/uvloop@0.20.0",
+            "UID": "5be83281e4e9bd04"
+          },
+          "Version": "0.20.0",
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "watchfiles@0.24.0",
+          "Name": "watchfiles",
+          "Identifier": {
+            "PURL": "pkg:pypi/watchfiles@0.24.0",
+            "UID": "aad993e7f28dbc72"
+          },
+          "Version": "0.24.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "anyio@4.6.0"
+          ]
+        },
+        {
+          "ID": "websockets@13.1",
+          "Name": "websockets",
+          "Identifier": {
+            "PURL": "pkg:pypi/websockets@13.1",
+            "UID": "4f50c2d31f60f454"
+          },
+          "Version": "13.1",
+          "Indirect": true,
+          "Relationship": "indirect"
+        }
+      ],
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-43859",
+          "PkgID": "h11@0.14.0",
+          "PkgName": "h11",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/h11@0.14.0",
+            "UID": "e142b0a5fadf1517"
+          },
+          "InstalledVersion": "0.14.0",
+          "FixedVersion": "0.16.0",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-43859",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:dd678cf3c97510c5b199e9c6bda7c4daffe0a7b6b21c6e9281172b2eb5e9681e",
+          "Title": "h11: h11 accepts some malformed Chunked-Encoding bodies",
+          "Description": "h11 is a Python implementation of HTTP/1.1. Prior to version 0.16.0, a leniency in h11's parsing of line terminators in chunked-coding message bodies can lead to request smuggling vulnerabilities under certain conditions. This issue has been patched in version 0.16.0. Since exploitation requires the combination of buggy h11 with a buggy (reverse) proxy, fixing either component is sufficient to mitigate this issue.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-444"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "redhat": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 9.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 7.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-43859",
+            "https://github.com/python-hyper/h11",
+            "https://github.com/python-hyper/h11/commit/114803a29ce50116dc47951c690ad4892b1a36ed",
+            "https://github.com/python-hyper/h11/security/advisories/GHSA-vqfr-h8mv-ghfj",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-43859",
+            "https://ubuntu.com/security/notices/USN-7503-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-43859"
+          ],
+          "PublishedDate": "2025-04-24T19:15:47.06Z",
+          "LastModifiedDate": "2025-04-29T13:52:28.49Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-47081",
+          "PkgID": "requests@2.32.3",
+          "PkgName": "requests",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/requests@2.32.3",
+            "UID": "3feb2bb9787c6e26"
+          },
+          "InstalledVersion": "2.32.3",
+          "FixedVersion": "2.32.4",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-47081",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:3125c85e3b002418c80a1a1d1020564411cd1ccf591ac48509d150b561dfcb8c",
+          "Title": "requests: Requests vulnerable to .netrc credentials leak via malicious URLs",
+          "Description": "Requests is a HTTP library. Due to a URL parsing issue, Requests releases prior to 2.32.4 may leak .netrc credentials to third parties for specific maliciously-crafted URLs. Users should upgrade to version 2.32.4 to receive a fix. For older versions of Requests, use of the .netrc file can be disabled with `trust_env=False` on one's Requests Session.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-522"
+          ],
+          "VendorSeverity": {
+            "alma": 2,
+            "amazon": 2,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "ghsa": 2,
+            "oracle-oval": 2,
+            "photon": 2,
+            "redhat": 2,
+            "rocky": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://seclists.org/fulldisclosure/2025/Jun/2",
+            "http://www.openwall.com/lists/oss-security/2025/06/03/11",
+            "http://www.openwall.com/lists/oss-security/2025/06/03/9",
+            "http://www.openwall.com/lists/oss-security/2025/06/04/1",
+            "http://www.openwall.com/lists/oss-security/2025/06/04/6",
+            "https://access.redhat.com/errata/RHSA-2025:14750",
+            "https://access.redhat.com/security/cve/CVE-2024-47081",
+            "https://bugzilla.redhat.com/2371272",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2371272",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47081",
+            "https://errata.almalinux.org/8/ALSA-2025-14750.html",
+            "https://errata.rockylinux.org/RLSA-2025:13604",
+            "https://github.com/psf/requests",
+            "https://github.com/psf/requests/commit/96ba401c1296ab1dda74a2365ef36d88f7d144ef",
+            "https://github.com/psf/requests/pull/6965",
+            "https://github.com/psf/requests/security/advisories/GHSA-9hjg-9r4m-mvj7",
+            "https://linux.oracle.com/cve/CVE-2024-47081.html",
+            "https://linux.oracle.com/errata/ELSA-2025-14999.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47081",
+            "https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env",
+            "https://seclists.org/fulldisclosure/2025/Jun/2",
+            "https://ubuntu.com/security/notices/USN-7568-1",
+            "https://ubuntu.com/security/notices/USN-7762-1",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47081",
+            "https://www.openwall.com/lists/oss-security/2025/06/03/9"
+          ],
+          "PublishedDate": "2025-06-09T18:15:24.983Z",
+          "LastModifiedDate": "2025-06-12T16:06:47.857Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-47874",
+          "PkgID": "starlette@0.38.6",
+          "PkgName": "starlette",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/starlette@0.38.6",
+            "UID": "ea8b5c03200344ad"
+          },
+          "InstalledVersion": "0.38.6",
+          "FixedVersion": "0.40.0",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-47874",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:3866c8c28a0ba4b3b4b3a939d84fe2ed68b4762e3f8c5a21e9b8244fad5d38c3",
+          "Title": "starlette: Starlette Denial of service (DoS) via multipart/form-data",
+          "Description": "Starlette is an Asynchronous Server Gateway Interface (ASGI) framework/toolkit. Prior to version 0.40.0, Starlette treats `multipart/form-data` parts without a `filename` as text form fields and buffers those in byte strings with no size limit. This allows an attacker to upload arbitrary large form fields and cause Starlette to both slow down significantly due to excessive memory allocations and copy operations, and also consume more and more memory until the server starts swapping and grinds to a halt, or the OS terminates the server process with an OOM error. Uploading multiple such requests in parallel may be enough to render a service practically unusable, even if reasonable request size limits are enforced by a reverse proxy in front of Starlette. This Denial of service (DoS) vulnerability affects all applications built with Starlette (or FastAPI) accepting form requests. Verison 0.40.0 fixes this issue.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-47874",
+            "https://github.com/encode/starlette",
+            "https://github.com/encode/starlette/commit/fd038f3070c302bff17ef7d173dbb0b007617733",
+            "https://github.com/encode/starlette/security/advisories/GHSA-f96h-pmfr-66vw",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47874",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47874"
+          ],
+          "PublishedDate": "2024-10-15T16:15:05.26Z",
+          "LastModifiedDate": "2024-11-21T17:15:17.99Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-54121",
+          "PkgID": "starlette@0.38.6",
+          "PkgName": "starlette",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/starlette@0.38.6",
+            "UID": "ea8b5c03200344ad"
+          },
+          "InstalledVersion": "0.38.6",
+          "FixedVersion": "0.47.2",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-54121",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:6ff0f7a675a2e6aae7f423bba8e60eaf7bba623de1fb7d507d335da5e741786d",
+          "Title": "starlette: Starlette denial-of-service",
+          "Description": "Starlette is a lightweight ASGI (Asynchronous Server Gateway Interface) framework/toolkit, designed for building async web services in Python. In versions 0.47.1 and below, when parsing a multi-part form with large files (greater than the default max spool size) starlette will block the main thread to roll the file over to disk. This blocks the event thread which means the application can't accept new connections. The UploadFile code has a minor bug where instead of just checking for self._in_memory, the logic should also check if the additional bytes will cause a rollover. The vulnerability is fixed in version 0.47.2.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-54121",
+            "https://github.com/encode/starlette",
+            "https://github.com/encode/starlette/blob/fa5355442753f794965ae1af0f87f9fec1b9a3de/starlette/datastructures.py#L436C5-L447C14",
+            "https://github.com/encode/starlette/commit/9f7ec2eb512fcc3fe90b43cb9dd9e1d08696bec1",
+            "https://github.com/encode/starlette/discussions/2927#discussioncomment-13721403",
+            "https://github.com/encode/starlette/security/advisories/GHSA-2c2j-9gv5-cj73",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-54121",
+            "https://www.cve.org/CVERecord?id=CVE-2025-54121"
+          ],
+          "PublishedDate": "2025-07-21T20:15:41.827Z",
+          "LastModifiedDate": "2025-07-22T13:05:40.573Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-66418",
+          "PkgID": "urllib3@2.2.3",
+          "PkgName": "urllib3",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/urllib3@2.2.3",
+            "UID": "455b7969d8ed65ab"
+          },
+          "InstalledVersion": "2.2.3",
+          "FixedVersion": "2.6.0",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-66418",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:05da57472dc4f88cd788c8078c4265d6929c692467f55fdf899b20047954d776",
+          "Title": "urllib3: urllib3: Unbounded decompression chain leads to resource exhaustion",
+          "Description": "urllib3 is a user-friendly HTTP client library for Python. Starting in version 1.24 and prior to 2.6.0, the number of links in the decompression chain was unbounded allowing a malicious server to insert a virtually unlimited number of compression steps leading to high CPU usage and massive memory allocation for the decompressed data. This vulnerability is fixed in 2.6.0.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "azure": 3,
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-66418",
+            "https://github.com/urllib3/urllib3",
+            "https://github.com/urllib3/urllib3/commit/24d7b67eac89f94e11003424bcf0d8f7b72222a8",
+            "https://github.com/urllib3/urllib3/security/advisories/GHSA-gm62-xv2j-4w53",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66418",
+            "https://ubuntu.com/security/notices/USN-7927-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66418",
+            "https://www.openwall.com/lists/oss-security/2025/12/05/4"
+          ],
+          "PublishedDate": "2025-12-05T16:15:51.053Z",
+          "LastModifiedDate": "2025-12-10T16:08:32.193Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-66471",
+          "PkgID": "urllib3@2.2.3",
+          "PkgName": "urllib3",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/urllib3@2.2.3",
+            "UID": "455b7969d8ed65ab"
+          },
+          "InstalledVersion": "2.2.3",
+          "FixedVersion": "2.6.0",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-66471",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:e39c5e679b35c1399b34f1d7b387188340fd1f26b01f86b4abdee7e20e1de16d",
+          "Title": "urllib3 is a user-friendly HTTP client library for Python. Starting in ...",
+          "Description": "urllib3 is a user-friendly HTTP client library for Python. Starting in version 1.0 and prior to 2.6.0, the Streaming API improperly handles highly compressed data. urllib3's streaming API is designed for the efficient handling of large HTTP responses by reading the content in chunks, rather than loading the entire response body into memory at once. When streaming a compressed response, urllib3 can perform decoding or decompression based on the HTTP Content-Encoding header (e.g., gzip, deflate, br, or zstd). The library must read compressed data from the network and decompress it until the requested chunk size is met. Any resulting decompressed data that exceeds the requested amount is held in an internal buffer for the next read operation. The decompression logic could cause urllib3 to fully decode a small amount of highly compressed data in a single operation. This can result in excessive resource consumption (high CPU usage and massive memory allocation for the decompressed data.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-409"
+          ],
+          "VendorSeverity": {
+            "azure": 3,
+            "ghsa": 3,
+            "nvd": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://github.com/urllib3/urllib3",
+            "https://github.com/urllib3/urllib3/commit/c19571de34c47de3a766541b041637ba5f716ed7",
+            "https://github.com/urllib3/urllib3/security/advisories/GHSA-2xpw-w6gg-jr37",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66471",
+            "https://ubuntu.com/security/notices/USN-7927-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66471",
+            "https://www.openwall.com/lists/oss-security/2025/12/05/4"
+          ],
+          "PublishedDate": "2025-12-05T17:16:04.4Z",
+          "LastModifiedDate": "2025-12-10T16:10:33.5Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-50181",
+          "PkgID": "urllib3@2.2.3",
+          "PkgName": "urllib3",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/urllib3@2.2.3",
+            "UID": "455b7969d8ed65ab"
+          },
+          "InstalledVersion": "2.2.3",
+          "FixedVersion": "2.5.0",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-50181",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:88bcab4376da560ae926cb3637915c38e9b5ae840bc5ab4f8e83898b76af43aa",
+          "Title": "urllib3: urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+          "Description": "urllib3 is a user-friendly HTTP client library for Python. Prior to 2.5.0, it is possible to disable redirects for all requests by instantiating a PoolManager and specifying retries in a way that disable redirects. By default, requests and botocore users are not affected. An application attempting to mitigate SSRF or open redirect vulnerabilities by disabling redirects at the PoolManager level will remain vulnerable. This issue has been patched in version 2.5.0.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-601"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "ghsa": 2,
+            "nvd": 2,
+            "photon": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 5.3
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+              "V3Score": 6.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-50181",
+            "https://github.com/urllib3/urllib3",
+            "https://github.com/urllib3/urllib3/commit/f05b1329126d5be6de501f9d1e3e36738bc08857",
+            "https://github.com/urllib3/urllib3/releases/tag/2.5.0",
+            "https://github.com/urllib3/urllib3/security/advisories/GHSA-pq67-6m6q-mj2v",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-50181",
+            "https://ubuntu.com/security/notices/USN-7599-1",
+            "https://ubuntu.com/security/notices/USN-7599-2",
+            "https://www.cve.org/CVERecord?id=CVE-2025-50181"
+          ],
+          "PublishedDate": "2025-06-19T01:15:24.453Z",
+          "LastModifiedDate": "2025-12-22T19:15:49.04Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-50182",
+          "PkgID": "urllib3@2.2.3",
+          "PkgName": "urllib3",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/urllib3@2.2.3",
+            "UID": "455b7969d8ed65ab"
+          },
+          "InstalledVersion": "2.2.3",
+          "FixedVersion": "2.5.0",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-50182",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Fingerprint": "sha256:cdaf11a69469dc88f3a31bfdf46756d2592dd2555a8bc1d93cc61dba6caa404c",
+          "Title": "urllib3: urllib3 does not control redirects in browsers and Node.js",
+          "Description": "urllib3 is a user-friendly HTTP client library for Python. Starting in version 2.2.0 and prior to 2.5.0, urllib3 does not control redirects in browsers and Node.js. urllib3 supports being used in a Pyodide runtime utilizing the JavaScript Fetch API or falling back on XMLHttpRequest. This means Python libraries can be used to make HTTP requests from a browser or Node.js. Additionally, urllib3 provides a mechanism to control redirects, but the retries and redirect parameters are ignored with Pyodide; the runtime itself determines redirect behavior. This issue has been patched in version 2.5.0.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-601"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 5.3
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+              "V3Score": 6.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-50182",
+            "https://github.com/urllib3/urllib3",
+            "https://github.com/urllib3/urllib3/commit/7eb4a2aafe49a279c29b6d1f0ed0f42e9736194f",
+            "https://github.com/urllib3/urllib3/releases/tag/2.5.0",
+            "https://github.com/urllib3/urllib3/security/advisories/GHSA-48p4-8xcf-vxj5",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-50182",
+            "https://ubuntu.com/security/notices/USN-7599-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-50182"
+          ],
+          "PublishedDate": "2025-06-19T02:15:17.967Z",
+          "LastModifiedDate": "2025-12-22T19:15:49.177Z"
+        }
+      ]
+    },
+    {
+      "Target": "frontend/package-lock.json",
+      "Class": "lang-pkgs",
+      "Type": "npm",
+      "Packages": [
+        {
+          "ID": "@chakra-ui/react@3.8.0",
+          "Name": "@chakra-ui/react",
+          "Identifier": {
+            "PURL": "pkg:npm/%40chakra-ui/react@3.8.0",
+            "UID": "54a08fe7ef9e4ff4"
+          },
+          "Version": "3.8.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "@ark-ui/react@4.9.1",
+            "@emotion/is-prop-valid@1.3.1",
+            "@emotion/react@11.14.0",
+            "@emotion/serialize@1.3.3",
+            "@emotion/use-insertion-effect-with-fallbacks@1.2.0",
+            "@emotion/utils@1.4.2",
+            "@pandacss/is-valid-prop@0.41.0",
+            "csstype@3.1.3",
+            "react-dom@18.2.0",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 491,
+              "EndLine": 510
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/react@11.14.0",
+          "Name": "@emotion/react",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/react@11.14.0",
+            "UID": "857695ec5f7e185a"
+          },
+          "Version": "11.14.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "@babel/runtime@7.27.0",
+            "@emotion/babel-plugin@11.13.5",
+            "@emotion/cache@11.14.0",
+            "@emotion/serialize@1.3.3",
+            "@emotion/use-insertion-effect-with-fallbacks@1.2.0",
+            "@emotion/utils@1.4.2",
+            "@emotion/weak-memoize@0.4.0",
+            "hoist-non-react-statics@3.3.2",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 572,
+              "EndLine": 595
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/react-query@5.74.9",
+          "Name": "@tanstack/react-query",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/react-query@5.74.9",
+            "UID": "9b94eef3bf7710c2"
+          },
+          "Version": "5.74.9",
+          "Relationship": "direct",
+          "DependsOn": [
+            "@tanstack/query-core@5.74.9",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1710,
+              "EndLine": 1725
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/react-query-devtools@5.74.9",
+          "Name": "@tanstack/react-query-devtools",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/react-query-devtools@5.74.9",
+            "UID": "7f129aae58f1d0d9"
+          },
+          "Version": "5.74.9",
+          "Relationship": "direct",
+          "DependsOn": [
+            "@tanstack/query-devtools@5.74.7",
+            "@tanstack/react-query@5.74.9",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1726,
+              "EndLine": 1742
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/react-router@1.19.1",
+          "Name": "@tanstack/react-router",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/react-router@1.19.1",
+            "UID": "7b48392b878c6250"
+          },
+          "Version": "1.19.1",
+          "Relationship": "direct",
+          "DependsOn": [
+            "@tanstack/history@1.15.13",
+            "@tanstack/react-store@0.2.1",
+            "react-dom@18.2.0",
+            "react@18.2.0",
+            "tiny-invariant@1.3.3",
+            "tiny-warning@1.0.3"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1743,
+              "EndLine": 1764
+            }
+          ]
+        },
+        {
+          "ID": "axios@1.9.0",
+          "Name": "axios",
+          "Identifier": {
+            "PURL": "pkg:npm/axios@1.9.0",
+            "UID": "5754f40c326c82d3"
+          },
+          "Version": "1.9.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "follow-redirects@1.15.6",
+            "form-data@4.0.2",
+            "proxy-from-env@1.1.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2721,
+              "EndLine": 2731
+            }
+          ]
+        },
+        {
+          "ID": "form-data@4.0.2",
+          "Name": "form-data",
+          "Identifier": {
+            "PURL": "pkg:npm/form-data@4.0.2",
+            "UID": "1a07b448b54e2b37"
+          },
+          "Version": "4.0.2",
+          "Relationship": "direct",
+          "DependsOn": [
+            "asynckit@0.4.0",
+            "combined-stream@1.0.8",
+            "es-set-tostringtag@2.1.0",
+            "mime-types@2.1.35"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3161,
+              "EndLine": 3175
+            }
+          ]
+        },
+        {
+          "ID": "next-themes@0.4.6",
+          "Name": "next-themes",
+          "Identifier": {
+            "PURL": "pkg:npm/next-themes@0.4.6",
+            "UID": "69f6b1e2636e90e3"
+          },
+          "Version": "0.4.6",
+          "Relationship": "direct",
+          "DependsOn": [
+            "react-dom@18.2.0",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3639,
+              "EndLine": 3648
+            }
+          ]
+        },
+        {
+          "ID": "react@18.2.0",
+          "Name": "react",
+          "Identifier": {
+            "PURL": "pkg:npm/react@18.2.0",
+            "UID": "79d101760103aaa8"
+          },
+          "Version": "18.2.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "loose-envify@1.4.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3954,
+              "EndLine": 3964
+            }
+          ]
+        },
+        {
+          "ID": "react-dom@18.2.0",
+          "Name": "react-dom",
+          "Identifier": {
+            "PURL": "pkg:npm/react-dom@18.2.0",
+            "UID": "561fb6d496618ee6"
+          },
+          "Version": "18.2.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "loose-envify@1.4.0",
+            "react@18.2.0",
+            "scheduler@0.23.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3965,
+              "EndLine": 3976
+            }
+          ]
+        },
+        {
+          "ID": "react-error-boundary@5.0.0",
+          "Name": "react-error-boundary",
+          "Identifier": {
+            "PURL": "pkg:npm/react-error-boundary@5.0.0",
+            "UID": "8c6723fcbe72561b"
+          },
+          "Version": "5.0.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "@babel/runtime@7.27.0",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3977,
+              "EndLine": 3988
+            }
+          ]
+        },
+        {
+          "ID": "react-hook-form@7.49.3",
+          "Name": "react-hook-form",
+          "Identifier": {
+            "PURL": "pkg:npm/react-hook-form@7.49.3",
+            "UID": "992481c853fb1794"
+          },
+          "Version": "7.49.3",
+          "Relationship": "direct",
+          "DependsOn": [
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3989,
+              "EndLine": 4004
+            }
+          ]
+        },
+        {
+          "ID": "react-icons@5.5.0",
+          "Name": "react-icons",
+          "Identifier": {
+            "PURL": "pkg:npm/react-icons@5.5.0",
+            "UID": "b6105c89d5ab9dc5"
+          },
+          "Version": "5.5.0",
+          "Relationship": "direct",
+          "DependsOn": [
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 4005,
+              "EndLine": 4013
+            }
+          ]
+        },
+        {
+          "ID": "@ark-ui/react@4.9.1",
+          "Name": "@ark-ui/react",
+          "Identifier": {
+            "PURL": "pkg:npm/%40ark-ui/react@4.9.1",
+            "UID": "8bf09f71e5660199"
+          },
+          "Version": "4.9.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@internationalized/date@3.7.0",
+            "@zag-js/accordion@0.82.1",
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/auto-resize@0.82.1",
+            "@zag-js/avatar@0.82.1",
+            "@zag-js/carousel@0.82.1",
+            "@zag-js/checkbox@0.82.1",
+            "@zag-js/clipboard@0.82.1",
+            "@zag-js/collapsible@0.82.1",
+            "@zag-js/collection@0.82.1",
+            "@zag-js/color-picker@0.82.1",
+            "@zag-js/color-utils@0.82.1",
+            "@zag-js/combobox@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/date-picker@0.82.1",
+            "@zag-js/date-utils@0.82.1",
+            "@zag-js/dialog@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/editable@0.82.1",
+            "@zag-js/file-upload@0.82.1",
+            "@zag-js/file-utils@0.82.1",
+            "@zag-js/focus-trap@0.82.1",
+            "@zag-js/highlight-word@0.82.1",
+            "@zag-js/hover-card@0.82.1",
+            "@zag-js/i18n-utils@0.82.1",
+            "@zag-js/menu@0.82.1",
+            "@zag-js/number-input@0.82.1",
+            "@zag-js/pagination@0.82.1",
+            "@zag-js/pin-input@0.82.1",
+            "@zag-js/popover@0.82.1",
+            "@zag-js/presence@0.82.1",
+            "@zag-js/progress@0.82.1",
+            "@zag-js/qr-code@0.82.1",
+            "@zag-js/radio-group@0.82.1",
+            "@zag-js/rating-group@0.82.1",
+            "@zag-js/react@0.82.1",
+            "@zag-js/select@0.82.1",
+            "@zag-js/signature-pad@0.82.1",
+            "@zag-js/slider@0.82.1",
+            "@zag-js/splitter@0.82.1",
+            "@zag-js/steps@0.82.1",
+            "@zag-js/switch@0.82.1",
+            "@zag-js/tabs@0.82.1",
+            "@zag-js/tags-input@0.82.1",
+            "@zag-js/time-picker@0.82.1",
+            "@zag-js/timer@0.82.1",
+            "@zag-js/toast@0.82.1",
+            "@zag-js/toggle-group@0.82.1",
+            "@zag-js/tooltip@0.82.1",
+            "@zag-js/tour@0.82.1",
+            "@zag-js/tree-view@0.82.1",
+            "@zag-js/types@0.82.1",
+            "react-dom@18.2.0",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 58,
+              "EndLine": 121
+            }
+          ]
+        },
+        {
+          "ID": "@babel/code-frame@7.23.5",
+          "Name": "@babel/code-frame",
+          "Identifier": {
+            "PURL": "pkg:npm/%40babel/code-frame@7.23.5",
+            "UID": "3a4bb703d49edb70"
+          },
+          "Version": "7.23.5",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@babel/highlight@7.23.4",
+            "chalk@2.4.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 122,
+              "EndLine": 133
+            }
+          ]
+        },
+        {
+          "ID": "@babel/helper-module-imports@7.22.15",
+          "Name": "@babel/helper-module-imports",
+          "Identifier": {
+            "PURL": "pkg:npm/%40babel/helper-module-imports@7.22.15",
+            "UID": "8b01d683038527c9"
+          },
+          "Version": "7.22.15",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@babel/types@7.23.9"
+          ],
+          "Locations": [
+            {
+              "StartLine": 198,
+              "EndLine": 208
+            }
+          ]
+        },
+        {
+          "ID": "@babel/helper-string-parser@7.23.4",
+          "Name": "@babel/helper-string-parser",
+          "Identifier": {
+            "PURL": "pkg:npm/%40babel/helper-string-parser@7.23.4",
+            "UID": "db72c68c72b0e80a"
+          },
+          "Version": "7.23.4",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 209,
+              "EndLine": 216
+            }
+          ]
+        },
+        {
+          "ID": "@babel/helper-validator-identifier@7.22.20",
+          "Name": "@babel/helper-validator-identifier",
+          "Identifier": {
+            "PURL": "pkg:npm/%40babel/helper-validator-identifier@7.22.20",
+            "UID": "af445ecb9a15645"
+          },
+          "Version": "7.22.20",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 217,
+              "EndLine": 224
+            }
+          ]
+        },
+        {
+          "ID": "@babel/highlight@7.23.4",
+          "Name": "@babel/highlight",
+          "Identifier": {
+            "PURL": "pkg:npm/%40babel/highlight@7.23.4",
+            "UID": "4509f3cbfbc9a567"
+          },
+          "Version": "7.23.4",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@babel/helper-validator-identifier@7.22.20",
+            "chalk@2.4.2",
+            "js-tokens@4.0.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 225,
+              "EndLine": 237
+            }
+          ]
+        },
+        {
+          "ID": "@babel/runtime@7.27.0",
+          "Name": "@babel/runtime",
+          "Identifier": {
+            "PURL": "pkg:npm/%40babel/runtime@7.27.0",
+            "UID": "a77474d1f001a143"
+          },
+          "Version": "7.27.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "regenerator-runtime@0.14.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 302,
+              "EndLine": 313
+            }
+          ]
+        },
+        {
+          "ID": "@babel/types@7.23.9",
+          "Name": "@babel/types",
+          "Identifier": {
+            "PURL": "pkg:npm/%40babel/types@7.23.9",
+            "UID": "401cbf841cb8dd0a"
+          },
+          "Version": "7.23.9",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@babel/helper-string-parser@7.23.4",
+            "@babel/helper-validator-identifier@7.22.20",
+            "to-fast-properties@2.0.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 314,
+              "EndLine": 326
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/babel-plugin@11.13.5",
+          "Name": "@emotion/babel-plugin",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/babel-plugin@11.13.5",
+            "UID": "6cc0dac75cb1e3f5"
+          },
+          "Version": "11.13.5",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@babel/helper-module-imports@7.22.15",
+            "@babel/runtime@7.27.0",
+            "@emotion/hash@0.9.2",
+            "@emotion/memoize@0.9.0",
+            "@emotion/serialize@1.3.3",
+            "babel-plugin-macros@3.1.0",
+            "convert-source-map@1.9.0",
+            "escape-string-regexp@4.0.0",
+            "find-root@1.1.0",
+            "source-map@0.5.7",
+            "stylis@4.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 511,
+              "EndLine": 529
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/cache@11.14.0",
+          "Name": "@emotion/cache",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/cache@11.14.0",
+            "UID": "6e9e91e6422effa0"
+          },
+          "Version": "11.14.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@emotion/memoize@0.9.0",
+            "@emotion/sheet@1.4.0",
+            "@emotion/utils@1.4.2",
+            "@emotion/weak-memoize@0.4.0",
+            "stylis@4.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 538,
+              "EndLine": 550
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/hash@0.9.2",
+          "Name": "@emotion/hash",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/hash@0.9.2",
+            "UID": "832eeaf96ac580a5"
+          },
+          "Version": "0.9.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 551,
+              "EndLine": 556
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/is-prop-valid@1.3.1",
+          "Name": "@emotion/is-prop-valid",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/is-prop-valid@1.3.1",
+            "UID": "6589018b7c11bcc0"
+          },
+          "Version": "1.3.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@emotion/memoize@0.9.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 557,
+              "EndLine": 565
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/memoize@0.9.0",
+          "Name": "@emotion/memoize",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/memoize@0.9.0",
+            "UID": "5c765b5334d9245a"
+          },
+          "Version": "0.9.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 566,
+              "EndLine": 571
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/serialize@1.3.3",
+          "Name": "@emotion/serialize",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/serialize@1.3.3",
+            "UID": "58fa5cdb5aef4ec9"
+          },
+          "Version": "1.3.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@emotion/hash@0.9.2",
+            "@emotion/memoize@0.9.0",
+            "@emotion/unitless@0.10.0",
+            "@emotion/utils@1.4.2",
+            "csstype@3.1.3"
+          ],
+          "Locations": [
+            {
+              "StartLine": 596,
+              "EndLine": 608
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/sheet@1.4.0",
+          "Name": "@emotion/sheet",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/sheet@1.4.0",
+            "UID": "6f4826a7aa4806b9"
+          },
+          "Version": "1.4.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 609,
+              "EndLine": 614
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/unitless@0.10.0",
+          "Name": "@emotion/unitless",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/unitless@0.10.0",
+            "UID": "a4dc1690f909c6c5"
+          },
+          "Version": "0.10.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 615,
+              "EndLine": 620
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/use-insertion-effect-with-fallbacks@1.2.0",
+          "Name": "@emotion/use-insertion-effect-with-fallbacks",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/use-insertion-effect-with-fallbacks@1.2.0",
+            "UID": "53e5d0d97df455c1"
+          },
+          "Version": "1.2.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 621,
+              "EndLine": 629
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/utils@1.4.2",
+          "Name": "@emotion/utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/utils@1.4.2",
+            "UID": "5e073f96b9295c6"
+          },
+          "Version": "1.4.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 630,
+              "EndLine": 635
+            }
+          ]
+        },
+        {
+          "ID": "@emotion/weak-memoize@0.4.0",
+          "Name": "@emotion/weak-memoize",
+          "Identifier": {
+            "PURL": "pkg:npm/%40emotion/weak-memoize@0.4.0",
+            "UID": "eb0b5c5dd8df1e3f"
+          },
+          "Version": "0.4.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 636,
+              "EndLine": 641
+            }
+          ]
+        },
+        {
+          "ID": "@floating-ui/core@1.6.9",
+          "Name": "@floating-ui/core",
+          "Identifier": {
+            "PURL": "pkg:npm/%40floating-ui/core@1.6.9",
+            "UID": "78eddf413d06966d"
+          },
+          "Version": "1.6.9",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@floating-ui/utils@0.2.9"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1067,
+              "EndLine": 1075
+            }
+          ]
+        },
+        {
+          "ID": "@floating-ui/dom@1.6.12",
+          "Name": "@floating-ui/dom",
+          "Identifier": {
+            "PURL": "pkg:npm/%40floating-ui/dom@1.6.12",
+            "UID": "b3980005bcbd4bae"
+          },
+          "Version": "1.6.12",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@floating-ui/core@1.6.9",
+            "@floating-ui/utils@0.2.9"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1076,
+              "EndLine": 1085
+            }
+          ]
+        },
+        {
+          "ID": "@floating-ui/utils@0.2.9",
+          "Name": "@floating-ui/utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40floating-ui/utils@0.2.9",
+            "UID": "b97f4c9e20b126be"
+          },
+          "Version": "0.2.9",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1086,
+              "EndLine": 1091
+            }
+          ]
+        },
+        {
+          "ID": "@internationalized/date@3.7.0",
+          "Name": "@internationalized/date",
+          "Identifier": {
+            "PURL": "pkg:npm/%40internationalized/date@3.7.0",
+            "UID": "b167cba5a7d4f2eb"
+          },
+          "Version": "3.7.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@swc/helpers@0.5.17"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1117,
+              "EndLine": 1125
+            }
+          ]
+        },
+        {
+          "ID": "@internationalized/number@3.6.0",
+          "Name": "@internationalized/number",
+          "Identifier": {
+            "PURL": "pkg:npm/%40internationalized/number@3.6.0",
+            "UID": "7bd097ca1262e087"
+          },
+          "Version": "3.6.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@swc/helpers@0.5.17"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1126,
+              "EndLine": 1134
+            }
+          ]
+        },
+        {
+          "ID": "@pandacss/is-valid-prop@0.41.0",
+          "Name": "@pandacss/is-valid-prop",
+          "Identifier": {
+            "PURL": "pkg:npm/%40pandacss/is-valid-prop@0.41.0",
+            "UID": "efe720551f1d03f9"
+          },
+          "Version": "0.41.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1142,
+              "EndLine": 1146
+            }
+          ]
+        },
+        {
+          "ID": "@swc/helpers@0.5.17",
+          "Name": "@swc/helpers",
+          "Identifier": {
+            "PURL": "pkg:npm/%40swc/helpers@0.5.17",
+            "UID": "bac883d7bd2ab50d"
+          },
+          "Version": "0.5.17",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "tslib@2.8.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1659,
+              "EndLine": 1667
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/history@1.15.13",
+          "Name": "@tanstack/history",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/history@1.15.13",
+            "UID": "e7e1248668111e01"
+          },
+          "Version": "1.15.13",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1678,
+              "EndLine": 1689
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/query-core@5.74.9",
+          "Name": "@tanstack/query-core",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/query-core@5.74.9",
+            "UID": "4f04fd42b95762f5"
+          },
+          "Version": "5.74.9",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1690,
+              "EndLine": 1699
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/query-devtools@5.74.7",
+          "Name": "@tanstack/query-devtools",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/query-devtools@5.74.7",
+            "UID": "bec9d5b2b61e20d4"
+          },
+          "Version": "5.74.7",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1700,
+              "EndLine": 1709
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/react-store@0.2.1",
+          "Name": "@tanstack/react-store",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/react-store@0.2.1",
+            "UID": "16bca2105e657380"
+          },
+          "Version": "0.2.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@tanstack/store@0.1.3",
+            "react-dom@18.2.0",
+            "react@18.2.0",
+            "use-sync-external-store@1.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1765,
+              "EndLine": 1781
+            }
+          ]
+        },
+        {
+          "ID": "@tanstack/store@0.1.3",
+          "Name": "@tanstack/store",
+          "Identifier": {
+            "PURL": "pkg:npm/%40tanstack/store@0.1.3",
+            "UID": "4a591373599bcca0"
+          },
+          "Version": "0.1.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1838,
+              "EndLine": 1846
+            }
+          ]
+        },
+        {
+          "ID": "@types/parse-json@4.0.2",
+          "Name": "@types/parse-json",
+          "Identifier": {
+            "PURL": "pkg:npm/%40types/parse-json@4.0.2",
+            "UID": "49e1dd44fbc3626c"
+          },
+          "Version": "4.0.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1871,
+              "EndLine": 1875
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/accordion@0.82.1",
+          "Name": "@zag-js/accordion",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/accordion@0.82.1",
+            "UID": "b7f5639b6e8893c"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1921,
+              "EndLine": 1933
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/anatomy@0.82.1",
+          "Name": "@zag-js/anatomy",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/anatomy@0.82.1",
+            "UID": "abb66afe260a63f9"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1934,
+              "EndLine": 1939
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/aria-hidden@0.82.1",
+          "Name": "@zag-js/aria-hidden",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/aria-hidden@0.82.1",
+            "UID": "fb3d044037f3b6a5"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 1940,
+              "EndLine": 1945
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/auto-resize@0.82.1",
+          "Name": "@zag-js/auto-resize",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/auto-resize@0.82.1",
+            "UID": "2d8e006df33c6675"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1946,
+              "EndLine": 1954
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/avatar@0.82.1",
+          "Name": "@zag-js/avatar",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/avatar@0.82.1",
+            "UID": "446fdfc20b8c2564"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1955,
+              "EndLine": 1967
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/carousel@0.82.1",
+          "Name": "@zag-js/carousel",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/carousel@0.82.1",
+            "UID": "58af36e3835262f0"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/scroll-snap@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1968,
+              "EndLine": 1981
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/checkbox@0.82.1",
+          "Name": "@zag-js/checkbox",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/checkbox@0.82.1",
+            "UID": "af8b28597cf5ff42"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/focus-visible@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1982,
+              "EndLine": 1995
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/clipboard@0.82.1",
+          "Name": "@zag-js/clipboard",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/clipboard@0.82.1",
+            "UID": "4447781caaaef790"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 1996,
+              "EndLine": 2008
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/collapsible@0.82.1",
+          "Name": "@zag-js/collapsible",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/collapsible@0.82.1",
+            "UID": "47bf5988ea438fe4"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2009,
+              "EndLine": 2021
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/collection@0.82.1",
+          "Name": "@zag-js/collection",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/collection@0.82.1",
+            "UID": "1ed6a1c93874d9c8"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2022,
+              "EndLine": 2030
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/color-picker@0.82.1",
+          "Name": "@zag-js/color-picker",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/color-picker@0.82.1",
+            "UID": "7c0b377e6a092647"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/color-utils@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2031,
+              "EndLine": 2046
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/color-utils@0.82.1",
+          "Name": "@zag-js/color-utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/color-utils@0.82.1",
+            "UID": "17cea02ebf166f8"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2047,
+              "EndLine": 2055
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/combobox@0.82.1",
+          "Name": "@zag-js/combobox",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/combobox@0.82.1",
+            "UID": "e86ee999cfd371f0"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/aria-hidden@0.82.1",
+            "@zag-js/collection@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2056,
+              "EndLine": 2072
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/core@0.82.1",
+          "Name": "@zag-js/core",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/core@0.82.1",
+            "UID": "73bbfffe589d53a7"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/store@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2073,
+              "EndLine": 2082
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/date-picker@0.82.1",
+          "Name": "@zag-js/date-picker",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/date-picker@0.82.1",
+            "UID": "f177eaf15dde5edd"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@internationalized/date@3.7.0",
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/date-utils@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/live-region@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2083,
+              "EndLine": 2102
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/date-utils@0.82.1",
+          "Name": "@zag-js/date-utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/date-utils@0.82.1",
+            "UID": "86346845f88111aa"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@internationalized/date@3.7.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2103,
+              "EndLine": 2111
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/dialog@0.82.1",
+          "Name": "@zag-js/dialog",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/dialog@0.82.1",
+            "UID": "b6ba18dfa0143f88"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/aria-hidden@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/focus-trap@0.82.1",
+            "@zag-js/remove-scroll@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2112,
+              "EndLine": 2128
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/dismissable@0.82.1",
+          "Name": "@zag-js/dismissable",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/dismissable@0.82.1",
+            "UID": "9197022e7c1c2521"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/interact-outside@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2129,
+              "EndLine": 2139
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/dom-query@0.82.1",
+          "Name": "@zag-js/dom-query",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/dom-query@0.82.1",
+            "UID": "4833fdd9b5f7f328"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/types@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2140,
+              "EndLine": 2148
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/editable@0.82.1",
+          "Name": "@zag-js/editable",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/editable@0.82.1",
+            "UID": "7abe8be72ceb8995"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/interact-outside@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2149,
+              "EndLine": 2162
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/element-rect@0.82.1",
+          "Name": "@zag-js/element-rect",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/element-rect@0.82.1",
+            "UID": "5c143b774ec86bcd"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2163,
+              "EndLine": 2168
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/element-size@0.82.1",
+          "Name": "@zag-js/element-size",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/element-size@0.82.1",
+            "UID": "261defe086f5f362"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2169,
+              "EndLine": 2174
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/file-upload@0.82.1",
+          "Name": "@zag-js/file-upload",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/file-upload@0.82.1",
+            "UID": "469fabe57f8c4a69"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/file-utils@0.82.1",
+            "@zag-js/i18n-utils@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2175,
+              "EndLine": 2189
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/file-utils@0.82.1",
+          "Name": "@zag-js/file-utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/file-utils@0.82.1",
+            "UID": "c4e9eec19d1a5274"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/i18n-utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2190,
+              "EndLine": 2198
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/focus-trap@0.82.1",
+          "Name": "@zag-js/focus-trap",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/focus-trap@0.82.1",
+            "UID": "a93d1676b9493891"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2199,
+              "EndLine": 2207
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/focus-visible@0.82.1",
+          "Name": "@zag-js/focus-visible",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/focus-visible@0.82.1",
+            "UID": "a3306b573dd380f1"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2208,
+              "EndLine": 2216
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/highlight-word@0.82.1",
+          "Name": "@zag-js/highlight-word",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/highlight-word@0.82.1",
+            "UID": "73a8b897ccce913a"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2217,
+              "EndLine": 2222
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/hover-card@0.82.1",
+          "Name": "@zag-js/hover-card",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/hover-card@0.82.1",
+            "UID": "2af9a66567c098e5"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2223,
+              "EndLine": 2237
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/i18n-utils@0.82.1",
+          "Name": "@zag-js/i18n-utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/i18n-utils@0.82.1",
+            "UID": "b449cf781785019"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2238,
+              "EndLine": 2246
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/interact-outside@0.82.1",
+          "Name": "@zag-js/interact-outside",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/interact-outside@0.82.1",
+            "UID": "2cbf9f1c60120d1d"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2247,
+              "EndLine": 2256
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/live-region@0.82.1",
+          "Name": "@zag-js/live-region",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/live-region@0.82.1",
+            "UID": "30a869330d7fc96a"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2257,
+              "EndLine": 2262
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/menu@0.82.1",
+          "Name": "@zag-js/menu",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/menu@0.82.1",
+            "UID": "80745ec95f2c662d"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/rect-utils@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2263,
+              "EndLine": 2278
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/number-input@0.82.1",
+          "Name": "@zag-js/number-input",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/number-input@0.82.1",
+            "UID": "cda19a8e23a188e0"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@internationalized/number@3.6.0",
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2279,
+              "EndLine": 2292
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/pagination@0.82.1",
+          "Name": "@zag-js/pagination",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/pagination@0.82.1",
+            "UID": "a668a4434ff3bc5"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2293,
+              "EndLine": 2305
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/pin-input@0.82.1",
+          "Name": "@zag-js/pin-input",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/pin-input@0.82.1",
+            "UID": "39ed71c95f83d459"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2306,
+              "EndLine": 2318
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/popover@0.82.1",
+          "Name": "@zag-js/popover",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/popover@0.82.1",
+            "UID": "a601448a0336028d"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/aria-hidden@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/focus-trap@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/remove-scroll@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2319,
+              "EndLine": 2336
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/popper@0.82.1",
+          "Name": "@zag-js/popper",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/popper@0.82.1",
+            "UID": "60654eb896f125b8"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@floating-ui/dom@1.6.12",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2337,
+              "EndLine": 2347
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/presence@0.82.1",
+          "Name": "@zag-js/presence",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/presence@0.82.1",
+            "UID": "9a59c8cbf292d62a"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/core@0.82.1",
+            "@zag-js/types@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2348,
+              "EndLine": 2357
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/progress@0.82.1",
+          "Name": "@zag-js/progress",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/progress@0.82.1",
+            "UID": "1e4959954f148dc5"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2358,
+              "EndLine": 2370
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/qr-code@0.82.1",
+          "Name": "@zag-js/qr-code",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/qr-code@0.82.1",
+            "UID": "f24e1e5e9527773a"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1",
+            "proxy-memoize@3.0.1",
+            "uqr@0.1.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2371,
+              "EndLine": 2385
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/radio-group@0.82.1",
+          "Name": "@zag-js/radio-group",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/radio-group@0.82.1",
+            "UID": "4f167d8845ef7b0f"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/element-rect@0.82.1",
+            "@zag-js/focus-visible@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2386,
+              "EndLine": 2400
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/rating-group@0.82.1",
+          "Name": "@zag-js/rating-group",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/rating-group@0.82.1",
+            "UID": "9ebd3fe907e8aadf"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2401,
+              "EndLine": 2413
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/react@0.82.1",
+          "Name": "@zag-js/react",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/react@0.82.1",
+            "UID": "69d83292ad0afef8"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/core@0.82.1",
+            "@zag-js/store@0.82.1",
+            "@zag-js/types@0.82.1",
+            "proxy-compare@3.0.1",
+            "react-dom@18.2.0",
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2414,
+              "EndLine": 2429
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/rect-utils@0.82.1",
+          "Name": "@zag-js/rect-utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/rect-utils@0.82.1",
+            "UID": "a169a1d66285b311"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2430,
+              "EndLine": 2435
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/remove-scroll@0.82.1",
+          "Name": "@zag-js/remove-scroll",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/remove-scroll@0.82.1",
+            "UID": "45a905a3c96a929"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2436,
+              "EndLine": 2444
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/scroll-snap@0.82.1",
+          "Name": "@zag-js/scroll-snap",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/scroll-snap@0.82.1",
+            "UID": "f6fc57211f9fd0d8"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/dom-query@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2445,
+              "EndLine": 2453
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/select@0.82.1",
+          "Name": "@zag-js/select",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/select@0.82.1",
+            "UID": "99db0c132a03a93c"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/collection@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2454,
+              "EndLine": 2469
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/signature-pad@0.82.1",
+          "Name": "@zag-js/signature-pad",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/signature-pad@0.82.1",
+            "UID": "c384be5be9408150"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1",
+            "perfect-freehand@1.2.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2470,
+              "EndLine": 2483
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/slider@0.82.1",
+          "Name": "@zag-js/slider",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/slider@0.82.1",
+            "UID": "c7b619f2d7f35a7c"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/element-size@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2484,
+              "EndLine": 2497
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/splitter@0.82.1",
+          "Name": "@zag-js/splitter",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/splitter@0.82.1",
+            "UID": "6cd8633a0874cc92"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2498,
+              "EndLine": 2510
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/steps@0.82.1",
+          "Name": "@zag-js/steps",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/steps@0.82.1",
+            "UID": "7ad0c4fb2c292eff"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2511,
+              "EndLine": 2523
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/store@0.82.1",
+          "Name": "@zag-js/store",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/store@0.82.1",
+            "UID": "4fdfaa8ec23ad23f"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "proxy-compare@3.0.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2524,
+              "EndLine": 2532
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/switch@0.82.1",
+          "Name": "@zag-js/switch",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/switch@0.82.1",
+            "UID": "15bce9dc7c2206ce"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/focus-visible@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2533,
+              "EndLine": 2546
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/tabs@0.82.1",
+          "Name": "@zag-js/tabs",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/tabs@0.82.1",
+            "UID": "8315f793932ddda9"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/element-rect@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2547,
+              "EndLine": 2560
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/tags-input@0.82.1",
+          "Name": "@zag-js/tags-input",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/tags-input@0.82.1",
+            "UID": "76a529eeb52ab76a"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/auto-resize@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/interact-outside@0.82.1",
+            "@zag-js/live-region@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2561,
+              "EndLine": 2576
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/time-picker@0.82.1",
+          "Name": "@zag-js/time-picker",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/time-picker@0.82.1",
+            "UID": "614a703512c17f50"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@internationalized/date@3.7.0",
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2577,
+              "EndLine": 2594
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/timer@0.82.1",
+          "Name": "@zag-js/timer",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/timer@0.82.1",
+            "UID": "d1851ede7aa0befd"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2595,
+              "EndLine": 2607
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/toast@0.82.1",
+          "Name": "@zag-js/toast",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/toast@0.82.1",
+            "UID": "4c151af5fb215206"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2608,
+              "EndLine": 2621
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/toggle-group@0.82.1",
+          "Name": "@zag-js/toggle-group",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/toggle-group@0.82.1",
+            "UID": "205ead0d8aaf12a1"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2622,
+              "EndLine": 2634
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/tooltip@0.82.1",
+          "Name": "@zag-js/tooltip",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/tooltip@0.82.1",
+            "UID": "8a40381a6f686a92"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/focus-visible@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2635,
+              "EndLine": 2649
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/tour@0.82.1",
+          "Name": "@zag-js/tour",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/tour@0.82.1",
+            "UID": "24dcd85f0d9dd007"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dismissable@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/focus-trap@0.82.1",
+            "@zag-js/interact-outside@0.82.1",
+            "@zag-js/popper@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2650,
+              "EndLine": 2666
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/tree-view@0.82.1",
+          "Name": "@zag-js/tree-view",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/tree-view@0.82.1",
+            "UID": "5e871cd99ed8347a"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@zag-js/anatomy@0.82.1",
+            "@zag-js/collection@0.82.1",
+            "@zag-js/core@0.82.1",
+            "@zag-js/dom-query@0.82.1",
+            "@zag-js/types@0.82.1",
+            "@zag-js/utils@0.82.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2667,
+              "EndLine": 2680
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/types@0.82.1",
+          "Name": "@zag-js/types",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/types@0.82.1",
+            "UID": "99bfc0a9bd714ad7"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "csstype@3.1.3"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2681,
+              "EndLine": 2689
+            }
+          ]
+        },
+        {
+          "ID": "@zag-js/utils@0.82.1",
+          "Name": "@zag-js/utils",
+          "Identifier": {
+            "PURL": "pkg:npm/%40zag-js/utils@0.82.1",
+            "UID": "68a2a2f7e6352e72"
+          },
+          "Version": "0.82.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2690,
+              "EndLine": 2695
+            }
+          ]
+        },
+        {
+          "ID": "ansi-styles@3.2.1",
+          "Name": "ansi-styles",
+          "Identifier": {
+            "PURL": "pkg:npm/ansi-styles@3.2.1",
+            "UID": "edc89887228b8a52"
+          },
+          "Version": "3.2.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "color-convert@1.9.3"
+          ],
+          "Locations": [
+            {
+              "StartLine": 134,
+              "EndLine": 144
+            },
+            {
+              "StartLine": 238,
+              "EndLine": 248
+            }
+          ]
+        },
+        {
+          "ID": "asynckit@0.4.0",
+          "Name": "asynckit",
+          "Identifier": {
+            "PURL": "pkg:npm/asynckit@0.4.0",
+            "UID": "18240b2958b03fbb"
+          },
+          "Version": "0.4.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2716,
+              "EndLine": 2720
+            }
+          ]
+        },
+        {
+          "ID": "babel-plugin-macros@3.1.0",
+          "Name": "babel-plugin-macros",
+          "Identifier": {
+            "PURL": "pkg:npm/babel-plugin-macros@3.1.0",
+            "UID": "3b1c155eb46f0ef7"
+          },
+          "Version": "3.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@babel/runtime@7.27.0",
+            "cosmiconfig@7.1.0",
+            "resolve@1.22.8"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2732,
+              "EndLine": 2745
+            }
+          ]
+        },
+        {
+          "ID": "call-bind-apply-helpers@1.0.2",
+          "Name": "call-bind-apply-helpers",
+          "Identifier": {
+            "PURL": "pkg:npm/call-bind-apply-helpers@1.0.2",
+            "UID": "b398b4232aa12fbe"
+          },
+          "Version": "1.0.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "es-errors@1.3.0",
+            "function-bind@1.1.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2775,
+              "EndLine": 2787
+            }
+          ]
+        },
+        {
+          "ID": "callsites@3.1.0",
+          "Name": "callsites",
+          "Identifier": {
+            "PURL": "pkg:npm/callsites@3.1.0",
+            "UID": "fce103736518753d"
+          },
+          "Version": "3.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2788,
+              "EndLine": 2795
+            }
+          ]
+        },
+        {
+          "ID": "chalk@2.4.2",
+          "Name": "chalk",
+          "Identifier": {
+            "PURL": "pkg:npm/chalk@2.4.2",
+            "UID": "6bf68d45fc7b6313"
+          },
+          "Version": "2.4.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "ansi-styles@3.2.1",
+            "escape-string-regexp@1.0.5",
+            "supports-color@5.5.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 145,
+              "EndLine": 157
+            },
+            {
+              "StartLine": 249,
+              "EndLine": 261
+            }
+          ]
+        },
+        {
+          "ID": "color-convert@1.9.3",
+          "Name": "color-convert",
+          "Identifier": {
+            "PURL": "pkg:npm/color-convert@1.9.3",
+            "UID": "4eab714a0bd4824f"
+          },
+          "Version": "1.9.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "color-name@1.1.3"
+          ],
+          "Locations": [
+            {
+              "StartLine": 158,
+              "EndLine": 165
+            },
+            {
+              "StartLine": 262,
+              "EndLine": 269
+            }
+          ]
+        },
+        {
+          "ID": "color-name@1.1.3",
+          "Name": "color-name",
+          "Identifier": {
+            "PURL": "pkg:npm/color-name@1.1.3",
+            "UID": "d5b9c4e79b961d4c"
+          },
+          "Version": "1.1.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 166,
+              "EndLine": 170
+            },
+            {
+              "StartLine": 270,
+              "EndLine": 274
+            }
+          ]
+        },
+        {
+          "ID": "combined-stream@1.0.8",
+          "Name": "combined-stream",
+          "Identifier": {
+            "PURL": "pkg:npm/combined-stream@1.0.8",
+            "UID": "1681156acb1c1e5"
+          },
+          "Version": "1.0.8",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "delayed-stream@1.0.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2841,
+              "EndLine": 2851
+            }
+          ]
+        },
+        {
+          "ID": "convert-source-map@1.9.0",
+          "Name": "convert-source-map",
+          "Identifier": {
+            "PURL": "pkg:npm/convert-source-map@1.9.0",
+            "UID": "166e1d59ef215960"
+          },
+          "Version": "1.9.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2879,
+              "EndLine": 2883
+            }
+          ]
+        },
+        {
+          "ID": "cosmiconfig@7.1.0",
+          "Name": "cosmiconfig",
+          "Identifier": {
+            "PURL": "pkg:npm/cosmiconfig@7.1.0",
+            "UID": "2bbb6b593739f48a"
+          },
+          "Version": "7.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@types/parse-json@4.0.2",
+            "import-fresh@3.3.0",
+            "parse-json@5.2.0",
+            "path-type@4.0.0",
+            "yaml@1.10.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2884,
+              "EndLine": 2898
+            }
+          ]
+        },
+        {
+          "ID": "csstype@3.1.3",
+          "Name": "csstype",
+          "Identifier": {
+            "PURL": "pkg:npm/csstype@3.1.3",
+            "UID": "26f8d9cc4de23f6d"
+          },
+          "Version": "3.1.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2923,
+              "EndLine": 2928
+            }
+          ]
+        },
+        {
+          "ID": "delayed-stream@1.0.0",
+          "Name": "delayed-stream",
+          "Identifier": {
+            "PURL": "pkg:npm/delayed-stream@1.0.0",
+            "UID": "d88235b64c1b2a25"
+          },
+          "Version": "1.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2952,
+              "EndLine": 2959
+            }
+          ]
+        },
+        {
+          "ID": "dunder-proto@1.0.1",
+          "Name": "dunder-proto",
+          "Identifier": {
+            "PURL": "pkg:npm/dunder-proto@1.0.1",
+            "UID": "6f59a3b91d03624b"
+          },
+          "Version": "1.0.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "call-bind-apply-helpers@1.0.2",
+            "es-errors@1.3.0",
+            "gopd@1.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2979,
+              "EndLine": 2992
+            }
+          ]
+        },
+        {
+          "ID": "error-ex@1.3.2",
+          "Name": "error-ex",
+          "Identifier": {
+            "PURL": "pkg:npm/error-ex@1.3.2",
+            "UID": "7a10df2343339838"
+          },
+          "Version": "1.3.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "is-arrayish@0.2.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 2993,
+              "EndLine": 3000
+            }
+          ]
+        },
+        {
+          "ID": "es-define-property@1.0.1",
+          "Name": "es-define-property",
+          "Identifier": {
+            "PURL": "pkg:npm/es-define-property@1.0.1",
+            "UID": "5ae0c5eef8b23a1e"
+          },
+          "Version": "1.0.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3001,
+              "EndLine": 3009
+            }
+          ]
+        },
+        {
+          "ID": "es-errors@1.3.0",
+          "Name": "es-errors",
+          "Identifier": {
+            "PURL": "pkg:npm/es-errors@1.3.0",
+            "UID": "3785f0944b790139"
+          },
+          "Version": "1.3.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3010,
+              "EndLine": 3018
+            }
+          ]
+        },
+        {
+          "ID": "es-object-atoms@1.1.1",
+          "Name": "es-object-atoms",
+          "Identifier": {
+            "PURL": "pkg:npm/es-object-atoms@1.1.1",
+            "UID": "cb7bc3cead50995c"
+          },
+          "Version": "1.1.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "es-errors@1.3.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3019,
+              "EndLine": 3030
+            }
+          ]
+        },
+        {
+          "ID": "es-set-tostringtag@2.1.0",
+          "Name": "es-set-tostringtag",
+          "Identifier": {
+            "PURL": "pkg:npm/es-set-tostringtag@2.1.0",
+            "UID": "c8e13e45da15ee49"
+          },
+          "Version": "2.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "es-errors@1.3.0",
+            "get-intrinsic@1.3.0",
+            "has-tostringtag@1.0.2",
+            "hasown@2.0.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3031,
+              "EndLine": 3045
+            }
+          ]
+        },
+        {
+          "ID": "escape-string-regexp@1.0.5",
+          "Name": "escape-string-regexp",
+          "Identifier": {
+            "PURL": "pkg:npm/escape-string-regexp@1.0.5",
+            "UID": "f450d8ce7978faba"
+          },
+          "Version": "1.0.5",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 171,
+              "EndLine": 178
+            },
+            {
+              "StartLine": 275,
+              "EndLine": 282
+            }
+          ]
+        },
+        {
+          "ID": "escape-string-regexp@4.0.0",
+          "Name": "escape-string-regexp",
+          "Identifier": {
+            "PURL": "pkg:npm/escape-string-regexp@4.0.0",
+            "UID": "128e7e4b25b8049f"
+          },
+          "Version": "4.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3087,
+              "EndLine": 3097
+            }
+          ]
+        },
+        {
+          "ID": "find-root@1.1.0",
+          "Name": "find-root",
+          "Identifier": {
+            "PURL": "pkg:npm/find-root@1.1.0",
+            "UID": "2134b6ff1d956102"
+          },
+          "Version": "1.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3137,
+              "EndLine": 3141
+            }
+          ]
+        },
+        {
+          "ID": "follow-redirects@1.15.6",
+          "Name": "follow-redirects",
+          "Identifier": {
+            "PURL": "pkg:npm/follow-redirects@1.15.6",
+            "UID": "93895885a1f9d306"
+          },
+          "Version": "1.15.6",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3142,
+              "EndLine": 3160
+            }
+          ]
+        },
+        {
+          "ID": "function-bind@1.1.2",
+          "Name": "function-bind",
+          "Identifier": {
+            "PURL": "pkg:npm/function-bind@1.1.2",
+            "UID": "f0b6b7d4010835c7"
+          },
+          "Version": "1.1.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3217,
+              "EndLine": 3224
+            }
+          ]
+        },
+        {
+          "ID": "get-intrinsic@1.3.0",
+          "Name": "get-intrinsic",
+          "Identifier": {
+            "PURL": "pkg:npm/get-intrinsic@1.3.0",
+            "UID": "eaa7f823f6a360ef"
+          },
+          "Version": "1.3.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "call-bind-apply-helpers@1.0.2",
+            "es-define-property@1.0.1",
+            "es-errors@1.3.0",
+            "es-object-atoms@1.1.1",
+            "function-bind@1.1.2",
+            "get-proto@1.0.1",
+            "gopd@1.2.0",
+            "has-symbols@1.1.0",
+            "hasown@2.0.2",
+            "math-intrinsics@1.1.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3225,
+              "EndLine": 3248
+            }
+          ]
+        },
+        {
+          "ID": "get-proto@1.0.1",
+          "Name": "get-proto",
+          "Identifier": {
+            "PURL": "pkg:npm/get-proto@1.0.1",
+            "UID": "90a2fc5ee0f04ee9"
+          },
+          "Version": "1.0.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "dunder-proto@1.0.1",
+            "es-object-atoms@1.1.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3249,
+              "EndLine": 3261
+            }
+          ]
+        },
+        {
+          "ID": "gopd@1.2.0",
+          "Name": "gopd",
+          "Identifier": {
+            "PURL": "pkg:npm/gopd@1.2.0",
+            "UID": "801320b09001b10c"
+          },
+          "Version": "1.2.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3304,
+              "EndLine": 3315
+            }
+          ]
+        },
+        {
+          "ID": "has-flag@3.0.0",
+          "Name": "has-flag",
+          "Identifier": {
+            "PURL": "pkg:npm/has-flag@3.0.0",
+            "UID": "2a0eadc7b42be315"
+          },
+          "Version": "3.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 179,
+              "EndLine": 186
+            },
+            {
+              "StartLine": 283,
+              "EndLine": 290
+            }
+          ]
+        },
+        {
+          "ID": "has-symbols@1.1.0",
+          "Name": "has-symbols",
+          "Identifier": {
+            "PURL": "pkg:npm/has-symbols@1.1.0",
+            "UID": "f82c778d0c8d3c64"
+          },
+          "Version": "1.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3337,
+              "EndLine": 3348
+            }
+          ]
+        },
+        {
+          "ID": "has-tostringtag@1.0.2",
+          "Name": "has-tostringtag",
+          "Identifier": {
+            "PURL": "pkg:npm/has-tostringtag@1.0.2",
+            "UID": "f9982deb14dee1e7"
+          },
+          "Version": "1.0.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "has-symbols@1.1.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3349,
+              "EndLine": 3363
+            }
+          ]
+        },
+        {
+          "ID": "hasown@2.0.2",
+          "Name": "hasown",
+          "Identifier": {
+            "PURL": "pkg:npm/hasown@2.0.2",
+            "UID": "b72ba5e9f4e4e2c3"
+          },
+          "Version": "2.0.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "function-bind@1.1.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3364,
+              "EndLine": 3375
+            }
+          ]
+        },
+        {
+          "ID": "hoist-non-react-statics@3.3.2",
+          "Name": "hoist-non-react-statics",
+          "Identifier": {
+            "PURL": "pkg:npm/hoist-non-react-statics@3.3.2",
+            "UID": "de57be6caab078ee"
+          },
+          "Version": "3.3.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "react-is@16.13.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3376,
+              "EndLine": 3383
+            }
+          ]
+        },
+        {
+          "ID": "import-fresh@3.3.0",
+          "Name": "import-fresh",
+          "Identifier": {
+            "PURL": "pkg:npm/import-fresh@3.3.0",
+            "UID": "63d20704eb8be177"
+          },
+          "Version": "3.3.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "parent-module@1.0.1",
+            "resolve-from@4.0.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3394,
+              "EndLine": 3408
+            }
+          ]
+        },
+        {
+          "ID": "is-arrayish@0.2.1",
+          "Name": "is-arrayish",
+          "Identifier": {
+            "PURL": "pkg:npm/is-arrayish@0.2.1",
+            "UID": "cd52ecd5405e6c4c"
+          },
+          "Version": "0.2.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3409,
+              "EndLine": 3413
+            }
+          ]
+        },
+        {
+          "ID": "is-core-module@2.13.1",
+          "Name": "is-core-module",
+          "Identifier": {
+            "PURL": "pkg:npm/is-core-module@2.13.1",
+            "UID": "25e761558cbf2311"
+          },
+          "Version": "2.13.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "hasown@2.0.2"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3414,
+              "EndLine": 3424
+            }
+          ]
+        },
+        {
+          "ID": "js-tokens@4.0.0",
+          "Name": "js-tokens",
+          "Identifier": {
+            "PURL": "pkg:npm/js-tokens@4.0.0",
+            "UID": "2f7db3fe9735d00b"
+          },
+          "Version": "4.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3455,
+              "EndLine": 3459
+            }
+          ]
+        },
+        {
+          "ID": "json-parse-even-better-errors@2.3.1",
+          "Name": "json-parse-even-better-errors",
+          "Identifier": {
+            "PURL": "pkg:npm/json-parse-even-better-errors@2.3.1",
+            "UID": "e0f96be543578dc0"
+          },
+          "Version": "2.3.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3473,
+              "EndLine": 3477
+            }
+          ]
+        },
+        {
+          "ID": "lines-and-columns@1.2.4",
+          "Name": "lines-and-columns",
+          "Identifier": {
+            "PURL": "pkg:npm/lines-and-columns@1.2.4",
+            "UID": "676d30cfdf639b05"
+          },
+          "Version": "1.2.4",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3478,
+              "EndLine": 3482
+            }
+          ]
+        },
+        {
+          "ID": "loose-envify@1.4.0",
+          "Name": "loose-envify",
+          "Identifier": {
+            "PURL": "pkg:npm/loose-envify@1.4.0",
+            "UID": "c04d7691c466c0f6"
+          },
+          "Version": "1.4.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "js-tokens@4.0.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3483,
+              "EndLine": 3493
+            }
+          ]
+        },
+        {
+          "ID": "math-intrinsics@1.1.0",
+          "Name": "math-intrinsics",
+          "Identifier": {
+            "PURL": "pkg:npm/math-intrinsics@1.1.0",
+            "UID": "8d624243e6d00e47"
+          },
+          "Version": "1.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3494,
+              "EndLine": 3502
+            }
+          ]
+        },
+        {
+          "ID": "mime-db@1.52.0",
+          "Name": "mime-db",
+          "Identifier": {
+            "PURL": "pkg:npm/mime-db@1.52.0",
+            "UID": "630835f8a292a610"
+          },
+          "Version": "1.52.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3510,
+              "EndLine": 3517
+            }
+          ]
+        },
+        {
+          "ID": "mime-types@2.1.35",
+          "Name": "mime-types",
+          "Identifier": {
+            "PURL": "pkg:npm/mime-types@2.1.35",
+            "UID": "55cde319e620d65"
+          },
+          "Version": "2.1.35",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "mime-db@1.52.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3518,
+              "EndLine": 3528
+            }
+          ]
+        },
+        {
+          "ID": "parent-module@1.0.1",
+          "Name": "parent-module",
+          "Identifier": {
+            "PURL": "pkg:npm/parent-module@1.0.1",
+            "UID": "c300ff7117e38a21"
+          },
+          "Version": "1.0.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "callsites@3.1.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3729,
+              "EndLine": 3739
+            }
+          ]
+        },
+        {
+          "ID": "parse-json@5.2.0",
+          "Name": "parse-json",
+          "Identifier": {
+            "PURL": "pkg:npm/parse-json@5.2.0",
+            "UID": "27cfc2e0e729e8ec"
+          },
+          "Version": "5.2.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "@babel/code-frame@7.23.5",
+            "error-ex@1.3.2",
+            "json-parse-even-better-errors@2.3.1",
+            "lines-and-columns@1.2.4"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3740,
+              "EndLine": 3756
+            }
+          ]
+        },
+        {
+          "ID": "path-parse@1.0.7",
+          "Name": "path-parse",
+          "Identifier": {
+            "PURL": "pkg:npm/path-parse@1.0.7",
+            "UID": "d24b49a3320cdc7"
+          },
+          "Version": "1.0.7",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3767,
+              "EndLine": 3771
+            }
+          ]
+        },
+        {
+          "ID": "path-type@4.0.0",
+          "Name": "path-type",
+          "Identifier": {
+            "PURL": "pkg:npm/path-type@4.0.0",
+            "UID": "a5fe1d5ad3165935"
+          },
+          "Version": "4.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3772,
+              "EndLine": 3779
+            }
+          ]
+        },
+        {
+          "ID": "perfect-freehand@1.2.2",
+          "Name": "perfect-freehand",
+          "Identifier": {
+            "PURL": "pkg:npm/perfect-freehand@1.2.2",
+            "UID": "d2b0f8cb28788356"
+          },
+          "Version": "1.2.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3794,
+              "EndLine": 3799
+            }
+          ]
+        },
+        {
+          "ID": "proxy-compare@3.0.1",
+          "Name": "proxy-compare",
+          "Identifier": {
+            "PURL": "pkg:npm/proxy-compare@3.0.1",
+            "UID": "8f666860b2f21d26"
+          },
+          "Version": "3.0.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3923,
+              "EndLine": 3928
+            }
+          ]
+        },
+        {
+          "ID": "proxy-from-env@1.1.0",
+          "Name": "proxy-from-env",
+          "Identifier": {
+            "PURL": "pkg:npm/proxy-from-env@1.1.0",
+            "UID": "4628cb22eebe1ee6"
+          },
+          "Version": "1.1.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 3929,
+              "EndLine": 3933
+            }
+          ]
+        },
+        {
+          "ID": "proxy-memoize@3.0.1",
+          "Name": "proxy-memoize",
+          "Identifier": {
+            "PURL": "pkg:npm/proxy-memoize@3.0.1",
+            "UID": "88e3797dd24f1cd8"
+          },
+          "Version": "3.0.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "proxy-compare@3.0.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 3934,
+              "EndLine": 3942
+            }
+          ]
+        },
+        {
+          "ID": "react-is@16.13.1",
+          "Name": "react-is",
+          "Identifier": {
+            "PURL": "pkg:npm/react-is@16.13.1",
+            "UID": "3ebc00186863dc49"
+          },
+          "Version": "16.13.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4014,
+              "EndLine": 4018
+            }
+          ]
+        },
+        {
+          "ID": "regenerator-runtime@0.14.1",
+          "Name": "regenerator-runtime",
+          "Identifier": {
+            "PURL": "pkg:npm/regenerator-runtime@0.14.1",
+            "UID": "add93711bb5bf608"
+          },
+          "Version": "0.14.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4033,
+              "EndLine": 4037
+            }
+          ]
+        },
+        {
+          "ID": "resolve@1.22.8",
+          "Name": "resolve",
+          "Identifier": {
+            "PURL": "pkg:npm/resolve@1.22.8",
+            "UID": "5e51b0d25655618"
+          },
+          "Version": "1.22.8",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "is-core-module@2.13.1",
+            "path-parse@1.0.7",
+            "supports-preserve-symlinks-flag@1.0.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 4038,
+              "EndLine": 4053
+            }
+          ]
+        },
+        {
+          "ID": "resolve-from@4.0.0",
+          "Name": "resolve-from",
+          "Identifier": {
+            "PURL": "pkg:npm/resolve-from@4.0.0",
+            "UID": "fa60ff0893ee0c2e"
+          },
+          "Version": "4.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4054,
+              "EndLine": 4061
+            }
+          ]
+        },
+        {
+          "ID": "scheduler@0.23.0",
+          "Name": "scheduler",
+          "Identifier": {
+            "PURL": "pkg:npm/scheduler@0.23.0",
+            "UID": "3eb8956318a7229e"
+          },
+          "Version": "0.23.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "loose-envify@1.4.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 4102,
+              "EndLine": 4109
+            }
+          ]
+        },
+        {
+          "ID": "source-map@0.5.7",
+          "Name": "source-map",
+          "Identifier": {
+            "PURL": "pkg:npm/source-map@0.5.7",
+            "UID": "af4affc63b7f74ab"
+          },
+          "Version": "0.5.7",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 530,
+              "EndLine": 537
+            }
+          ]
+        },
+        {
+          "ID": "stylis@4.2.0",
+          "Name": "stylis",
+          "Identifier": {
+            "PURL": "pkg:npm/stylis@4.2.0",
+            "UID": "7dff2d63132aa1b2"
+          },
+          "Version": "4.2.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4178,
+              "EndLine": 4182
+            }
+          ]
+        },
+        {
+          "ID": "supports-color@5.5.0",
+          "Name": "supports-color",
+          "Identifier": {
+            "PURL": "pkg:npm/supports-color@5.5.0",
+            "UID": "bffcd9906ff5f2a5"
+          },
+          "Version": "5.5.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "has-flag@3.0.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 187,
+              "EndLine": 197
+            },
+            {
+              "StartLine": 291,
+              "EndLine": 301
+            }
+          ]
+        },
+        {
+          "ID": "supports-preserve-symlinks-flag@1.0.0",
+          "Name": "supports-preserve-symlinks-flag",
+          "Identifier": {
+            "PURL": "pkg:npm/supports-preserve-symlinks-flag@1.0.0",
+            "UID": "4d23d063bf2cb5db"
+          },
+          "Version": "1.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4183,
+              "EndLine": 4193
+            }
+          ]
+        },
+        {
+          "ID": "tiny-invariant@1.3.3",
+          "Name": "tiny-invariant",
+          "Identifier": {
+            "PURL": "pkg:npm/tiny-invariant@1.3.3",
+            "UID": "228715dd9b809709"
+          },
+          "Version": "1.3.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4212,
+              "EndLine": 4216
+            }
+          ]
+        },
+        {
+          "ID": "tiny-warning@1.0.3",
+          "Name": "tiny-warning",
+          "Identifier": {
+            "PURL": "pkg:npm/tiny-warning@1.0.3",
+            "UID": "c6bda591eda481e8"
+          },
+          "Version": "1.0.3",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4217,
+              "EndLine": 4221
+            }
+          ]
+        },
+        {
+          "ID": "to-fast-properties@2.0.0",
+          "Name": "to-fast-properties",
+          "Identifier": {
+            "PURL": "pkg:npm/to-fast-properties@2.0.0",
+            "UID": "5b346c74b14627fe"
+          },
+          "Version": "2.0.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4239,
+              "EndLine": 4246
+            }
+          ]
+        },
+        {
+          "ID": "tslib@2.8.1",
+          "Name": "tslib",
+          "Identifier": {
+            "PURL": "pkg:npm/tslib@2.8.1",
+            "UID": "ebf1f7e79e399477"
+          },
+          "Version": "2.8.1",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4247,
+              "EndLine": 4252
+            }
+          ]
+        },
+        {
+          "ID": "uqr@0.1.2",
+          "Name": "uqr",
+          "Identifier": {
+            "PURL": "pkg:npm/uqr@0.1.2",
+            "UID": "9f6d6db0c36f0754"
+          },
+          "Version": "0.1.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 4293,
+              "EndLine": 4298
+            }
+          ]
+        },
+        {
+          "ID": "use-sync-external-store@1.2.0",
+          "Name": "use-sync-external-store",
+          "Identifier": {
+            "PURL": "pkg:npm/use-sync-external-store@1.2.0",
+            "UID": "1852f7af5f0415f8"
+          },
+          "Version": "1.2.0",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "react@18.2.0"
+          ],
+          "Locations": [
+            {
+              "StartLine": 4299,
+              "EndLine": 4306
+            }
+          ]
+        },
+        {
+          "ID": "yaml@1.10.2",
+          "Name": "yaml",
+          "Identifier": {
+            "PURL": "pkg:npm/yaml@1.10.2",
+            "UID": "3f7b26a7e65db3d"
+          },
+          "Version": "1.10.2",
+          "Indirect": true,
+          "Relationship": "indirect",
+          "Locations": [
+            {
+              "StartLine": 2899,
+              "EndLine": 2907
+            }
+          ]
+        }
+      ],
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2024-57079",
+          "PkgID": "@zag-js/core@0.82.1",
+          "PkgName": "@zag-js/core",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/%40zag-js/core@0.82.1",
+            "UID": "73bbfffe589d53a7"
+          },
+          "InstalledVersion": "0.82.1",
+          "FixedVersion": "0.82.2",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57079",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Fingerprint": "sha256:92b1b159d3e2d826b2e9d4e1a151022e30285beb628b4f32c736440f845e47a6",
+          "Title": "@zag-js/core prototype pollution",
+          "Description": "A prototype pollution in the lib.deepMerge function of @zag-js/core v0.50.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://gist.github.com/tariqhawis/4778fc57084766b7b7fb6d25d20b7b9b",
+            "https://github.com/chakra-ui/zag",
+            "https://github.com/chakra-ui/zag/commit/f53edc548f737aadfdd486a0043bdd5f5c068bbf",
+            "https://github.com/chakra-ui/zag/pull/2255",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-57079"
+          ],
+          "PublishedDate": "2025-02-05T22:15:32.193Z",
+          "LastModifiedDate": "2025-03-18T21:15:31.54Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58754",
+          "PkgID": "axios@1.9.0",
+          "PkgName": "axios",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/axios@1.9.0",
+            "UID": "5754f40c326c82d3"
+          },
+          "InstalledVersion": "1.9.0",
+          "FixedVersion": "1.12.0, 0.30.2",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58754",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Fingerprint": "sha256:d683da832736a0ac0928eb35985bdc6daddef0c824dfdf026d5de74cbe53ec35",
+          "Title": "axios: Axios DoS via lack of data size check",
+          "Description": "Axios is a promise based HTTP client for the browser and Node.js. When Axios prior to versions 0.30.2 and 1.12.0 runs on Node.js and is given a URL with the `data:` scheme, it does not perform HTTP. Instead, its Node http adapter decodes the entire payload into memory (`Buffer`/`Blob`) and returns a synthetic 200 response. This path ignores `maxContentLength` / `maxBodyLength` (which only protect HTTP responses), so an attacker can supply a very large `data:` URI and cause the process to allocate unbounded memory and crash (DoS), even if the caller requested `responseType: 'stream'`. Versions 0.30.2 and 1.12.0 contain a patch for the issue.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-58754",
+            "https://github.com/axios/axios",
+            "https://github.com/axios/axios/commit/945435fc51467303768202250debb8d4ae892593",
+            "https://github.com/axios/axios/commit/a1b1d3f073a988601583a604f5f9f5d05a3d0b67",
+            "https://github.com/axios/axios/pull/7011",
+            "https://github.com/axios/axios/pull/7034",
+            "https://github.com/axios/axios/releases/tag/v0.30.2",
+            "https://github.com/axios/axios/releases/tag/v1.12.0",
+            "https://github.com/axios/axios/security/advisories/GHSA-4hjh-wcwx-xvwj",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58754",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58754"
+          ],
+          "PublishedDate": "2025-09-12T02:15:46.873Z",
+          "LastModifiedDate": "2025-10-24T20:56:49.43Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-7783",
+          "PkgID": "form-data@4.0.2",
+          "PkgName": "form-data",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/form-data@4.0.2",
+            "UID": "1a07b448b54e2b37"
+          },
+          "InstalledVersion": "4.0.2",
+          "FixedVersion": "2.5.4, 3.0.4, 4.0.4",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-7783",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Fingerprint": "sha256:5c928d12ebea23e5cad7870875974668e63dac796c74f0dc768b25646b26b242",
+          "Title": "form-data: Unsafe random function in form-data",
+          "Description": "Use of Insufficiently Random Values vulnerability in form-data allows HTTP Parameter Pollution (HPP). This vulnerability is associated with program files lib/form_data.Js.\n\nThis issue affects form-data: \u003c 2.5.4, 3.0.0 - 3.0.3, 4.0.0 - 4.0.3.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-330"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N",
+              "V3Score": 5.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-7783",
+            "https://github.com/benweissmann/CVE-2025-7783-poc",
+            "https://github.com/form-data/form-data",
+            "https://github.com/form-data/form-data/commit/3d1723080e6577a66f17f163ecd345a21d8d0fd0",
+            "https://github.com/form-data/form-data/security/advisories/GHSA-fjxv-7rqg-78g4",
+            "https://lists.debian.org/debian-lts-announce/2025/07/msg00023.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-7783",
+            "https://www.cve.org/CVERecord?id=CVE-2025-7783"
+          ],
+          "PublishedDate": "2025-07-18T17:15:44.747Z",
+          "LastModifiedDate": "2025-11-03T20:19:20.93Z"
+        }
+      ]
+    }
+  ]
+}

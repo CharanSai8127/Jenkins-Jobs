@@ -1,0 +1,1202 @@
+Started by user [8mha:////4NkfFy+Sr2UJnMQkFKnrNjhvUDEY2t1NZVMeU7MUqYb3AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL94sRMAKMY3I6+AAAA[0msai
+[8mha:////4HPigRT6Bq5orf13dVj+PuyXhZyKY7E5WA3R+IDQLbeXAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Hj8gxV2NxbUxEEFutX26fqoChJ4Ec6Dygxc4B9io/SYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KaoIcwNA0Bkw5ERy6BVFcwC5C7e4bGse1nh6tS/t+E/AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Node-js
+[8mha:////4F7nBGqzUF4aHuuUdc+Tcbvo83m9/CoPRS62WO6o6AQJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4I6R/yDou9SrwZl64tmrj6aTFwy3Fx1R+HU9EJAeqlW1AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] tool
+[8mha:////4GeSGU8kvvUjRl7AooWvQIAxKycOtoRKmPTN5IPn5G+bAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] withEnv
+[8mha:////4CFXdi7956Bo21ahzKHIhh/kx8PTDIrn9lsIoqQG9VDYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4Oo3rUdP/6zLqG6GRfHMQcqdoB68NaO+8wHKNQ6BuvubAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] stage
+[8mha:////4JfNAPNlx3ShVObGqsAwXBy97KfrOVJFVMZoKs2RpkWwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] { (Clone Repository)
+[8mha:////4PgPV8oDlbDfikxduNNmUZAMDgDRb5WBZoKnFxe0NS6PAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Node-js/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/CharanSai8127/observability-zero-to-hero.git # timeout=10
+Fetching upstream changes from https://github.com/CharanSai8127/observability-zero-to-hero.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/CharanSai8127/observability-zero-to-hero.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 8d79dac62b782e1116316a42a444e00b909a1c81 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8d79dac62b782e1116316a42a444e00b909a1c81 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main 8d79dac62b782e1116316a42a444e00b909a1c81 # timeout=10
+Commit message: "Add telemetry for day-4"
+ > git rev-list --no-walk 8d79dac62b782e1116316a42a444e00b909a1c81 # timeout=10
+[8mha:////4NOttoJy1iO6c7TeWYHBGTtA8HRWf29JF3gyBsz4arpNAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KE0Rgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+IfpSRvQAAAA==[0m[Pipeline] }
+[8mha:////4AbqAV6oY59Neos9XU2oYPykiiNaelLs1yKpo0NEgYOlAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] // stage
+[8mha:////4O4tRyo+w7AO3Zoj6Gnq/YaH4bb9dDhjmAhWBqwI9sgfAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjREGBqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8AxnwXE7BAAAA[0m[Pipeline] stage
+[8mha:////4BPSPwhfrEUcj94BuxdGBRk0ehrNQWs+ydNAXJgLjIvOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] { (Run Node.js Tests)
+[8mha:////4MB4aatKq3FliSkpfwW78YEE/djgp9YQcRfi2TFae1tBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] script
+[8mha:////4KkOcZcUXKenUkN/pCq9tN03yw0LcpF98/RVIrG0w1D+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4MEzXr7LvEz9Q4LKX2d84BATifxXldZd0LgcyL0Rj1RxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-a
+[8mha:////4JdPWPHLP51W7pOJwPyYEQCGloeAAl0nzmAdjXDAIHeeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4KF30FNPUQfmz57JlrA4bu9xJO7VyA8Alo+ZOQkBqdRmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ npm install
+
+up to date, audited 372 packages in 2s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 low, 4 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
++ npm test
+
+> app-code@1.0.0 test
+> echo "Error: no test specified" && exit 1
+
+Error: no test specified
++ true
++ npm audit
+# npm audit report
+
+axios  1.0.0 - 1.11.0
+Severity: high
+Axios is vulnerable to DoS attack through lack of data size check - https://github.com/advisories/GHSA-4hjh-wcwx-xvwj
+axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL - https://github.com/advisories/GHSA-jr5f-v2jv-69x6
+fix available via `npm audit fix`
+node_modules/axios
+
+body-parser  <1.20.3
+Severity: high
+body-parser vulnerable to denial of service when url encoding is enabled - https://github.com/advisories/GHSA-qwcr-r2fm-qrc7
+fix available via `npm audit fix`
+node_modules/body-parser
+  express  <=4.21.0 || 5.0.0-alpha.1 - 5.0.0
+  Depends on vulnerable versions of body-parser
+  Depends on vulnerable versions of cookie
+  Depends on vulnerable versions of path-to-regexp
+  Depends on vulnerable versions of send
+  Depends on vulnerable versions of serve-static
+  node_modules/express
+
+cookie  <0.7.0
+cookie accepts cookie name, path, and domain with out of bounds characters - https://github.com/advisories/GHSA-pxg6-pf52-xh8x
+fix available via `npm audit fix`
+node_modules/cookie
+
+
+form-data  4.0.0 - 4.0.3
+Severity: critical
+form-data uses unsafe random function in form-data for choosing boundary - https://github.com/advisories/GHSA-fjxv-7rqg-78g4
+fix available via `npm audit fix`
+node_modules/form-data
+
+on-headers  <1.1.0
+on-headers is vulnerable to http response header manipulation - https://github.com/advisories/GHSA-76c9-3jph-rj3q
+fix available via `npm audit fix`
+node_modules/on-headers
+  morgan  1.6.0 - 1.10.0
+  Depends on vulnerable versions of on-headers
+  node_modules/morgan
+
+path-to-regexp  <=0.1.11
+Severity: high
+path-to-regexp outputs backtracking regular expressions - https://github.com/advisories/GHSA-9wv6-86v2-598j
+path-to-regexp contains a ReDoS - https://github.com/advisories/GHSA-rhx6-c78j-4q9w
+fix available via `npm audit fix`
+node_modules/path-to-regexp
+
+send  <0.19.0
+send vulnerable to template injection that can lead to XSS - https://github.com/advisories/GHSA-m6fv-jmcg-4jfg
+fix available via `npm audit fix`
+node_modules/send
+  serve-static  <=1.16.0
+  Depends on vulnerable versions of send
+  node_modules/serve-static
+
+
+10 vulnerabilities (5 low, 4 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
++ true
+[8mha:////4C9vrwAQANi202xT9MwFgUp1ZOhRLVOCOqE+enMLzIaoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4GcckUctGf6hRpU3VLkVWlFfbTQ8YhmO76JCrHOcy3c2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // dir
+[8mha:////4GD6K6113ygfw/KmZQVPNcvVu7VllnX8MKbD6tnBZdorAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdGBBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFxA3mDwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-b
+[8mha:////4GgqerTp70KUYxmk2Ca4JESMpMLwHGbAMMSRDXuyVAtfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4LWmSU2ouAz5uplcdZtNacmGn9gqvLMZsY4XxJv1vJ0aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ npm install
+
+up to date, audited 372 packages in 2s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 low, 4 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
++ npm test
+
+> app-code@1.0.0 test
+> echo "Error: no test specified" && exit 1
+
+Error: no test specified
++ true
++ npm audit
+# npm audit report
+
+axios  1.0.0 - 1.11.0
+Severity: high
+Axios is vulnerable to DoS attack through lack of data size check - https://github.com/advisories/GHSA-4hjh-wcwx-xvwj
+axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL - https://github.com/advisories/GHSA-jr5f-v2jv-69x6
+fix available via `npm audit fix`
+node_modules/axios
+
+body-parser  <1.20.3
+Severity: high
+body-parser vulnerable to denial of service when url encoding is enabled - https://github.com/advisories/GHSA-qwcr-r2fm-qrc7
+fix available via `npm audit fix`
+node_modules/body-parser
+  express  <=4.21.0 || 5.0.0-alpha.1 - 5.0.0
+  Depends on vulnerable versions of body-parser
+  Depends on vulnerable versions of cookie
+  Depends on vulnerable versions of path-to-regexp
+  Depends on vulnerable versions of send
+  Depends on vulnerable versions of serve-static
+  node_modules/express
+
+cookie  <0.7.0
+cookie accepts cookie name, path, and domain with out of bounds characters - https://github.com/advisories/GHSA-pxg6-pf52-xh8x
+fix available via `npm audit fix`
+node_modules/cookie
+
+
+form-data  4.0.0 - 4.0.3
+Severity: critical
+form-data uses unsafe random function in form-data for choosing boundary - https://github.com/advisories/GHSA-fjxv-7rqg-78g4
+fix available via `npm audit fix`
+node_modules/form-data
+
+on-headers  <1.1.0
+on-headers is vulnerable to http response header manipulation - https://github.com/advisories/GHSA-76c9-3jph-rj3q
+fix available via `npm audit fix`
+node_modules/on-headers
+  morgan  1.6.0 - 1.10.0
+  Depends on vulnerable versions of on-headers
+  node_modules/morgan
+
+path-to-regexp  <=0.1.11
+Severity: high
+path-to-regexp outputs backtracking regular expressions - https://github.com/advisories/GHSA-9wv6-86v2-598j
+path-to-regexp contains a ReDoS - https://github.com/advisories/GHSA-rhx6-c78j-4q9w
+fix available via `npm audit fix`
+node_modules/path-to-regexp
+
+send  <0.19.0
+send vulnerable to template injection that can lead to XSS - https://github.com/advisories/GHSA-m6fv-jmcg-4jfg
+fix available via `npm audit fix`
+node_modules/send
+  serve-static  <=1.16.0
+  Depends on vulnerable versions of send
+  node_modules/serve-static
+
+
+10 vulnerabilities (5 low, 4 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
++ true
+[8mha:////4IgbCqhKvv4tW8zB93l+CTXIvd+p2osEutZ117/dManfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4FJLNthe2ThMbvyqCTBk9ruTfYb07VClBGtJ4JRJuWEiAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // dir
+[8mha:////4N4FvO6u+fShfZ7hwoZknIrxagI5DKn/d+OKxMu2R/pnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+pKGTTvgAAAA==[0m[Pipeline] }
+[8mha:////4Btz1TggegPv6K2tnK6SFBs1ED1Lb0D4o/ZQ/kZ5M+SsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4Dxss7u74AAAA=[0m[Pipeline] // script
+[8mha:////4KN1I1TSlOoUN63SjFD02bocXpbWEiDPoVaHbrOyLQ/vAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/1KGAHvgAAAA==[0m[Pipeline] }
+[8mha:////4G6GsGAeD5s40pdgK2JY/1ZPPefPxr7aEp4jsto8SZT6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSomo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71ByrnfBi+AAAA[0m[Pipeline] // stage
+[8mha:////4GI5WQFzXxR16iOUWpaBQzJ+CjPJQMBIVIiAeYm30vjCAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjREGBqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8AztAC5TBAAAA[0m[Pipeline] stage
+[8mha:////4CKpqT6B/t+MQRw5nsA+zE41IlNl7UbkrEl0uJNMvOdHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Build Docker Images)
+[8mha:////4Ia51GLmF9lx27HQIIYPXkOA4OvpmBsg5AmdNFYPF7B5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] script
+[8mha:////4IUKtVuLLq41YW9ZA8N6sl+SUSg7JSBe7wn1bNowTsPzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] {
+[8mha:////4D4GRGTj7T+4Z+sptW4ShIBbMf3vH0QJt8F/zRr9slPPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-a
+[8mha:////4HMmugrdNITjvAr9sk1IkKocB3PkShSmt8+zH3eYB8RdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4Cs3wcq0R+e5wwNdjiszdZQfqZp3rxm+fzIQ9UsWY564AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] sh
++ docker build -t charansait372/observability-service-a:v1.2 .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 202B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 1.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#4 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 196.54kB 0.3s done
+#5 DONE 0.3s
+
+#6 [2/6] COPY package*.json /usr/app/
+#6 CACHED
+
+#7 [3/6] COPY index.js /usr/app/
+#7 CACHED
+
+#8 [4/6] COPY tracing.js /usr/app/
+#8 CACHED
+
+#9 [5/6] WORKDIR /usr/app
+#9 CACHED
+
+#10 [6/6] RUN npm install
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:0df320d9b01e0d80d5dc490addc6ca0e1b2fdc333579f2546f0da2a27906a67e done
+#11 exporting config sha256:ebe56719cac6bc68080de3f9246ac8be41cbda1fc6f15ce1110512204f5cbc78 done
+#11 exporting attestation manifest sha256:b44bff0b03068128a0bbcc5bb1f7ebbca7253a21f4d6b4203d270c373880d548 0.0s done
+#11 exporting manifest list sha256:0dac47a2d81727f3a24a29df73822ca51f706a18288ad523ab0b551206a38c8d 0.0s done
+#11 naming to docker.io/charansait372/observability-service-a:v1.2
+#11 naming to docker.io/charansait372/observability-service-a:v1.2 done
+#11 unpacking to docker.io/charansait372/observability-service-a:v1.2 0.0s done
+#11 DONE 0.1s
+[8mha:////4MXPigbDsVPDzo/JhVlGc6ajkz1aIqIgq4AEjhurB7hhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
+[8mha:////4NodeSX8Hi7M+G4rKEj7LiEe7g/YCkkPgsKiNQDrWqTEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // dir
+[8mha:////4Kt6Kbh/wcoH+3LyI1ijr7zjjSrTiJSNOVpyb43duXAZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUiW6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Jluz+zyrNx6wNhnCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-b
+[8mha:////4FT80rcjFBeLaNWe36uQT8mqWISqwpxCfKNMuznkS9UuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] {
+[8mha:////4M2re+LKrd1WIVEJql9RzkIUBfjcNEqpkrXpFE1909KbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] sh
++ docker build -t charansait372/observability-service-b:v1.2 .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 202B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#4 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 196.54kB 0.3s done
+#5 DONE 0.3s
+
+#6 [2/6] COPY package*.json /usr/app/
+#6 CACHED
+
+#7 [3/6] COPY index.js /usr/app/
+#7 CACHED
+
+#8 [4/6] COPY tracing.js /usr/app/
+#8 CACHED
+
+#9 [5/6] WORKDIR /usr/app
+#9 CACHED
+
+#10 [6/6] RUN npm install
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:3f6f3982ce51cb6c802a8af5b67e9ded792d05dcb391bf824536f12d2d91f991 done
+#11 exporting config sha256:4c1254cd659d4ba02ea66ec37fc3440a53799f69972ef737d856f7839f0557bc done
+#11 exporting attestation manifest sha256:ba2ad3a276e8417458cf8f5b5ff6edaabebd7b7e5bc84f06660503a9ad9bfcc8 0.0s done
+#11 exporting manifest list sha256:9a188651833974180ab762495fa01957a768b3acfa0d6b6523355b0d3b27aa53 0.0s done
+#11 naming to docker.io/charansait372/observability-service-b:v1.2 done
+#11 unpacking to docker.io/charansait372/observability-service-b:v1.2
+#11 unpacking to docker.io/charansait372/observability-service-b:v1.2 0.0s done
+#11 DONE 0.1s
+[8mha:////4GrHnWcu3zPZYYEDhqHzRW+clNJ3HeFoDvRXDSZ6fsEEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BmM+Nsi+AAAA[0m[Pipeline] }
+[8mha:////4AQV4kKCroyP7BGuKER73I885+Caw+QWrxWNvcFYsHbiAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCkQ5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTT40or4AAAA=[0m[Pipeline] // dir
+[8mha:////4KyxztIm84oRNhDcEbaNOfeCHGnzMfI5yNDAirRG2kgFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGV9yLWvPza/RCG+AAAA[0m[Pipeline] }
+[8mha:////4MrCK+Hgs100mdLHKyhBDt0afP6eUWBzswZvImaHgzsvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBNEgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QE7WLQ5vgAAAA==[0m[Pipeline] // script
+[8mha:////4NSMNMoQMn23LJk92ZuQs30pdkSEGO462Xu5fmCG50kFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiARIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234ACLvvhb4AAAA=[0m[Pipeline] }
+[8mha:////4G7gd2gpZME56VcMNZ2EvFr2hLgi/GDl1sGSou4aJcWFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AZ1iw7b4AAAA=[0m[Pipeline] // stage
+[8mha:////4J3iAD8K3KvyQ8dg2qLsJTyoLsoYy/t5S8dPcVVLH86JAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTICGEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A9j8/73BAAAA[0m[Pipeline] stage
+[8mha:////4HX9e0To4AeViBZsU9AhJVjw5vwRgyOO1quopnwFxCeCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (Trivy Image Scan (Reports))
+[8mha:////4MVK+XoaFxU/EXIsqY7Q+2vF1U32NJQIzfnJYcSzkeDrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] script
+[8mha:////4ES1/DuLNighAyte9JKEBb8XxcJPOuduY06CQefgP46HAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] {
+[8mha:////4JItgM5OpBQsN1t0VKPGAT4Lw58vS1RlqMfZgDNiqS1KAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN1+P256+AAAA[0m[Pipeline] sh
++ mkdir -p reports/service-a reports/service-b
++ trivy image --severity HIGH,CRITICAL --format json --output reports/service-a/trivy.json charansait372/observability-service-a:v1.2
+2025-12-24T05:03:38Z	INFO	[vuln] Vulnerability scanning is enabled
+2025-12-24T05:03:38Z	INFO	[secret] Secret scanning is enabled
+2025-12-24T05:03:38Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2025-12-24T05:03:38Z	INFO	[secret] Please see https://trivy.dev/docs/v0.68/guide/scanner/secret#recommendation for faster secret detection
+2025-12-24T05:03:38Z	INFO	Detected OS	family="alpine" version="3.21.3"
+2025-12-24T05:03:38Z	INFO	[alpine] Detecting vulnerabilities...	os_version="3.21" repository="3.21" pkg_num=17
+2025-12-24T05:03:38Z	INFO	Number of language-specific files	num=1
+2025-12-24T05:03:38Z	INFO	[node-pkg] Detecting vulnerabilities...
+2025-12-24T05:03:38Z	WARN	Using severities from other vendors for some vulnerabilities. Read https://trivy.dev/docs/v0.68/guide/scanner/vulnerability#severity-selection for details.
++ trivy image --severity HIGH,CRITICAL --format json --output reports/service-b/trivy.json charansait372/observability-service-b:v1.2
+2025-12-24T05:03:39Z	INFO	[vuln] Vulnerability scanning is enabled
+2025-12-24T05:03:39Z	INFO	[secret] Secret scanning is enabled
+2025-12-24T05:03:39Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2025-12-24T05:03:39Z	INFO	[secret] Please see https://trivy.dev/docs/v0.68/guide/scanner/secret#recommendation for faster secret detection
+2025-12-24T05:03:39Z	INFO	Detected OS	family="alpine" version="3.21.3"
+2025-12-24T05:03:39Z	INFO	[alpine] Detecting vulnerabilities...	os_version="3.21" repository="3.21" pkg_num=17
+2025-12-24T05:03:39Z	INFO	Number of language-specific files	num=1
+2025-12-24T05:03:39Z	INFO	[node-pkg] Detecting vulnerabilities...
+2025-12-24T05:03:39Z	WARN	Using severities from other vendors for some vulnerabilities. Read https://trivy.dev/docs/v0.68/guide/scanner/vulnerability#severity-selection for details.
+[8mha:////4OVFZ4TL1LEp9gBo8HrIi7Uj8tIAOoNXK418MnvL2ukeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5RlVvO+AAAA[0m[Pipeline] }
+[8mha:////4JcIidx1D7E0OR7mEKj9dU/pr3QgP2K3ixKhs989BOnrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiilSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BovnA6G+AAAA[0m[Pipeline] // script
+[8mha:////4DZQTDT04cDYuKA/IgbDqMdZ907kB0hxBHemFh6S3WZJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAw2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BrOlkFC+AAAA[0m[Pipeline] }
+[8mha:////4IlZlwLHQa9FjmauyoTkIJvawfVd9U5X5dxhSBbRb4C1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/z/wv7vgAAAA==[0m[Pipeline] // stage
+[8mha:////4MApgm/DC0NX8W0E+wFTP9O797T83ZA7oKngyLg/QpwCAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIZAQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvySTU0MEAAAA=[0m[Pipeline] stage
+[8mha:////4GgXaRbWFicYBUqP2DCHbLQBT5ZylYBZcl1FqWfD+XOBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] { (SonarQube Analysis)
+[8mha:////4Kvv7KhgqsLkunGmFuUvsseylXFjb1gZmH0wggOlc2WvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar
+[8mha:////4NrMqFgughnMizq+Jvu5Wxu1ntalPI2cXgggeQy57x6uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] {
+[8mha:////4JGFSysqfgrcWay6NhRyAghTM/CBB+9BP0PAjZ/wH2yeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] script
+[8mha:////4OTaRmlDR9vxVWMoUVOHz54L/ARP+Fuh8l0AqNoI3e45AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4ATrhObJsdvnJrEpqBPiCTiCj3PvCCncuPhSwggnNXOkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-a
+[8mha:////4DVWcqrMkCRxz8HzjNi73rWXUZyh5grJo5pBJtz/joXLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] {
+[8mha:////4DqJxZ9/TtHHdVYoZj9OKGaITqUuz8rV/4pg/6z/vBBzAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkQZR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fLvzCqr4AAAA=[0m[Pipeline] sh
++ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin/sonar-scanner -Dsonar.projectKey=observability-service-a -Dsonar.sources=.
+05:03:40.128 INFO  Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/conf/sonar-scanner.properties
+05:03:40.132 INFO  Project root configuration file: NONE
+05:03:40.149 INFO  SonarScanner CLI 8.0.1.6346
+05:03:40.159 INFO  Linux 6.14.0-1015-aws amd64
+05:03:41.625 INFO  Communicating with SonarQube Community Build 25.12.0.117093
+05:03:41.626 INFO  JRE provisioning: os[linux], arch[x86_64]
+05:03:42.189 INFO  Starting SonarScanner Engine...
+05:03:42.193 INFO  Java 21.0.9 Eclipse Adoptium (64-bit)
+05:03:43.707 INFO  Load global settings
+05:03:43.834 INFO  Load global settings (done) | time=126ms
+05:03:43.840 INFO  Server id: 147B411E-AZtOdLM368BFkMZwagVk
+05:03:43.854 INFO  Loading required plugins
+05:03:43.856 INFO  Load plugins index
+05:03:43.879 INFO  Load plugins index (done) | time=23ms
+05:03:43.881 INFO  Load/download plugins
+05:03:43.921 INFO  Load/download plugins (done) | time=39ms
+05:03:44.394 INFO  Process project properties
+05:03:44.415 INFO  Process project properties (done) | time=18ms
+05:03:44.440 INFO  Project key: observability-service-a
+05:03:44.440 INFO  Base dir: /var/lib/jenkins/workspace/Node-js/day-4/application/service-a
+05:03:44.440 INFO  Working dir: /var/lib/jenkins/workspace/Node-js/day-4/application/service-a/.scannerwork
+05:03:44.457 INFO  Load project settings for component key: 'observability-service-a'
+05:03:44.481 INFO  Load project settings for component key: 'observability-service-a' (done) | time=21ms
+05:03:44.533 INFO  Load quality profiles
+05:03:44.604 INFO  Load quality profiles (done) | time=71ms
+05:03:44.630 INFO  Auto-configuring with CI 'Jenkins'
+05:03:44.690 INFO  Load active rules
+05:03:45.286 INFO  Load active rules (done) | time=595ms
+05:03:45.295 INFO  Load analysis cache
+05:03:45.317 INFO  Load analysis cache (5.1 kB) | time=22ms
+05:03:45.429 INFO  Preprocessing files...
+05:03:46.233 INFO  4 languages detected in 6 preprocessed files (done) | time=802ms
+05:03:46.233 INFO  23965 files ignored because of scm ignore settings
+05:03:46.236 INFO  Loading plugins for detected languages
+05:03:46.237 INFO  Load/download plugins
+05:03:46.249 INFO  Load/download plugins (done) | time=12ms
+05:03:46.489 INFO  Load project repositories
+05:03:46.612 INFO  Load project repositories (done) | time=122ms
+05:03:46.662 INFO  Indexing files...
+05:03:46.662 INFO  Project configuration:
+05:03:46.674 INFO  6 files indexed (done) | time=12ms
+05:03:46.675 INFO  Quality profile for docker: Sonar way
+05:03:46.677 INFO  Quality profile for js: Sonar way
+05:03:46.677 INFO  Quality profile for json: Sonar way
+05:03:46.677 INFO  Quality profile for xml: Sonar way
+05:03:46.682 INFO  ------------- Run sensors on module observability-service-a
+05:03:46.733 INFO  Load metrics repository
+05:03:46.792 INFO  Load metrics repository (done) | time=59ms
+05:03:47.290 INFO  Reflections took 124 ms to scan 1 urls, producing 24 keys and 257 values
+05:03:47.623 INFO  Sensor IaC CloudFormation Sensor [iac]
+05:03:47.712 INFO  There are no files to be analyzed for the CloudFormation language
+05:03:47.715 INFO  Sensor IaC CloudFormation Sensor [iac] (done) | time=89ms
+05:03:47.719 INFO  Sensor IaC cfn-lint report Sensor [iac]
+05:03:47.719 INFO  Sensor IaC cfn-lint report Sensor [iac] (done) | time=1ms
+05:03:47.719 INFO  Sensor IaC hadolint report Sensor [iac]
+05:03:47.720 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+05:03:47.723 INFO  Sensor IaC Azure Resource Manager Sensor [iac]
+05:03:47.723 INFO  There are no files to be analyzed for the Azure Resource Manager language
+05:03:47.724 INFO  Sensor IaC Azure Resource Manager Sensor [iac] (done) | time=2ms
+05:03:47.724 INFO  Sensor Java Config Sensor [iac]
+05:03:47.724 INFO  There are no files to be analyzed for the Java language
+05:03:47.724 INFO  Sensor Java Config Sensor [iac] (done) | time=4ms
+05:03:47.724 INFO  Sensor IaC Docker Sensor [iac]
+05:03:47.843 INFO  1 source file to be analyzed
+05:03:47.939 INFO  1/1 source file has been analyzed
+05:03:47.944 INFO  Sensor IaC Docker Sensor [iac] (done) | time=223ms
+05:03:47.944 INFO  Sensor HTML [web]
+05:03:47.946 INFO  Sensor HTML [web] (done) | time=5ms
+05:03:47.948 INFO  Sensor XML Sensor [xml]
+05:03:47.951 INFO  1 source file to be analyzed
+05:03:52.974 INFO  1/1 source file has been analyzed
+05:03:52.976 INFO  Sensor XML Sensor [xml] (done) | time=5026ms
+05:03:52.977 INFO  Sensor JavaScript/TypeScript analysis [javascript]
+05:03:53.340 INFO  Detected os: Linux arch: amd64 alpine: false. Platform: LINUX_X64
+05:03:53.340 INFO  Deploy location /var/lib/jenkins/.sonar/js/node-runtime, tagetRuntime: /var/lib/jenkins/.sonar/js/node-runtime/node,  version: /var/lib/jenkins/.sonar/js/node-runtime/version.txt
+05:03:53.353 INFO  Using embedded Node.js runtime.
+05:03:53.354 INFO  Using Node.js executable: '/var/lib/jenkins/.sonar/js/node-runtime/node'.
+05:03:55.849 ERROR [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+05:03:56.179 INFO  Memory configuration: OS (3912 MB), Node.js (2148 MB).
+05:03:56.302 INFO  WebSocket client connected on /ws
+05:03:56.304 INFO  Plugin version: [11.7.1.36988]
+05:03:58.681 ERROR [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+05:03:59.014 INFO  Using generated tsconfig.json file using wildcards /tmp/tsconfig-9z9B6h.json
+05:04:01.648 INFO  Found 1 tsconfig.json file(s): [/tmp/tsconfig-9z9B6h.json]
+05:04:01.648 INFO  2 source files to be analyzed
+05:04:01.649 INFO  Creating TypeScript program
+05:04:01.649 INFO  TypeScript(5.9.3) configuration file /tmp/tsconfig-9z9B6h.json
+05:04:01.649 INFO  2/2 source files have been analyzed
+05:04:01.929 INFO  Hit the cache for 0 out of 2
+05:04:01.932 INFO  Miss the cache for 2 out of 2: ANALYSIS_MODE_INELIGIBLE [2/2]
+05:04:01.935 INFO  Sensor JavaScript/TypeScript analysis [javascript] (done) | time=8957ms
+05:04:01.935 INFO  Sensor CSS Rules [javascript]
+05:04:01.935 INFO  No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+05:04:01.936 INFO  Sensor CSS Rules [javascript] (done) | time=0ms
+05:04:01.937 INFO  Sensor TextAndSecretsSensor [text]
+05:04:01.999 INFO  Available processors: 2
+05:04:01.999 INFO  Using 2 threads for analysis.
+05:04:02.454 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test" or "tests"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+05:04:02.496 INFO  Start fetching files for the text and secrets analysis
+05:04:02.510 INFO  Using Git CLI to retrieve untracked files
+05:04:02.547 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+05:04:02.550 INFO  Starting the text and secrets analysis
+05:04:02.552 INFO  6 source files to be analyzed for the text and secrets analysis
+05:04:07.089 INFO  6/6 source files have been analyzed for the text and secrets analysis
+05:04:07.096 INFO  Sensor TextAndSecretsSensor [text] (done) | time=5163ms
+05:04:07.100 INFO  ------------- Run sensors on project
+05:04:07.343 INFO  Sensor Zero Coverage Sensor
+05:04:07.355 INFO  Sensor Zero Coverage Sensor (done) | time=11ms
+05:04:07.355 INFO  ------------- Gather SCA dependencies on project
+05:04:07.361 INFO  Dependency analysis skipped
+05:04:07.372 INFO  SCM Publisher SCM provider for this project is: git
+05:04:07.375 INFO  SCM Publisher 1 source file to be analyzed
+05:04:07.628 INFO  SCM Publisher 0/1 source files have been analyzed (done) | time=254ms
+05:04:07.630 WARN  Missing blame information for the following files:
+05:04:07.630 WARN    * dependency-check-report.xml
+05:04:07.630 WARN  This may lead to missing/broken features in SonarQube
+05:04:07.638 INFO  CPD Executor Calculating CPD for 2 files
+05:04:07.651 INFO  CPD Executor CPD calculation finished (done) | time=13ms
+05:04:07.664 INFO  SCM revision ID '8d79dac62b782e1116316a42a444e00b909a1c81'
+05:04:07.949 INFO  Analysis report generated in 282ms, dir size=9.1 MB
+05:04:08.229 INFO  Analysis report compressed in 276ms, zip size=1.4 MB
+05:04:08.326 INFO  Analysis report uploaded in 95ms
+05:04:08.328 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://13.201.88.52:9000/dashboard?id=observability-service-a
+05:04:08.329 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+05:04:08.329 INFO  More about the report processing at http://13.201.88.52:9000/api/ce/task?id=1ede316b-cd5d-4956-b22e-78d4900a1264
+05:04:08.516 INFO  Analysis total time: 24.543 s
+05:04:08.518 INFO  SonarScanner Engine completed successfully
+05:04:08.887 INFO  EXECUTION SUCCESS
+05:04:08.888 INFO  Total time: 28.812s
++ mkdir -p ../../../reports/service-a/sonar
++ cp .scannerwork/report-task.txt ../../../reports/service-a/sonar/
+[8mha:////4Alia2MPFuxxxWkQULyJr1/pc8g1wDkEoxiOyU1kWBWyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BsfLY/G+AAAA[0m[Pipeline] }
+[8mha:////4NDRD3iE1niDGYFI4m8L51RtjYmzKQBVoGF0A9yySYN0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGESTJ3vgAAAA==[0m[Pipeline] // dir
+[8mha:////4LLxW3bFf1qyDzc1th00GsBQCBZE3piMrdFGifV6hjwCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEJCiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+9mO8zP4gNskj4YwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-b
+[8mha:////4B0arWCLQi3rQp5bB8jUjAk5jGmc1LltrP1CAfGNrPvKAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] {
+[8mha:////4NX8aSez4nbGAURmlT2MI6EMv/jMKQxe41cid1mzQn0TAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBucv03q+AAAA[0m[Pipeline] sh
++ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin/sonar-scanner -Dsonar.projectKey=observability-service-b -Dsonar.sources=.
+05:04:10.205 INFO  Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/conf/sonar-scanner.properties
+05:04:10.211 INFO  Project root configuration file: NONE
+05:04:10.236 INFO  SonarScanner CLI 8.0.1.6346
+05:04:10.246 INFO  Linux 6.14.0-1015-aws amd64
+05:04:12.025 INFO  Communicating with SonarQube Community Build 25.12.0.117093
+05:04:12.026 INFO  JRE provisioning: os[linux], arch[x86_64]
+05:04:12.661 INFO  Starting SonarScanner Engine...
+05:04:12.662 INFO  Java 21.0.9 Eclipse Adoptium (64-bit)
+05:04:14.632 INFO  Load global settings
+05:04:14.809 INFO  Load global settings (done) | time=176ms
+05:04:14.815 INFO  Server id: 147B411E-AZtOdLM368BFkMZwagVk
+05:04:14.831 INFO  Loading required plugins
+05:04:14.831 INFO  Load plugins index
+05:04:14.851 INFO  Load plugins index (done) | time=21ms
+05:04:14.851 INFO  Load/download plugins
+05:04:14.894 INFO  Load/download plugins (done) | time=42ms
+05:04:15.370 INFO  Process project properties
+05:04:15.397 INFO  Process project properties (done) | time=26ms
+05:04:15.423 INFO  Project key: observability-service-b
+05:04:15.425 INFO  Base dir: /var/lib/jenkins/workspace/Node-js/day-4/application/service-b
+05:04:15.425 INFO  Working dir: /var/lib/jenkins/workspace/Node-js/day-4/application/service-b/.scannerwork
+05:04:15.464 INFO  Load project settings for component key: 'observability-service-b'
+05:04:15.517 INFO  Load project settings for component key: 'observability-service-b' (done) | time=51ms
+05:04:15.581 INFO  Load quality profiles
+05:04:15.733 INFO  Load quality profiles (done) | time=154ms
+05:04:15.757 INFO  Auto-configuring with CI 'Jenkins'
+05:04:15.819 INFO  Load active rules
+05:04:16.563 INFO  Load active rules (done) | time=743ms
+05:04:16.575 INFO  Load analysis cache
+05:04:16.608 INFO  Load analysis cache (1.6 kB) | time=33ms
+05:04:16.735 INFO  Preprocessing files...
+05:04:17.561 INFO  4 languages detected in 6 preprocessed files (done) | time=823ms
+05:04:17.561 INFO  23965 files ignored because of scm ignore settings
+05:04:17.562 INFO  Loading plugins for detected languages
+05:04:17.563 INFO  Load/download plugins
+05:04:17.572 INFO  Load/download plugins (done) | time=9ms
+05:04:17.870 INFO  Load project repositories
+05:04:18.014 INFO  Load project repositories (done) | time=146ms
+05:04:18.070 INFO  Indexing files...
+05:04:18.070 INFO  Project configuration:
+05:04:18.079 INFO  6 files indexed (done) | time=10ms
+05:04:18.080 INFO  Quality profile for docker: Sonar way
+05:04:18.082 INFO  Quality profile for js: Sonar way
+05:04:18.082 INFO  Quality profile for json: Sonar way
+05:04:18.082 INFO  Quality profile for xml: Sonar way
+05:04:18.083 INFO  ------------- Run sensors on module observability-service-b
+05:04:18.144 INFO  Load metrics repository
+05:04:18.182 INFO  Load metrics repository (done) | time=38ms
+05:04:18.683 INFO  Reflections took 133 ms to scan 1 urls, producing 24 keys and 257 values
+05:04:19.042 INFO  Sensor IaC CloudFormation Sensor [iac]
+05:04:19.150 INFO  There are no files to be analyzed for the CloudFormation language
+05:04:19.150 INFO  Sensor IaC CloudFormation Sensor [iac] (done) | time=108ms
+05:04:19.150 INFO  Sensor IaC cfn-lint report Sensor [iac]
+05:04:19.150 INFO  Sensor IaC cfn-lint report Sensor [iac] (done) | time=2ms
+05:04:19.155 INFO  Sensor IaC hadolint report Sensor [iac]
+05:04:19.155 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+05:04:19.155 INFO  Sensor IaC Azure Resource Manager Sensor [iac]
+05:04:19.155 INFO  There are no files to be analyzed for the Azure Resource Manager language
+05:04:19.156 INFO  Sensor IaC Azure Resource Manager Sensor [iac] (done) | time=4ms
+05:04:19.156 INFO  Sensor Java Config Sensor [iac]
+05:04:19.161 INFO  There are no files to be analyzed for the Java language
+05:04:19.161 INFO  Sensor Java Config Sensor [iac] (done) | time=6ms
+05:04:19.161 INFO  Sensor IaC Docker Sensor [iac]
+05:04:19.294 INFO  1 source file to be analyzed
+05:04:19.406 INFO  1/1 source file has been analyzed
+05:04:19.406 INFO  Sensor IaC Docker Sensor [iac] (done) | time=244ms
+05:04:19.407 INFO  Sensor HTML [web]
+05:04:19.410 INFO  Sensor HTML [web] (done) | time=5ms
+05:04:19.410 INFO  Sensor XML Sensor [xml]
+05:04:19.417 INFO  1 source file to be analyzed
+05:04:24.204 INFO  1/1 source file has been analyzed
+05:04:24.207 INFO  Sensor XML Sensor [xml] (done) | time=4796ms
+05:04:24.207 INFO  Sensor JavaScript/TypeScript analysis [javascript]
+05:04:24.621 INFO  Detected os: Linux arch: amd64 alpine: false. Platform: LINUX_X64
+05:04:24.624 INFO  Deploy location /var/lib/jenkins/.sonar/js/node-runtime, tagetRuntime: /var/lib/jenkins/.sonar/js/node-runtime/node,  version: /var/lib/jenkins/.sonar/js/node-runtime/version.txt
+05:04:24.639 INFO  Using embedded Node.js runtime.
+05:04:24.639 INFO  Using Node.js executable: '/var/lib/jenkins/.sonar/js/node-runtime/node'.
+05:04:27.088 ERROR [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+05:04:27.519 INFO  Memory configuration: OS (3912 MB), Node.js (2148 MB).
+05:04:27.682 INFO  WebSocket client connected on /ws
+05:04:27.686 INFO  Plugin version: [11.7.1.36988]
+05:04:29.985 ERROR [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+05:04:30.320 INFO  Using generated tsconfig.json file using wildcards /tmp/tsconfig-Yt4pu1.json
+05:04:32.719 INFO  Found 1 tsconfig.json file(s): [/tmp/tsconfig-Yt4pu1.json]
+05:04:32.719 INFO  2 source files to be analyzed
+05:04:32.722 INFO  Creating TypeScript program
+05:04:32.722 INFO  TypeScript(5.9.3) configuration file /tmp/tsconfig-Yt4pu1.json
+05:04:32.722 INFO  2/2 source files have been analyzed
+05:04:32.751 INFO  Hit the cache for 0 out of 2
+05:04:32.761 INFO  Miss the cache for 2 out of 2: ANALYSIS_MODE_INELIGIBLE [2/2]
+05:04:32.762 INFO  Sensor JavaScript/TypeScript analysis [javascript] (done) | time=8552ms
+05:04:32.762 INFO  Sensor CSS Rules [javascript]
+05:04:32.770 INFO  No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+05:04:32.770 INFO  Sensor CSS Rules [javascript] (done) | time=0ms
+05:04:32.770 INFO  Sensor TextAndSecretsSensor [text]
+05:04:32.817 INFO  Available processors: 2
+05:04:32.817 INFO  Using 2 threads for analysis.
+05:04:33.370 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test" or "tests"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+05:04:33.408 INFO  Start fetching files for the text and secrets analysis
+05:04:33.417 INFO  Using Git CLI to retrieve untracked files
+05:04:33.451 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+05:04:33.451 INFO  Starting the text and secrets analysis
+05:04:33.455 INFO  6 source files to be analyzed for the text and secrets analysis
+05:04:39.628 INFO  6/6 source files have been analyzed for the text and secrets analysis
+05:04:39.633 INFO  Sensor TextAndSecretsSensor [text] (done) | time=6875ms
+05:04:39.637 INFO  ------------- Run sensors on project
+05:04:39.803 INFO  Sensor Zero Coverage Sensor
+05:04:39.814 INFO  Sensor Zero Coverage Sensor (done) | time=9ms
+05:04:39.814 INFO  ------------- Gather SCA dependencies on project
+05:04:39.821 INFO  Dependency analysis skipped
+05:04:39.827 INFO  SCM Publisher SCM provider for this project is: git
+05:04:39.828 INFO  SCM Publisher 1 source file to be analyzed
+05:04:40.045 INFO  SCM Publisher 0/1 source files have been analyzed (done) | time=216ms
+05:04:40.047 WARN  Missing blame information for the following files:
+05:04:40.047 WARN    * dependency-check-report.xml
+05:04:40.048 WARN  This may lead to missing/broken features in SonarQube
+05:04:40.057 INFO  CPD Executor Calculating CPD for 2 files
+05:04:40.065 INFO  CPD Executor CPD calculation finished (done) | time=9ms
+05:04:40.077 INFO  SCM revision ID '8d79dac62b782e1116316a42a444e00b909a1c81'
+05:04:40.297 INFO  Analysis report generated in 225ms, dir size=9.0 MB
+05:04:40.527 INFO  Analysis report compressed in 228ms, zip size=1.3 MB
+05:04:40.617 INFO  Analysis report uploaded in 90ms
+05:04:40.618 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://13.201.88.52:9000/dashboard?id=observability-service-b
+05:04:40.618 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+05:04:40.618 INFO  More about the report processing at http://13.201.88.52:9000/api/ce/task?id=b6620f03-786d-4108-a779-ab3d56a6d10f
+05:04:40.799 INFO  Analysis total time: 25.830 s
+05:04:40.801 INFO  SonarScanner Engine completed successfully
+05:04:41.172 INFO  EXECUTION SUCCESS
+05:04:41.173 INFO  Total time: 31.029s
++ mkdir -p ../../../reports/service-b/sonar
++ cp .scannerwork/report-task.txt ../../../reports/service-b/sonar/
+[8mha:////4Gy7ER7NifMzFao/omyvtj25WzqmR+LmI6jbbYP7qCfbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNw6UqG6+AAAA[0m[Pipeline] }
+[8mha:////4J1Jte6kvSthbFZ8Gm8TY3MU/zu8RI5wG2X1YQK3c7YvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIIEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wATs4zxb4AAAA=[0m[Pipeline] // dir
+[8mha:////4HQBteSVmm3krIlEcI0J/wG9JUYTC6IpPitcs9U4mSGWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w/oF+M4vgAAAA==[0m[Pipeline] }
+[8mha:////4NjBGt1ucadoGDwkOUN/kcNRLAkGYAuSmZ8xz4DBSevfAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQEFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334A2/S4hL4AAAA=[0m[Pipeline] // script
+[8mha:////4LMG/zaPmepPTdct28ogkjighh0Ldl4VMcUcR+VqNx+1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRTSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wHP1yWbvgAAAA==[0m[Pipeline] }
+WARN: Found multiple 'report-task.txt' in the workspace. Taking the first one.
+/var/lib/jenkins/workspace/Node-js/day-4/application/service-a/.scannerwork/report-task.txt
+/var/lib/jenkins/workspace/Node-js/day-4/application/service-b/.scannerwork/report-task.txt
+/var/lib/jenkins/workspace/Node-js/reports/service-a/sonar/report-task.txt
+/var/lib/jenkins/workspace/Node-js/reports/service-b/sonar/report-task.txt
+[8mha:////4JqacQMMELijwAvGp3OmUPXBvY3CriA+klU6VjvzHTtKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd5zrsP/w0fie+AAAA[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4LmTfEAm2qak1+yCIPACH5qSv4hh+IX3UvX4RqSWAn7BAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIUAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AFObdmEvgAAAA==[0m[Pipeline] }
+[8mha:////4EC7ugy6886076OhFwQHUhUfS3ov4ujhBqbvR2LKMIehAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIUAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wF9joI4vgAAAA==[0m[Pipeline] // stage
+[8mha:////4CAPpw7V3zfDZQBhTt0PGkWSI+YkR5heAYkriQtlOwagAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDBxKiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2G0+x/INZMdQXcEAAAA=[0m[Pipeline] stage
+[8mha:////4Cr+A0Ef6fHQ6V9yqzWNXyzUAEhTVNFf8kL1Q9rW32DLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUNiTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAUPegdTCAAAA[0m[Pipeline] { (SonarQube Quality Gate)
+[8mha:////4MxOvF5sWQSU9UBxrYnde4Vp0ZStEhN1SllEWdmoSD8mAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDy1zm5PCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 2 min 0 sec
+[8mha:////4Jm+ZO6JLvetO2alLi5jz8Q3JVpye4lkJX5i12WOpULfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] {
+[8mha:////4K7qEEo65uqxQH7SE92nMpwPLkvByY8OpIWvHhNFLEk+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGulDDkvgAAAA==[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task '1ede316b-cd5d-4956-b22e-78d4900a1264' on server 'sonar'
+SonarQube task '1ede316b-cd5d-4956-b22e-78d4900a1264' status is 'SUCCESS'
+SonarQube task '1ede316b-cd5d-4956-b22e-78d4900a1264' completed. Quality gate is 'OK'
+[8mha:////4E/IcXOo1c3ki26hAH1hahB5wEYihh2xA0cu430DuBfnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0qmXSbvgAAAA==[0m[Pipeline] }
+[8mha:////4FU6ZLHrw4Ttr77tIAfuFDwGthHHe+7KG9QO1dbdnZXyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0S2+dqvgAAAA==[0m[Pipeline] // timeout
+[8mha:////4PuAduwYpP7P7/6P6hAndqgS5wxJhky7UOqxwmUNeP3GAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNw1Zsji+AAAA[0m[Pipeline] }
+[8mha:////4AxBT5Ygha6nape5A+Wi4EZEUaBiL/DbxE+YK+FCj37PAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCGQlR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTtvjvr4AAAA=[0m[Pipeline] // stage
+[8mha:////4Abp4rHG4ISBFAwH2byS+Z8wn9bn6sHWJGjxygV8dIxjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTAkJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DAU293nWL4BrJZfesEAAAA=[0m[Pipeline] stage
+[8mha:////4AyPs/XI8FovelcVZqLQEWNXa7yfl2WZAilKQSC802QGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUkQoxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLfZGt2n2f1Btc458LCAAAA[0m[Pipeline] { (OWASP Dependency Check)
+[8mha:////4FvY9i9nfKCvzkIPYgoFOgS3HWFBvbEO8rV518cjlgugAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $OSSINDEX_TOKEN
+[8mha:////4IRUJha67NlgTM589lnVyutRaJ+4Yv0UJV2uC3JVzGZ1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] {
+[8mha:////4NqqXzVUjedX3nI1Gmij13XobWRej6t9Ob2zry1tEQ73AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] script
+[8mha:////4PIJvmseLeqG+j9DtrPhYf3VZk+ilNbWlGB1KaSWFNYkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] {
+[8mha:////4O9XosGqnNarfl2zNvhYXekXP8ILlScK40plHbdcJBHuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwyoG8LCAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-a
+[8mha:////4I9BF+bQ2v1MtgOaYDWAsrCQ/Pfdz/EjsDdi1OxJT76AAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0Agkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2IFAYXCAAAA[0m[Pipeline] {
+[8mha:////4BQCqEnA4JKdTfsDRbxyRBip33L7GmEHnYTKzBFXxPE8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBmOCTVC+AAAA[0m[Pipeline] dependencyCheck
+[INFO] Checking for updates
+[INFO] Skipping the NVD API Update as it was completed within the last 240 minutes
+[INFO] Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+[INFO] Check for updates complete (709 ms)
+[INFO] 
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://dependency-check.github.io/DependencyCheck/general/internals.html
+   False Positives: https://dependency-check.github.io/DependencyCheck/general/suppression.html
+
+
+[INFO] Analysis Started
+[INFO] Finished Archive Analyzer (0 seconds)
+[INFO] Finished File Name Analyzer (0 seconds)
+[INFO] Finished Node.js Package Analyzer (1 seconds)
+[INFO] Finished Dependency Merging Analyzer (0 seconds)
+[INFO] Finished Hint Analyzer (0 seconds)
+[INFO] Finished Version Filter Analyzer (0 seconds)
+[INFO] Created CPE Index (3 seconds)
+[INFO] Finished CPE Analyzer (7 seconds)
+[INFO] Finished False Positive Analyzer (0 seconds)
+[INFO] Finished NVD CVE Analyzer (0 seconds)
+[INFO] Finished Node Audit Analyzer (0 seconds)
+[WARN] The Yarn Audit Analyzer has been disabled after receiving an exception. This can occur when Yarn executable is not found.
+[ERROR] Exception occurred initializing Yarn Audit Analyzer.
+[INFO] Finished RetireJS Analyzer (22 seconds)
+[WARN] Disabling OSS Index analyzer due to missing user/password credentials. Authentication is now required: https://ossindex.sonatype.org/doc/auth-required
+[INFO] Finished Vulnerability Suppression Analyzer (0 seconds)
+[INFO] Finished Known Exploited Vulnerability Analyzer (0 seconds)
+[INFO] Finished Dependency Bundling Analyzer (2 seconds)
+[INFO] Finished Unused Suppression Rule Analyzer (0 seconds)
+[INFO] Analysis Complete (34 seconds)
+[INFO] Writing XML report to: /var/lib/jenkins/workspace/Node-js/day-4/application/service-a/./dependency-check-report.xml
+[ERROR] Unable to read yarn audit output.
+[8mha:////4IAt19frTVOupaoYef3Q+TwufVNGL5k3orzJfGit/KNVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7Bo5E7Oi+AAAA[0m[Pipeline] }
+[8mha:////4AXilxzt5IixcWEtiwjtwTzEfEawgh8XM+MXoUeJrTEdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUUSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BpHGubq+AAAA[0m[Pipeline] // dir
+[8mha:////4BcCleseKQSKKsVAkJeQuX3n6baswq06ip+QYyPClCJcAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6Jg4mIMk2vTxS+oUGuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h7F2oveDnZsYKXQXT6No6SxqwkjeCGVGRY05LqiIDSxJUsgkrAzWnqJDy7CWrb7rwmu0xYnDvB0kpK65wQMSOZtZB/7CFGBzHZpI+PP8FcDUM6T7HUO2LcvPNX8D1hr0lcMAAAA=[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/Node-js/day-4/application/service-b
+[8mha:////4CXZc+wtZ4ugFOF1bsHYzfTFp3QEkBsxkdB+CwrFmsHBAAAAph+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB2Ti5Nl18gkprbWn+H9oiTD6Rr+Y7iJA4ecPl7pLL93pDGQOcKBjmNHYWY2tZ70ezJDZR6G6eJuboylrCSF4zoSdBSp+3Kihp2JTlUHDYaWw9RYsmwZ47+ZCVl2iqSwrLduSQWzXAEzK+kJMMaS1zgMN9VJHwx/kLgLlPUDR1vXrz/ZYfJWyAvsQAAAA=[0m[Pipeline] {
+[8mha:////4Ae4RgyG90dRy5GO0Lypu6UYqE+wEt8sP4FHTJ+9texSAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU5+gqA7V0sf+C6iwe5rAAAAA[0m[Pipeline] dependencyCheck
+[INFO] Checking for updates
+[INFO] Skipping the NVD API Update as it was completed within the last 240 minutes
+[INFO] Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+[INFO] Check for updates complete (528 ms)
+[INFO] 
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://dependency-check.github.io/DependencyCheck/general/internals.html
+   False Positives: https://dependency-check.github.io/DependencyCheck/general/suppression.html
+
+
+[INFO] Analysis Started
+[INFO] Finished Archive Analyzer (0 seconds)
+[INFO] Finished File Name Analyzer (0 seconds)
+[INFO] Finished Node.js Package Analyzer (1 seconds)
+[INFO] Finished Dependency Merging Analyzer (0 seconds)
+[INFO] Finished Hint Analyzer (0 seconds)
+[INFO] Finished Version Filter Analyzer (0 seconds)
+[INFO] Created CPE Index (3 seconds)
+[INFO] Finished CPE Analyzer (6 seconds)
+[INFO] Finished False Positive Analyzer (0 seconds)
+[INFO] Finished NVD CVE Analyzer (0 seconds)
+[INFO] Finished Node Audit Analyzer (0 seconds)
+[WARN] The Yarn Audit Analyzer has been disabled after receiving an exception. This can occur when Yarn executable is not found.
+[ERROR] Exception occurred initializing Yarn Audit Analyzer.
+[INFO] Finished RetireJS Analyzer (21 seconds)
+[WARN] Disabling OSS Index analyzer due to missing user/password credentials. Authentication is now required: https://ossindex.sonatype.org/doc/auth-required
+[INFO] Finished Vulnerability Suppression Analyzer (0 seconds)
+[INFO] Finished Known Exploited Vulnerability Analyzer (0 seconds)
+[INFO] Finished Dependency Bundling Analyzer (1 seconds)
+[INFO] Finished Unused Suppression Rule Analyzer (0 seconds)
+[INFO] Analysis Complete (33 seconds)
+[INFO] Writing XML report to: /var/lib/jenkins/workspace/Node-js/day-4/application/service-b/./dependency-check-report.xml
+[ERROR] Unable to read yarn audit output.
+[8mha:////4HgeR/Eh3z3aJZ0yhXpGY44DL/NKvQCikOwUj/uLo14HAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7HIWDpWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPV9gqI6HJeuvgV3CW3AAAAA[0m[Pipeline] }
+[8mha:////4OQDAJAVONZpf6aGlYwWHtXXSjRGXoUi6dvPkiRpRuUMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQTJDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1SH5rh08wUdeanfwAAAAA==[0m[Pipeline] // dir
+[8mha:////4FUHVO/N2smvwgkJvjm+hOYwk/ckYlQE7Jiuwuf6kR/YAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEhQooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKlnyA87hmK72fcfNkhcZL8AAAA=[0m[Pipeline] dependencyCheckPublisher
+Collecting Dependency-Check artifact
+Parsing file /var/lib/jenkins/workspace/Node-js/day-4/application/service-a/dependency-check-report.xml
+Parsing file /var/lib/jenkins/workspace/Node-js/day-4/application/service-b/dependency-check-report.xml
+[8mha:////4GKpwaeHrEarA3pePLLm3Ho99LzqVxeqBE/BlP7vKdFoAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEkJCERWtlYYXmNgYJ9ZdsC8kFS/ia/wBi0hUbLUzzbzesIgBjhSsaA12DmPjRO8Hm54YKXRXT6No6SIawkjeiNqMNWlzmrEmNjAvy6GQsDTYeIoOLcNKtuqhSq/QlmcOyVUScqfv8IRMpjKrwF+YAqxvg46Ev87fAEx9z1BsN3uG/LD7AJcrQkW/AAAA[0m[Pipeline] }
+[8mha:////4AHCHVp5KCQb2k807j6BjZqlm1JHjisdfuAM4kOklFmCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDokAooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtZs+QH3YfkW16EL8AAAA=[0m[Pipeline] // script
+[8mha:////4GpSAtiQ70CWQ3OOrc7Kkf9A/OYfFR4mRimYtAndYtEbAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHUSoexss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzcsYoAjBStag53D2DjR+8GmJ0YK3dXTKFq6iIYwkjeiNmNN2pxmrIkNzMtyKCQsDTaeokPLsJKteqjSK7TlmUNylYTc6Ts8IZOpzCrwF6YA69ugI+Gv8zcAU98zFNvNniE/7D7S7yuWvwAAAA==[0m[Pipeline] }
+[8mha:////4DYzpfAi4f09IW1m1nLtmq5g3+Q6E4WtLrAGtnCId3N6AAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGkZBwr2gyNJ4ghxkBmF5NFqDyRV/MOZmTGyl/995r3esMmBjhRsKI3ODiM2onRTzY9MVMYrp5m0dNFaMJI3ojWzC11plmxJTawLsuhkLA1qD1Fh5ZhJ3v1UKVXaMszh+SOEnLX3eEJmUxlVoG/sATY36YuEv46fwOwjCNDUR1qhryuPs1tfsS/AAAA[0m[Pipeline] // withCredentials
+[8mha:////4EaK2OOL6fC0HZMAQBYDLtVb87KwtXqm+6SmVzWOgKYPAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgdBwr2gyNJ4hJjIHMLiaLUHkir+YdZGTGyl/995r3esMmRThRdKKz2HtM2oshjG55YqLYXwNNoqOL0ISJghWtnVoytlmxJbawLsuhkLC1qAMlj45hJzv1UGVQ6Mozx8UdJeTe3OEJmVzKrCJ/YY6wv40mEf46fwMwDwNDUdcVQ36oPicHATK/AAAA[0m[Pipeline] }
+[8mha:////4GmcyJYzvE/XFKwARlt5Gu6GCOQOdf/puCh+qbI/OBAIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjdCBERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgMVdM0DOVu/wFnXZqZvwAAAA==[0m[Pipeline] // stage
+[8mha:////4OWRm/fwCH1T7NB8U8ey9ZFHz90pj4+4SZhCHdoUAB22AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHoaFAVLRWGl5gHGOcWHfBvuBUvIiv8QcCkajYamel1TxfUMYABwpWdAZ7h1E7MfjRzk0kCv3FUxIdnYUmjOSNaExqqDXHBRtiA0uyHAoJK4PaU3RoGdayU3dVeYW2OnGYt72E3LU3eEAmZzOrwF+YAmyuYxsJf56/ApgGhmzHUNT19vMs31U9L6PCAAAA[0m[Pipeline] stage
+[8mha:////4JQelZupgzS1t6CK2QWvtolPMoSbCC553FgaX9PVKC1SAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJOhon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYq63i9++H7LD4CBkmTEAAAA[0m[Pipeline] { (Push Docker Images)
+[8mha:////4CS6WoFjAKvt7q/pr6LwKA5h9Vnf8ixMB0hI+edeQ8g8AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJ0c04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU9X7xw/dbfgBX/TLixAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $DOCKER_PASS
+[8mha:////4N+WlHu5p2OmurvQAzxpNvXKdP1hvvx2K+A1IAUVTtyFAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJiU7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gN9x/ZdxAAAAA==[0m[Pipeline] {
+[8mha:////4MbvUUcQZ/ZLvTZ3lww6tYGpl4k2Ka3mGjP/NiW0+ZxNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFNAgqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFXTHJY++i8iBeRswAAAAA==[0m[Pipeline] sh
++ echo ****
++ docker login -u charansait372 --password-stdin
+
+WARNING! Your credentials are stored unencrypted in '/var/lib/jenkins/.docker/config.json'.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/go/credential-store/
+
+Login Succeeded
++ docker push charansait372/observability-service-a:v1.2
+The push refers to repository [docker.io/charansait372/observability-service-a]
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+4f4fb700ef54: Waiting
+01c7f69c3e1f: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+8e44ee632cf7: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+f18232174bc9: Waiting
+146d4b152400: Waiting
+4e66511473a3: Waiting
+25ff2da83641: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+1e5a4c89cee5: Waiting
+d04800de03a8: Waiting
+dd71dde834b5: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Pushed
+4e66511473a3: Pushed
+01c7f69c3e1f: Pushed
+25ff2da83641: Pushed
+146d4b152400: Pushed
+d04800de03a8: Pushed
+1e5a4c89cee5: Pushed
+f18232174bc9: Pushed
+8e44ee632cf7: Pushed
+dd71dde834b5: Pushed
+v1.2: digest: sha256:0dac47a2d81727f3a24a29df73822ca51f706a18288ad523ab0b551206a38c8d size: 856
++ docker push charansait372/observability-service-b:v1.2
+The push refers to repository [docker.io/charansait372/observability-service-b]
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+148d06eda7e2: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+095463341e8a: Waiting
+25ff2da83641: Waiting
+f18232174bc9: Waiting
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+d04800de03a8: Waiting
+220152efea9f: Waiting
+2ee1ec990a74: Waiting
+1e5a4c89cee5: Waiting
+25ff2da83641: Mounted from charansait372/observability-service-a
+f18232174bc9: Mounted from charansait372/observability-service-a
+4f4fb700ef54: Waiting
+dd71dde834b5: Waiting
+d04800de03a8: Waiting
+1e5a4c89cee5: Mounted from charansait372/observability-service-a
+4f4fb700ef54: Mounted from charansait372/observability-service-a
+dd71dde834b5: Mounted from charansait372/observability-service-a
+d04800de03a8: Waiting
+d04800de03a8: Mounted from charansait372/observability-service-a
+220152efea9f: Pushed
+2ee1ec990a74: Pushed
+095463341e8a: Pushed
+148d06eda7e2: Pushed
+v1.2: digest: sha256:9a188651833974180ab762495fa01957a768b3acfa0d6b6523355b0d3b27aa53 size: 856
++ docker logout
+Removing login credentials for https://index.docker.io/v1/
+[8mha:////4OaOuZAExE3JBhZ52CiG45hf6YZ9evKP7EcFl8yzla3JAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFIgCUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZ+wRV0xyXPnwB0KaaS8AAAAA=[0m[Pipeline] }
+[8mha:////4OM9x+aue1LaWYgwFZXH1wbBgkhFqETLN9N1hQAKR7Y2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSBRIiCqtlYYXmNgYO9adsR2SihfxNf6AlUhUbLHa2WbeH9jEAGcKmlmFg8HYG+bdqPNiE4Xh5mhilq6sJ4zkFOvU1JFU7YodJQVrihIqDluFvaNoUCfYcSueonYCdX1JIX8nDqWRD3hBwbM5iZAWmAPs76OMhD/PXwHM3ieomua49OELr+bVysAAAAA=[0m[Pipeline] // withCredentials
+[8mha:////4BGi6iZIjHSjgM9Vmq84XIc7PO+TC0Z1jj+V76I8HBmVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjiAohqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqmuPShy+4eMbywAAAAA==[0m[Pipeline] }
+[8mha:////4IT4dXwLsbTmdkQ8CsKjbkcNQuY5phFzgoOiI0FjrIIQAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BDEpHWsbBkaT4AEkYT5H4FIKk/k1byD0cxYucXOvm3e8wWrGOBAwbBe42AxKsu8G828WKYwXBxl1tOZKcJITjOhs6BOHxcUlDQsKUqoOKw1KkfRokmw4b28y9pJNPUphfnbcyhtd4MHFHw2JxnSF6YA2+vYRcKf568AJu8TVE27+3TTvgEeCtaewAAAAA==[0m[Pipeline] // stage
+[8mha:////4PnX2xzhGMoF7WgYqLscmWh8i8W2THQV8urAthCYz693AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHoaFAVLRWGl5gHGOcWHfBvuBUvIiv8QcCkajYamel1TxfUMYABwpWdAZ7h1E7MfjRzk0kCv3FUxIdnYUmjOSNaExqqDXHBRtiA0uyHAoJK4PaU3RoGdayU3dVeYW2OnGYt72E3LU3eEAmZzOrwF+YAmyuYxsJf56/ApgGhmzHUNTb+vMs32ZVUxTCAAAA[0m[Pipeline] stage
+[8mha:////4N3HT+URpjgo4It6IKj0o6z4vedX+4cUyLaM/Slcj2/pAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJrMbJteniE1Raa0vz/9AWYfKJfDXfQYTEyRsud5dcvtcbyhjgRMEwp7GzGFvLej+aJbGJQnfzNDFHV9YSRvKaCT0JUvq8VUFJw6Ysh4LDTmPrKVo0CfbcyYesvERTXVJYtiOH3KoBnpDxhZxkSGuZAxzuo4qEP85fAMx9gqJu6tWb77f8AIb2clTEAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4JblqY7vSjuvAe6WvoK4uWrCQnvm9TBU/S2YChsK7DVXAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GMWDpWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPUJikNVLX3sv+J6nSDAAAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+[8mha:////4Fwxy6hOWcDU5/tbgHu5/wZaC4p34sJhlBqBA9Zm8GupAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRiZtxYm26+AW11Fpo3sO2CJNf5K/5DxJInLzDzT13Oe8PbGKAMweLraHOUdQOez/YeeHIobt5HrHlK2qmyN6gNKPkxtQrSk4G1mQ5FAK2hrTn6Mgm2IlWPVXpFdnyksL8nQTkrnnACzIxm5MKaYEpwP4+NJHp5/krgKlPUByqaulj/wUl7NxvwAAAAA==[0m[Pipeline] echo
+CI completed successfully. All Sonar, Trivy, and OWASP reports archived.
+[8mha:////4CtLhacA9+S2hboTMdzBoTHsjb0PgRC+6qaOK4q1inyTAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRSZyME2vTxS+opdZC8x62RZj8In/Nf5BA4uQdbu65y3l/YBMDnDlYbA11jqJ22PvBzgtHDt3N84gtX1EzRfYGpRklN6ZeUXIysCbLoRCwNaQ9R0c2wU606qlKr8iWlxTm7yQgd80DXpCJ2ZxUSAtMAfb3oYlMP89fAUx9n6A4VMelqy96dsPnwAAAAA==[0m[Pipeline] }
+[8mha:////4FmPZDmwp7wj02laQ+Znk/IugnjVwbV4hMyYRBMBGf5NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjUNAgqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqDselmy9dPSJPwAAAAA==[0m[Pipeline] // stage
+[8mha:////4EYV6HA3ijm2EtQeYK1TYjT/W3s1cf+cOxblnQTBgVbYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjaFIgKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHb7hqFoPkBkIC6+AAAA[0m[Pipeline] }
+[8mha:////4J8UENqWBalV8qacypKI5AvCkC5lfC5Qq6TTqol2vyzeAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjKBASoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmu2cQuw8Hw3fbvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ExcZLLcBfxfwnzjes2gFalvdfY21xE5B0VzzE3nCVaSAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEA1CVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodxs9wxi9wGbixkIvgAAAA==[0m[Pipeline] }
+[8mha:////4PVB3YzigBGz5lP3QWJ5thSgoVtRa/sN9W2tszEChGdmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDSomoaK00vMDExjix7ox9wal4EV/jD0REomKrnWnm9YZVinCkaEVvcHCYOieCH+38RKY4XD1l0dNFdISJvBGtyS1pc1qwJTawrCihkrA22HlKDi3DRvbqoWqv0NZnjrM7SCidvsMTCjmXWUX+whRhext1Ivx1/gZgCoGh2jc7hqL5AOyvMVC+AAAA[0m[Pipeline] // node
+[8mha:////4ETBTuqXNASxtz8OSz7DNeTPNoCsbvsnwl1o07X24YfKAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjQImoaK00vMDExjix7oJ9wal4EV/jD0REomKrnWnm9YZVinCk6GRnsfeYWi+HMLr5yUyxvwbKsqOLbAkTBSsbmxsy9rRgQ2xhmSigVLC22AZKHh3DRnX6oaug0VVnjrM7KCi8ucMThJrLrCN/YYqwvY0mEf46fwMwDQNDWe9rBrH7AMq2Vhq+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
