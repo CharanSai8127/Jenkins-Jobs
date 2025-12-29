@@ -27,17 +27,17 @@
     agent any
 
     environment {
-        IMAGE_NAME = &quot;charansait372/python-aks-platform&quot;
-        IMAGE_TAG  = &quot;v1.2&quot;
+        IMAGE_NAME   = &quot;charansait372/python-aks-platform&quot;
+        IMAGE_TAG    = &quot;v1.4&quot;
         SCANNER_HOME = tool &apos;sonar-scanner&apos;
     }
-    
 
     stages {
 
         stage(&apos;Checkout&apos;) {
             steps {
-                git branch: &apos;main&apos;, url: &apos;https://github.com/CharanSai8127/python-aks-platform.git&apos;
+                git branch: &apos;main&apos;,
+                    url: &apos;https://github.com/CharanSai8127/python-aks-platform.git&apos;
             }
         }
 
@@ -51,7 +51,7 @@
                   pip install -r requirements.txt
 
                   if [ -f pytest.ini ] || [ -d tests ]; then
-                    pip install pytest
+                    pip install pytest pytest-cov
                     pytest
                   fi
                 &apos;&apos;&apos;
@@ -62,7 +62,7 @@
             steps {
                 withSonarQubeEnv(&quot;sonar&quot;) {
                     sh &apos;&apos;&apos;
-                        $SCANNER_HOME/bin/sonar-scanner \
+                      ${SCANNER_HOME}/bin/sonar-scanner \
                         -Dsonar.projectKey=python-aks-platform \
                         -Dsonar.sources=. \
                         -Dsonar.language=py
@@ -90,7 +90,11 @@
         stage(&apos;Trivy Filesystem Scan&apos;) {
             steps {
                 sh &apos;&apos;&apos;
-                  trivy fs --severity HIGH,CRITICAL .
+                  trivy fs \
+                    --severity HIGH,CRITICAL \
+                    --format json \
+                    --output trivy-fs.json \
+                    .
                 &apos;&apos;&apos;
             }
         }
@@ -106,7 +110,11 @@
         stage(&apos;Trivy Image Scan&apos;) {
             steps {
                 sh &apos;&apos;&apos;
-                  trivy image --severity HIGH,CRITICAL ${IMAGE_NAME}:${IMAGE_TAG}
+                  trivy image \
+                    --severity HIGH,CRITICAL \
+                    --format json \
+                    --output trivy-image.json \
+                    ${IMAGE_NAME}:${IMAGE_TAG}
                 &apos;&apos;&apos;
             }
         }
@@ -131,19 +139,21 @@
         always {
             sh &apos;rm -rf venv&apos;
         }
-        failure {
-            echo &quot;❌ Pipeline failed&quot;
-        }
+
         success {
-            echo &quot;✅ CI pipeline completed successfully&quot;
-            
+            echo &quot; CI pipeline completed successfully&quot;
+
             archiveArtifacts artifacts: &apos;&apos;&apos;
                 **/dependency-check-report.xml,
                 **/dependency-check-report.html,
-                **/trivy-*.json,
-                **/trivy-*.txt,
+                trivy-fs.json,
+                trivy-image.json,
                 .scannerwork/**
-                &apos;&apos;&apos;, allowEmptyArchive: true
+            &apos;&apos;&apos;, allowEmptyArchive: true
+        }
+
+        failure {
+            echo &quot; Pipeline failed&quot;
         }
     }
 }

@@ -1,0 +1,207 @@
+{
+  "SchemaVersion": 2,
+  "ReportID": "019b6877-e2a7-7638-a122-996c9cc509e7",
+  "CreatedAt": "2025-12-29T04:57:25.927409621Z",
+  "ArtifactID": "sha256:03da617ae48e04b56a21c9b53640841b44d69537869fbe103688d2664552bdff",
+  "ArtifactName": ".",
+  "ArtifactType": "repository",
+  "Metadata": {
+    "RepoURL": "https://github.com/CharanSai8127/python-aks-platform.git",
+    "Branch": "main",
+    "Commit": "f4b1de90eb708d6f69d2a9d66d6741ddd3eb8e24",
+    "CommitMsg": "construct: monitoring addition",
+    "Author": "Sai Charan \u003ccharansai.t372@gmail.com\u003e",
+    "Committer": "Sai Charan \u003ccharansai.t372@gmail.com\u003e"
+  },
+  "Results": [
+    {
+      "Target": "requirements.txt",
+      "Class": "lang-pkgs",
+      "Type": "pip",
+      "Packages": [
+        {
+          "Name": "Flask",
+          "Identifier": {
+            "PURL": "pkg:pypi/flask@3.0.3",
+            "UID": "2640ea26c686560d"
+          },
+          "Version": "3.0.3",
+          "Locations": [
+            {
+              "StartLine": 3,
+              "EndLine": 3
+            }
+          ]
+        },
+        {
+          "Name": "Flask-SQLAlchemy",
+          "Identifier": {
+            "PURL": "pkg:pypi/flask-sqlalchemy@3.1.1",
+            "UID": "485a3c7ece9e8ff4"
+          },
+          "Version": "3.1.1",
+          "Locations": [
+            {
+              "StartLine": 4,
+              "EndLine": 4
+            }
+          ]
+        },
+        {
+          "Name": "Jinja2",
+          "Identifier": {
+            "PURL": "pkg:pypi/jinja2@3.1.4",
+            "UID": "f5a0f029c2fb5396"
+          },
+          "Version": "3.1.4",
+          "Locations": [
+            {
+              "StartLine": 7,
+              "EndLine": 7
+            }
+          ]
+        },
+        {
+          "Name": "MarkupSafe",
+          "Identifier": {
+            "PURL": "pkg:pypi/markupsafe@2.1.5",
+            "UID": "50418ad70d303910"
+          },
+          "Version": "2.1.5",
+          "Locations": [
+            {
+              "StartLine": 8,
+              "EndLine": 8
+            }
+          ]
+        },
+        {
+          "Name": "SQLAlchemy",
+          "Identifier": {
+            "PURL": "pkg:pypi/sqlalchemy@2.0.32",
+            "UID": "866f9ec23329950d"
+          },
+          "Version": "2.0.32",
+          "Locations": [
+            {
+              "StartLine": 10,
+              "EndLine": 10
+            }
+          ]
+        },
+        {
+          "Name": "Werkzeug",
+          "Identifier": {
+            "PURL": "pkg:pypi/werkzeug@3.0.3",
+            "UID": "d0d8d25f0c23291e"
+          },
+          "Version": "3.0.3",
+          "Locations": [
+            {
+              "StartLine": 12,
+              "EndLine": 12
+            }
+          ]
+        },
+        {
+          "Name": "blinker",
+          "Identifier": {
+            "PURL": "pkg:pypi/blinker@1.8.2",
+            "UID": "6c8efcf1b5dd2b32"
+          },
+          "Version": "1.8.2",
+          "Locations": [
+            {
+              "StartLine": 1,
+              "EndLine": 1
+            }
+          ]
+        },
+        {
+          "Name": "click",
+          "Identifier": {
+            "PURL": "pkg:pypi/click@8.1.7",
+            "UID": "d5581e3b9a4d5dde"
+          },
+          "Version": "8.1.7",
+          "Locations": [
+            {
+              "StartLine": 2,
+              "EndLine": 2
+            }
+          ]
+        },
+        {
+          "Name": "greenlet",
+          "Identifier": {
+            "PURL": "pkg:pypi/greenlet@3.0.3",
+            "UID": "c052f15c8e41ec47"
+          },
+          "Version": "3.0.3",
+          "Locations": [
+            {
+              "StartLine": 5,
+              "EndLine": 5
+            }
+          ]
+        },
+        {
+          "Name": "itsdangerous",
+          "Identifier": {
+            "PURL": "pkg:pypi/itsdangerous@2.2.0",
+            "UID": "c9d162a76ce03f10"
+          },
+          "Version": "2.2.0",
+          "Locations": [
+            {
+              "StartLine": 6,
+              "EndLine": 6
+            }
+          ]
+        },
+        {
+          "Name": "prometheus-client",
+          "Identifier": {
+            "PURL": "pkg:pypi/prometheus-client@0.20.0",
+            "UID": "7c931ac47f9105a5"
+          },
+          "Version": "0.20.0",
+          "Locations": [
+            {
+              "StartLine": 13,
+              "EndLine": 13
+            }
+          ]
+        },
+        {
+          "Name": "psycopg2-binary",
+          "Identifier": {
+            "PURL": "pkg:pypi/psycopg2-binary@2.9.9",
+            "UID": "5d2e43abbd993b67"
+          },
+          "Version": "2.9.9",
+          "Locations": [
+            {
+              "StartLine": 9,
+              "EndLine": 9
+            }
+          ]
+        },
+        {
+          "Name": "typing_extensions",
+          "Identifier": {
+            "PURL": "pkg:pypi/typing-extensions@4.12.2",
+            "UID": "c0444b6587792977"
+          },
+          "Version": "4.12.2",
+          "Locations": [
+            {
+              "StartLine": 11,
+              "EndLine": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

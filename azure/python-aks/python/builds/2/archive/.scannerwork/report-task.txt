@@ -1,0 +1,6 @@
+projectKey=python-aks-platform
+serverUrl=http://135.13.34.174:9000
+serverVersion=10.4.1.88267
+dashboardUrl=http://135.13.34.174:9000/dashboard?id=python-aks-platform
+ceTaskId=c7f4565c-50ba-4772-9b0d-7a11199bad5c
+ceTaskUrl=http://135.13.34.174:9000/api/ce/task?id=c7f4565c-50ba-4772-9b0d-7a11199bad5c
